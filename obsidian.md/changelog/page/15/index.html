@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from obsidian.md/changelog/page/15/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2024 14:23:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="UTF-8">
+<title>Obsidian Changelog - Obsidian</title>
+<meta name="description" content="Follow the latest updates to Obsidian apps for desktop and mobile.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="../../../tailwindcd00.css?hash=26">
+<link rel="icon" href="../../../favicon.ico" sizes="32x32">
+<link rel="icon" href="../../../favicon.svg" sizes="any" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../../apple-touch-icon.png">
+
+<link rel="alternate" type="application/atom+xml" href="../../../feed.xml" title="Obsidian Blog">
+<link rel="alternate" type="application/feed+json" href="../../../feed.json" title="Obsidian Blog">
+<link rel="alternate" type="application/atom+xml" href="../../../changelog.xml" title="Obsidian Changelog">
+<link rel="alternate" type="application/feed+json" href="../../../changelog.json" title="Obsidian Changelog">
+
+<meta property="og:title" content="Obsidian Changelog">
+<meta property="og:description" content="Follow the latest updates to Obsidian apps for desktop and mobile.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="../../../images/banner.png">
+
+<meta name="twitter:title" content="Obsidian Changelog">
+<meta name="twitter:description" content="Follow the latest updates to Obsidian apps for desktop and mobile.">
+<meta name="twitter:site" content="@obsdmd">
+<meta name="twitter:domain" content="obsidian.md">
+<meta name="twitter:creator" content="@obsdmd">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="../../../images/banner.png">
+
+	</head>
+	<body>
+		<div class="header-height"></div>
+<header class="header">
+	<div class="container flex items-center justify-between">
+		<div class="flex items-center">
+			<a class="header-logo mr-4 flex items-center gap-x-2 transition-colors -mt-[3px]" href="../../../index.html" aria-label="Go to the Obsidian home page">
+				<svg alt="Obsidian" height="22" viewBox="0 0 143 25" width="126" xmlns="http://www.w3.org/2000/svg"><path fill="#A88BFA" d="m6.91927 14.5955c.64053-.1907 1.67255-.4839 2.85923-.5565-.71191-1.7968-.88376-3.3691-.74554-4.76905.15962-1.61678.72977-2.9662 1.28554-4.11442.1186-.24501.2326-.47313.3419-.69198.1549-.30984.3004-.60109.4365-.8953.2266-.48978.3948-.92231.4798-1.32416.0836-.39515.0841-.74806-.0148-1.08657-.099-.338982-.3093-.703864-.7093-1.1038132-.5222-.1353116-1.1017-.0165173-1.53613.3742922l-5.15591 4.638241c-.28758.25871-.47636.60929-.53406.99179l-.44455 2.94723c.69903.6179 2.42435 2.41414 3.47374 4.90644.09364.2224.1819.4505.26358.6838z"/><path fill="#A88BFA" d="m2.97347 10.3512c-.02431.1037-.05852.205-.10221.3024l-2.724986 6.0735c-.279882.6238-.15095061 1.3552.325357 1.8457l4.288349 4.4163c2.1899-3.2306 1.87062-6.2699.87032-8.6457-.75846-1.8013-1.90801-3.2112-2.65683-3.9922z"/><path fill="#A88BFA" d="m5.7507 23.5094c.07515.012.15135.0192.2281.0215.81383.0244 2.18251.0952 3.29249.2997.90551.1669 2.70051.6687 4.17761 1.1005 1.1271.3294 2.2886-.5707 2.4522-1.7336.1192-.8481.343-1.8075.7553-2.6869l-.0095.0033c-.6982-1.9471-1.5865-3.2044-2.5178-4.0073-.9284-.8004-1.928-1.1738-2.8932-1.3095-1.60474-.2257-3.07497.1961-4.00103.4682.55465 2.3107.38396 5.0295-1.48417 7.8441z"/><path fill="#A88BFA" d="m17.3708 19.3102c.9267-1.3985 1.5868-2.4862 1.9352-3.0758.1742-.295.1427-.6648-.0638-.9383-.5377-.7126-1.5666-2.1607-2.1272-3.5015-.5764-1.3785-.6624-3.51876-.6673-4.56119-.0019-.39626-.1275-.78328-.3726-1.09465l-3.3311-4.23183c-.0117.19075-.0392.37998-.0788.56747-.1109.52394-.32 1.04552-.5585 1.56101-.1398.30214-.3014.62583-.4646.95284-.1086.21764-.218.4368-.3222.652-.5385 1.11265-1.0397 2.32011-1.1797 3.73901-.1299 1.31514.0478 2.84484.8484 4.67094.1333.0113.2675.0262.4023.0452 1.1488.1615 2.3546.6115 3.4647 1.5685.9541.8226 1.8163 2.0012 2.5152 3.6463z"/><path fill="currentColor" d="m39.752 4.5038c-5.952 0-10.248 3.744-10.248 8.88s4.296 8.88 10.248 8.88c5.928 0 10.224-3.744 10.224-8.88s-4.296-8.88-10.224-8.88zm0 3.47999c3.576 0 6.144 2.13601 6.144 5.40001s-2.568 5.4-6.144 5.4c-3.6 0-6.168-2.136-6.168-5.4s2.568-5.40001 6.168-5.40001z"/><path fill="currentColor" d="m55.4847 20.5598c.864.936 2.472 1.704 4.584 1.704 4.32 0 6.8401-2.976 6.8401-6.576 0-3.624-2.5201-6.60001-6.8401-6.60001-2.112 0-3.72.79201-4.584 1.70401v-6.02401h-3.84v17.23201h3.84zm-.12-4.944c0-1.992 1.704-3.432 3.912-3.432 2.112 0 3.888 1.248 3.888 3.504s-1.776 3.48-3.888 3.48c-2.208 0-3.912-1.416-3.912-3.408z"/><path fill="currentColor" d="m67.3181 19.9118c1.464 1.488 4.272 2.352 7.2 2.352 3.96 0 6.936-1.44 6.936-4.392 0-2.88-2.832-3.432-6.072-3.816-2.736-.312-3.576-.384-3.576-1.08 0-.648.864-1.056 2.496-1.056 1.968 0 3.672.6 4.824 1.656l1.992-2.304c-1.272-1.224-3.648-2.18401-6.624-2.18401-4.008 0-6.48 1.72801-6.48 4.32001 0 2.712 2.52 3.312 5.544 3.696 2.832.336 4.032.336 4.032 1.176 0 .792-1.056 1.128-2.784 1.128-2.16 0-4.152-.672-5.664-2.064z"/><path fill="currentColor" d="m82.8395 8.05579h3.912v-3.288h-3.912zm3.864 1.29601h-3.84v12.648h3.84z"/><path fill="currentColor" d="m99.8264 20.5598v1.44h3.8396v-17.23201h-3.8396v6.02401c-.864-.912-2.472-1.70401-4.584-1.70401-4.32 0-6.84 2.97601-6.84 6.60001 0 3.6 2.52 6.576 6.84 6.576 2.112 0 3.72-.768 4.584-1.704zm.12-4.944v.144c0 1.992-1.704 3.408-3.912 3.408-2.112 0-3.888-1.224-3.888-3.48s1.776-3.504 3.888-3.504c2.208 0 3.912 1.44 3.912 3.432z"/><path fill="currentColor" d="m105.996 8.05579h3.912v-3.288h-3.912zm3.864 1.29601h-3.84v12.648h3.84z"/><path fill="currentColor" d="m116.863 22.2638c2.232 0 4.056-.648 5.208-1.656.648 1.2 2.184 1.92 4.992 1.392v-2.832c-1.344.288-1.632-.024-1.632-.696v-4.608c0-3.168-2.376-4.77601-6.408-4.77601-3.48 0-6.264 1.51201-7.056 3.79201l3.456.936c.384-.984 1.704-1.704 3.432-1.704 2.04 0 2.856.768 2.856 1.728v.072l-5.04.456c-2.976.288-5.16 1.512-5.16 3.984 0 2.496 2.232 3.912 5.352 3.912zm4.848-5.112c0 1.464-2.184 2.304-4.152 2.304-1.488 0-2.328-.432-2.328-1.248 0-.84.672-1.152 1.992-1.272l4.488-.456z"/><path fill="currentColor" d="m128.379 21.9998h3.84v-6.048c0-2.184 1.2-3.456 3.288-3.456 1.968 0 3 1.296 3 3.432v6.072h3.84v-7.2c0-3.504-2.232-5.71201-5.52-5.71201-2.04 0-3.624.76801-4.608 1.80001v-1.536h-3.84z"/></svg>
+			</a>
+
+			<ul class="hidden md:flex">
+				<li><a class="px-3 py-2 font-medium text-gray-400" href="../../../download.html">Download</a></li>
+
+				<li><a class="px-3 py-2 font-medium text-gray-400" href="../../../pricing.html">Pricing</a></li>
+
+				<li><a class="px-3 py-2 font-medium text-gray-400" href="../../../sync.html">Sync</a></li>
+
+				<li><a class="px-3 py-2 font-medium text-gray-400" href="../../../publish.html">Publish</a></li>
+			</ul>
+
+		</div>
+		<div class="ml-auto md:hidden z-10 text-gray-200 hover:text-gray-100">
+			<a class="header-mobile-nav" href="#" aria-label="Open the navigation menu">
+				<div class="header-mobile-nav-button">
+					<div class="header-mobile-nav-button-inner"></div>
+				</div>
+			</a>
+		</div>
+		<div class="ml-auto hidden md:block">
+			<a class="px-3 py-2 font-medium text-gray-400" href="../../../community.html">Community</a>
+			<a class="px-3 py-2 font-medium text-gray-400" href="../../../account/index.html">Account</a>
+		</div>
+	</div>
+</header>
+
+<div class="header-mobile-nav-menu fixed top-0 right-0 bottom-0 left-0 overflow-scroll overscroll-contain block md:hidden">
+	<div class="container py-4">
+		<ul class="text-lg font-medium gap-2 grid sm:grid-cols-2 mb-4">
+			<li><a class="flex button-primary rounded hover:text-normal p-3 items-center gap-2" href="../../../download.html">
+				Get the app</a></li>
+			<li><a class="flex rounded bg-secondary p-3 items-center gap-2" href="../../../account/index.html">
+				Account</a></li>
+			<li><a class="flex rounded bg-secondary p-3 items-center gap-3" href="../../../sync.html">
+				Sync</a></li>
+			<li><a class="flex rounded bg-secondary p-3 items-center gap-3" href="../../../publish.html">
+				Publish</a></li>
+			<li><a class="flex rounded bg-secondary p-3 items-center gap-3" href="../../../pricing.html">
+				Pricing</a></li>
+			<li><a class="flex rounded bg-secondary p-3 items-center gap-3" href="../../../plugins.html">
+				Plugins</a></li>
+		</ul>
+		<div class="text-muted text-sm mt-8">Learn more</div>
+		<ul class="font-medium text-sm gap-2 grid grid-cols-2 my-4 pb8">
+			<li><a class="block rounded bg-secondary p-3" href="https://help.obsidian.md/" target="_blank">Help</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="../../../blog/index.html">Blog</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="../../../about.html">Manifesto</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="https://discord.gg/obsidianmd" rel="noopener noreferrer" target="_blank">Discord</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="../../index.html">Changelog</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="../../../roadmap/index.html">Roadmap</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="../../../softwear.html">Merch store</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="../../../community.html">Report a bug</a></li>
+		</ul>
+	</div>
+</div>
+
+		<div class="">
+			
+<div class="container changelog">
+	<div class="py-24 border-b border-gray-800">
+		<div class="md:w-3/4 ml-auto">
+			<h1 class="text-title">Changelog</h1>
+			<div class="pt-12 text-2xl text-muted flex gap-4">
+				Follow Obsidian updates and improvements.
+			</div>
+			<div class="pt-4 text-base sm:text-lg font-medium flex gap-4 gap-y-2 flex-col md:flex-row">
+				<a href="../../../changelog.xml" target="_blank" class="flex items-center gap-1 text-accent-400 hover:text-accent-300">
+					<i icon-name="rss" class="inline align-text-top"></i> <span>RSS</span>
+				</a>
+				<a href="https://twitter.com/obsdmd" target="_blank" class="flex items-center gap-1 text-accent-400 hover:text-accent-300">
+					<i icon-name="twitter" class="inline align-text-top"></i> Twitter</a>
+				<a href="https://mas.to/@obsidian" target="_blank" class="flex items-center gap-1 text-accent-400 hover:text-accent-300">
+					<i icon-name="radio" class="inline align-text-top"></i>
+					Mastodon
+				</a>
+				<a href="https://discord.gg/obsidianmd" target="_blank" class="flex items-center gap-1 text-accent-400 hover:text-accent-300">
+					<i icon-name="messages-square" class="inline align-text-top"></i>
+					Discord
+				</a>
+			</div>
+		</div>
+	</div>
+	<div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-10-29-desktop-v0.9.8/index.html" class="font-semibold text-3xl sm:text-xl">
+						October 29, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-10-29-desktop-v0.9.8/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.9.8
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>There is now a community plugins page to discover and install third party plugins.
+<ul>
+<li>Check out the updated <a href="https://github.com/obsidianmd/obsidian-sample-plugin">sample plugin</a> on how to structure your plugin and how to release.</li>
+<li>See <a href="https://github.com/obsidianmd/obsidian-releases">publishing instructions</a> on how to add your plugin to the list.</li>
+</ul>
+</li>
+<li>You can now uninstall third party plugins.</li>
+<li>More API has been made available.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li>Block and heading link suggestions are now sorted by best match.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Spellchecker will no longer attempt to spellcheck <code>&lt;</code> and <code>&gt;</code> characters.</li>
+<li>Fixed updating the wrong part of the link in Markdown links when renaming files.</li>
+<li>Fixed text wrapping to next line, then jumping back to the same line when adding space character.</li>
+<li>Sized images will now stay at their specified size, even if the pane is smaller.</li>
+<li>Extra unnecessary scrollbar from heading/block embeds have been removed.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-10-26-desktop-v0.9.7/index.html" class="font-semibold text-3xl sm:text-xl">
+						October 26, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-10-26-desktop-v0.9.7/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.9.7
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>The Plugin API alpha is now available! Hype!
+<ul>
+<li>Keep in mind that the plugin API is in <code>alpha</code> status. Any part of the API could introduce breaking changes in a future release.</li>
+<li>For plugin developers, see our <a href="https://github.com/obsidianmd/obsidian-sample-plugin">sample plugin repo</a> and the <a href="https://github.com/obsidianmd/obsidian-api">plugin api</a></li>
+<li>To install a plugin, simply place the plugin files inside the folder <code>MyVault/.obsidian/plugins/my-plugin/</code>.</li>
+<li>For users, currently there is no &quot;app store&quot; for distributing plugins yet. This will come in a future release.</li>
+</ul>
+</li>
+<li>You can now search in preview.</li>
+<li>You can now fold lists in preview. However, the fold state is not saved yet.</li>
+<li>There is now a new command to copy the <code>obsidian://</code> URI for a file.</li>
+<li>A new <code>search</code> action is now available for <code>obsidian://</code> URIs. Here's an example: <code>obsidian://search?vault=my%20vault&amp;query=MOC</code></li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li>The app is now much quicker to launch for large vaults.</li>
+<li>Local graph now has a screenshot menu item too.</li>
+<li>Mermaid has been upgraded to v8.8.2.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Switching from preview to edit now properly scrolls to the same place you were viewing.</li>
+<li>Fixed resizing panes sometimes glitches and causes other panes to become tiny.</li>
+<li>Fixed unable to change language when checking for updates.</li>
+<li>Fixed <code>ogv</code> video files not properly included.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-10-20-desktop-v0.9.6/index.html" class="font-semibold text-3xl sm:text-xl">
+						October 20, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-10-20-desktop-v0.9.6/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.9.6
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<span class="bg-green-900 text-green-400 py-0.5 px-2 rounded-xl">public</span>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Breaking changes</h2>
+<ul>
+<li>Block references now require the <code>^</code> character to be part of the link, like so: <code>[[Filename#^blockid]]</code>.</li>
+<li>Block auto-complete will generate this new format automatically.</li>
+<li>The old format from v0.9.5 <code>[[Filename#blockid]]</code> will stop working.</li>
+<li>A conversion tool is added for existing block references from v0.9.5. Use the Markdown format importer plugin's &quot;Block ID upgrade&quot;. Remember to backup your notes since this operates on the whole vault.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li>Block auto-complete will also display and search the block ID if one is present.</li>
+<li>Block IDs can now contain the dash character <code>-</code>.</li>
+<li>Auto-complete trigger with the prefix <code>#^</code> such as <code>[[Filename#^</code> now behaves identically to <code>[[Filename^</code>.</li>
+<li>&quot;Toggle checklist status&quot; command/hotkey now adds the checkbox syntax <code>- [ ]</code> for any selected lines that does not already have a checkbox.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Image size syntax now works for internal images using the Markdown standard link format.</li>
+<li>Link auto-complete no longer strip characters after a <code>.</code> in the filename when using Markdown links.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-10-19-desktop-v0.9.5/index.html" class="font-semibold text-3xl sm:text-xl">
+						October 19, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-10-19-desktop-v0.9.5/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.9.5
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>
+<p>Block references and block embeds are now available.</p>
+<ul>
+<li>Simply type <code>^</code> when linking to trigger the auto-complete: <code>[[Filename^</code>.</li>
+<li>Use <code>[[^^</code> to auto-complete blocks globally.</li>
+<li>The generated link will look like this: <code>[[Filename#blockid]]</code>.</li>
+<li>Block IDs will be generated using the syntax <code>^blockid</code> when using the auto-complete.</li>
+<li>Alternatively, you can manually create the block ID using any alpha-numeric character.</li>
+<li>The block ID must be located at the end of the paragraph or list item, and must include a space character before the <code>^</code>.</li>
+<li>To identify more complex blocks, like tables, you can add the <code>^blockid</code> as its own after the block you're referring to. There must be an empty line before and after <code>^blockid</code> for this to take effect.</li>
+<li>Quick reminder that this syntax for block reference isn't portable Markdown (no other tools support it yet), so please use some discretion when considering working with other tools!</li>
+</ul>
+</li>
+<li>
+<p>You can now auto-complete headings and blocks globally.</p>
+<ul>
+<li>Be aware that this may be slow if your vault is large.</li>
+<li>Auto-complete blocks <strong>globally</strong> by typing <code>[[^^</code>.</li>
+<li>Auto-complete headings <strong>globally</strong> by typing <code>[[##</code>.</li>
+</ul>
+</li>
+<li>
+<p>There is now a new command for toggling the checkbox state between <code>[ ]</code> and <code>[x]</code>. <code>Ctrl/Cmd+Enter</code> is the default hotkey.</p>
+</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>The community theme page has been re-styled to be easier to use.</li>
+<li>HTML <code>&lt;iframe&gt;</code> now has a sandbox attribute added for extra security.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Fixed removing links to an opened file causes the backlink pane to sometimes keep showing the removed link.</li>
+<li>Fixed inability to see the last few characters when editing table that's longer than screen width.</li>
+<li>Malformed Markdown URLs no longer cause parsing failures.</li>
+<li>Linking an unlinked mention now shows up in linked mention right away.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-10-13-desktop-v0.9.4/index.html" class="font-semibold text-3xl sm:text-xl">
+						October 13, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-10-13-desktop-v0.9.4/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.9.4
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<span class="bg-green-900 text-green-400 py-0.5 px-2 rounded-xl">public</span>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>In preview mode, internal links to notes that don't exist yet are now given the CSS class <code>is-unresolved</code>, and now shows up in a different color than links to existing notes.</li>
+<li>You can now downsize images using the new syntax:
+<ul>
+<li>For Markdown images, use <code>![AltText|100x100](https://url/to/image.png)</code></li>
+<li>For embeds, use <code>![[image.png|100x100]]</code></li>
+<li>To have the image scale according to its aspect ratio, omit the height <code>![[image.png|100]]</code></li>
+</ul>
+</li>
+<li>Obsidian Publish:
+<ul>
+<li>Backlinks! Turn it on to add the new backlink section at the end of each page.</li>
+<li>Your site can now be styled with custom CSS! Just upload either <code>obsidian.css</code> or <code>publish.css</code>. You can also upload both so you can use your existing <code>obsidian.css</code> and add some extra tweaks for publish in <code>publish.css</code>.</li>
+<li>There's a new mode you can turn on called &quot;sliding windows&quot;. This overhauls your site's navigation to open links beside the current page. Inspired by <a href="https://notes.andymatuschak.org/">Andy Matuschak's website</a></li>
+<li>Page URLs now encodes space characters as <code>+</code> instead of <code>%20</code> for a cleaner look.</li>
+</ul>
+</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Obsidian now recognizes <code>.bmp</code>, <code>.svg</code>, and <code>.tiff</code> images.</li>
+<li>Hover preview now pops up where your cursor is, rather than at the position of the link.</li>
+<li>Improved performance when computing backlinks for large vaults.</li>
+<li>Improved performance when auto-completing links for large vaults.</li>
+<li>Embeds got their styling tweaked to be less prominent and less distracting.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Deleting folders on Linux should no longer give an error message.</li>
+<li>Hover preview now fixed for graph view. It stays up nicely and disappears only when the cursor is off the hover and the graph node.</li>
+<li>Fixed a possibility that the hover preview gets stuck when clicking on the link.</li>
+<li>Fixed some characters not decoded properly when using <code>obsidian://</code> URLs, such as the comma <code>%2C</code>.</li>
+<li>Removed duplicate backlinks for links within footnote definitions.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-10-05-desktop-v0.9.3/index.html" class="font-semibold text-3xl sm:text-xl">
+						October  5, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-10-05-desktop-v0.9.3/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.9.3
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<span class="bg-green-900 text-green-400 py-0.5 px-2 rounded-xl">public</span>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>Clicking on checkbox within an embed block or a hover preview now updates the underlying file.</li>
+<li>Embedded notes now update when the underlying file is changed.</li>
+<li>New &quot;Workspaces&quot; plugin allows saving the entire workspace, including panes with their open files as well as all sidebar configuration. Especially useful if you use a vault for multiple purposes to jump between different pane configurations quickly.</li>
+<li>When using global search, you can now copy the search results file list. This can be optionally formatted as wikilinks and/or as lists.</li>
+<li>Hover preview can now be scrolled.</li>
+<li>Hover preview can now stack, meaning you can hover links inside a hover preview and pop out another preview for that link.</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Publish plugin now has an &quot;unchanged&quot; section which can be used to un-publish files.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Local graph search filter no longer filters out the current file, which causes everything else to disappear.</li>
+<li>Resetting graph to default now properly resets forces as well.</li>
+<li>Changing search queries now saves to workspace properly.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-09-30-desktop-v0.9.2/index.html" class="font-semibold text-3xl sm:text-xl">
+						September 30, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-09-30-desktop-v0.9.2/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.9.2
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<span class="bg-green-900 text-green-400 py-0.5 px-2 rounded-xl">public</span>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>There is now a publish plugin that works with Obsidian Publish. For more information, check out the <a href="https://publish.obsidian.md/help/Add-on services/Obsidian Publish">Obsidian Publish Service</a></li>
+<li>Graph now has an option to tweak when the text fades out.</li>
+<li>You can now mouse hover in graph view with <code>Ctrl/Cmd</code> to bring up the hover preview if the page preview plugin is enabled.</li>
+<li>If your vault is large, there is now a loading progress bar when starting the app, instead of freezing and not functioning until the app properly loads.</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Clicking on search results and backlinks now scrolls to the Markdown section containing the first result in preview mode.</li>
+<li>Clicking on search tab now focuses on the search textbox so it can be typed in right away.</li>
+<li>The graph simulation engine has been rewritten to bring even more performance and save battery. Note that the graph simulation engine is responsible for computing where each node moves.</li>
+<li>The graph rendering engine has been tweaked to initialize a bit faster.</li>
+<li>Graph filters have been re-categorized to differentiate between display options and forces. Changing display options now no longer re-activates graph simulation.</li>
+<li>When opening global search with selected text, the query is now properly double-quoted if the query contains space characters.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Fixed styling of backlink/unlinked mentions broken by the previous release.</li>
+<li>Navigating backward/forward should no longer cause the pane type to change from edit/preview to graph, backlinks or outline.</li>
+<li>Slides can now be styled via custom CSS without having to use more specific rules.</li>
+<li><code>obsidian://</code> URIs now fixed for Linux.</li>
+<li>Fixed more instances where preview scroll was reset when scrolling with large images.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-09-24-desktop-v0.9.1/index.html" class="font-semibold text-3xl sm:text-xl">
+						September 24, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-09-24-desktop-v0.9.1/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.9.1
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<span class="bg-green-900 text-green-400 py-0.5 px-2 rounded-xl">public</span>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Changes</h2>
+<ul>
+<li>Search queries on graph now applies to all nodes, including tags and links to files that haven't been created yet.</li>
+<li>When hovering graph nodes, the node name now shifts down to avoid being covered by the mouse cursor.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>The account page now works again. This did break before and we've taken more steps this time to make sure it won't happen again.</li>
+<li>The vault chooser's &quot;Create vault&quot; functionality has been restored.</li>
+<li>Obsidian URI's shortcut mode <code>obsidian://vault/vaultname</code> now properly recognize URI encoded characters such as Chinese characters.</li>
+<li>Previewing documents with large images that are longer than your your screen no longer causes jumping or flickering when scrolling.</li>
+<li>Hovering graph nodes will now stop hovering when the node moves away from the cursor.</li>
+<li>In some rare situations, the app would freeze when loading, where nothing can be clicked and the app is completely unresponsive. This shouldn't happen anymore.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-09-21-desktop-v0.9.0/index.html" class="font-semibold text-3xl sm:text-xl">
+						September 21, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-09-21-desktop-v0.9.0/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.9.0
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>Graph view has been completely revamped.
+<ul>
+<li>New options for filtering are now available. You can now:
+<ul>
+<li>Filter files using same syntax as search. This can be especially useful to exclude certain folders like daily notes with <code>path:-&quot;Daily notes&quot;</code>.</li>
+<li>Choose to show <code>#tags</code>.</li>
+<li>Choose to show attachments such as images, audios, and PDFs.</li>
+<li>Choose to hide links to non-existent notes (only show existing files).</li>
+<li>Choose to hide orphan notes (files that do not have links, and is not linked to).</li>
+</ul>
+</li>
+<li>New layout options are available to customize the graph to your vault. You can now:
+<ul>
+<li>Choose to show arrows for links.</li>
+<li>Change the size of nodes and the thickness of links.</li>
+<li>Change the centering force, the repelling force, the link force, and the link distance.</li>
+</ul>
+</li>
+<li>Local graph also has a few new option available. You can now:
+<ul>
+<li>Choose to hide incoming or outgoing links.</li>
+<li>Choose to showing neighbor links. Disabling this option hides links between neighbor notes.</li>
+</ul>
+</li>
+<li>You can now navigate the graph using the keyboard. Arrow keys to pan, <code>+</code> and <code>-</code> to zoom, <code>Shift</code> to speed up movement.</li>
+<li>All graph options, including local graph depth and zoom level, are now persisted through restarts.</li>
+<li>Dragging to pan now has inertia. Zooming has been reworked to be much smoother.</li>
+<li>Graph colors now support custom CSS <code>color: rgba()</code> values as well as <code>opacity: 0.5</code>.</li>
+<li>New graph CSS classes are <code>.color-fill-tag</code>, <code>.color-fill-attachment</code>, <code>.color-fill-unresolved</code>, and <code>.color-arrow</code>.</li>
+<li>Graph simulation is now done in a worker thread. This should make large graphs much more manageable.</li>
+<li>Several optimizations have been implemented to make the graph blazingly fast on vaults of all sizes. Many tricks are commonly used in modern day video games!</li>
+</ul>
+</li>
+<li>Obsidian now supports <code>obsidian://</code> URIs. For the user manual, check out the help doc <code>Advanced use &gt; Using obsidian URI</code>.
+<ul>
+<li>Remember to use <code>%20</code> to encode the space character, and <code>%2F</code> to encode the forward slash <code>/</code>.</li>
+<li><code>obsidian://open?vault=myvault</code> will open the vault &quot;myvault&quot;.</li>
+<li><code>obsidian://open?vault=myvault&amp;file=mynote</code> will open the file &quot;mynote&quot; inside the vault &quot;myvault&quot;/</li>
+<li><code>obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmynote</code> will open the file at the absolute path &quot;/absolute/path/to/mynote&quot; assuming a vault exists for the one of the parent folders.</li>
+</ul>
+</li>
+<li>The two shorthand from v0.8.15 are still available:
+<ul>
+<li>The vault format: <code>obsidian://vault/myvault</code>.</li>
+<li>The vault + file format: <code>obsidian://vault/myvault/mynote</code>.</li>
+<li>The <strong>triple</strong> slash format for absolute paths: <code>obsidian:///absolute/path/to/mynote</code> or on Windows <code>obsidian:///C:\path\to\mynote</code> (forward slash also works).</li>
+</ul>
+</li>
+<li>New CSS classes are added for <code>#tags</code> in the editor for those interested in styling different tags in different colors. For a hypothetical tag <code>#mytag</code>, the class will be <code>.cm-tag-mytag</code>. Unfortunately, this only supports English letters, <code>-</code>, and <code>_</code>, since those are the limitations of CSS class names.</li>
+<li>New CSS classes are now added to <code>&lt;body&gt;</code> to indicate the operating system. They are <code>.mod-macos</code>, <code>.mod-windows</code>, and <code>.mod-linux</code>.</li>
+<li>Markdown importer can now convert Bear style highlight <code>::highlight::</code>.</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Global search and edit mode <code>find</code> functionality now copies selected text into the search bar when triggered.</li>
+<li>The vault switcher window now has a language switcher.</li>
+<li>Search should now be much faster if only using <code>file:</code> or <code>path:</code> operators, because the file content does not need to be loaded.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>On Windows, the vault switcher should now show vault name instead of the full path, which took a lot of unnecessary space.</li>
+<li>Splitting a new pane sometimes caused the new pane to be very thin. That should now be fixed.</li>
+<li>Clicking on <code>file:///</code> links should now work properly on Linux. This was broken on a previous release.</li>
+<li>On MacOS, sometimes when double clicking the app titlebar to zoom, the window disappears and can't be made to reappear even if restarting the app. This will no longer happen.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-09-14-desktop-v0.8.15/index.html" class="font-semibold text-3xl sm:text-xl">
+						September 14, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-09-14-desktop-v0.8.15/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.15
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<span class="bg-green-900 text-green-400 py-0.5 px-2 rounded-xl">public</span>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>The app now registers the URL scheme &quot;obsidian://&quot;. This will attempt to open a file in any previously opened vaults.
+<ul>
+<li>On MacOS, this requires installer version 0.8.12+ to work.</li>
+<li>To open a vault that you have previously opened, use the format <code>obsidian://vault/vaultname</code>, where vaultname is the name of the folder of the vault.</li>
+<li>To open a file inside a vault, use the format: <code>obsidian://vault/vaultname/path/to/file</code>.</li>
+<li>To open a file with an absolute path, use the <strong>triple</strong> slash format: <code>obsidian:///absolute/path/to/file</code> or on Windows <code>obsidian:///C:\path\to\file</code> (forward slash also works). This will open the file in the most nested vault that's capable of opening this file.</li>
+<li>If the URL does not do anything, then it means the file does not belong to any vault you have previously opened.</li>
+<li>If the vault opens, but does not navigate to the specified note, then it means the file of that path was not found.</li>
+<li>On Linux, you will have to setup an obsidian.desktop file with <code>Exec=obsidian %u</code>. Details see <a href="https://unix.stackexchange.com/a/497147">here</a>.</li>
+</ul>
+</li>
+<li>Alphabetical sorting has been improved.
+<ul>
+<li>Sort is now case insensitive.</li>
+<li>Sort correctly understand accent characters such as &quot;é&quot; to be the same as &quot;e&quot;.</li>
+<li>Numbers are now naturally sorted, so &quot;1&quot;, &quot;2&quot;, and &quot;10&quot; will now sort in the expected order.</li>
+</ul>
+</li>
+<li>Outline items are now collapsible.</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Embed can now be rendered up to 5 layers deep.</li>
+<li>Pasting images now use a 14 digit timestamp format &quot;Pasted image 20200914050118.png&quot; instead of a regular number &quot;Pasted image 15.png&quot;.</li>
+<li>Graph view will now prioritize rendering frames instead of performing physics simulation, which previously caused multi-second lags on large graphs.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Fixed Frameless titlebar text is not properly center aligned.</li>
+<li>Linking an unlinked mention now properly removes the entry from the unlinked mention section.</li>
+<li>Removed hidden titlebar when fullscreen which caused the top section of the app to not accept clicks.</li>
+<li>Drag and drop panes no longer cause the moved pane to lose CSS styles and pane headers.</li>
+<li>MacOS can now double click the frameless window header to zoom or un-zoom.</li>
+<li>Numbered lists with checkboxes now renders correctly.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-09-10-desktop-v0.8.14/index.html" class="font-semibold text-3xl sm:text-xl">
+						September 10, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-09-10-desktop-v0.8.14/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.14
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<span class="bg-green-900 text-green-400 py-0.5 px-2 rounded-xl">public</span>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Changes</h2>
+<ul>
+<li>Auto-complete Markdown links now generates the note's name in the display text instead of the full path.</li>
+<li>Checkboxes are now re-colored to match our theme if your installer version is 0.8.12+.</li>
+<li>We have restored link auto-completion for hitting the <code>#</code> key, because otherwise it wouldn't be possible to auto-complete headings when using Markdown links.</li>
+<li>Latex <code>$</code> symbol will auto-pair when selecting text and hitting the <code>$</code> key.</li>
+<li>Fullscreen will now hide the titlebar.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Open in default app now works once again.</li>
+<li>Command palette can now show more than 5 results.</li>
+<li>The vault switcher window style has been fixed.</li>
+<li>Titlebar text is now properly centered.</li>
+<li>Folder and file suggestion popovers now show in the correct position when the page has scrollbars.</li>
+<li>When linking unlinked mentions, the linked entry should now disappear from unlinked mentions list.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-09-07-desktop-v0.8.13/index.html" class="font-semibold text-3xl sm:text-xl">
+						September  7, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-09-07-desktop-v0.8.13/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.13
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>The entire app is now frameless. This also means you can use custom CSS to change the color/appearance of the top bar.</li>
+<li>We've added buttons for navigating backward/forward on the top left of the app.</li>
+<li>There is now a new plugin called &quot;Translucency&quot;, which will make the app translucent. Linux is unsupported for now. Windows users must also re-install the app using the v0.8.12+ installer to be able to use this.</li>
+<li>Strikethrough <code>~</code> and highlight <code>=</code> will now auto-pair when selecting text and hitting the respective keys.</li>
+<li>There are now new commands for &quot;Edit file title&quot; and for &quot;Copy file path&quot;.</li>
+<li>A new option is available to disable line-wrapping in edit mode.</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Link suggestion no longer triggers auto-complete when pressing <code>#</code> or <code>|</code> because it's not always intended. Instead, hit <code>Tab</code> first to auto-complete, then type the character normally.</li>
+<li>Selecting text in preview mode now prevents it from being optimized, where previously the selection would disappear when scrolled out-of-view.</li>
+<li>You can now middle-click on graph nodes to open the note in a new pane.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>On Linux, using the mouse backward/forward navigation buttons no longer fires twice.</li>
+<li>Sometimes in edit mode, the collapse/expand triangle overlaps the text. That's now fixed.</li>
+<li>Navigating back to a file that was already deleted shouldn't cause an error anymore.</li>
+<li>Checkboxes with a numbered list now appear on one line instead of wrapping to the next.</li>
+<li>Numbered lists with checkboxes now shows the number instead of hiding it.</li>
+<li>Fixed search operator <code>tag</code> miss every other result within the same file.</li>
+<li>Fixed a rare occurence of scroll lost when typing in a scroll-synced edit/preview configuration.</li>
+<li>Fixed heading not highlighted in preview mode when using the outline plugin if heading is on the last line of the note.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-09-07-desktop-v0.8.12/index.html" class="font-semibold text-3xl sm:text-xl">
+						September  7, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-09-07-desktop-v0.8.12/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.12
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<span class="bg-green-900 text-green-400 py-0.5 px-2 rounded-xl">public</span>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>Update Electron to v10.1.1.</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Checkbox now uses a more modern style thanks to the new Electron update.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Line wrapping used to cause a weird space to appear on the second line when the previous line ends with any kind of formatted text. This is fixed by the new Electron.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-09-01-desktop-v0.8.11/index.html" class="font-semibold text-3xl sm:text-xl">
+						September  1, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-09-01-desktop-v0.8.11/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.11
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>No longer broken</h2>
+<ul>
+<li>Removed extra space at the bottom of the app.</li>
+<li>Account tab should now load properly.</li>
+<li>Embeds should now appear in backlink pane again.</li>
+<li>Backlink pane no longer show a scrollbar when it shouldn't.</li>
+<li>Backlink pane now updates properly when files are changed outside.</li>
+<li>Graph view no longer crashes when loading initially, or when files are changed outside.</li>
+<li>Fixed unlinked mentions links the wrong item.</li>
+<li>Fixed switching from editor to preview doesn't scroll on large documents.</li>
+<li>Fixed scroll-sync lag with edit mode open.</li>
+<li>Fixed scroll-sync not scrolling to the top on the other pane.</li>
+<li>LaTeX inline blocks <code>$$</code> no longer has the space &amp; digit requirements like <code>$</code>.</li>
+<li>WIP translucency plugin disabled, will be re-enabled next release.</li>
+<li>Updated translations.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-08-31-desktop-v0.8.9/index.html" class="font-semibold text-3xl sm:text-xl">
+						August 31, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-08-31-desktop-v0.8.9/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.9
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<span class="bg-green-900 text-green-400 py-0.5 px-2 rounded-xl">public</span>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>No longer broken</h2>
+<ul>
+<li>Linking to headings using <code>[[filename#]]</code> should now properly show suggestions when <code>#</code> is typed, instead of requiring an additional character to be typed first.</li>
+<li>In some rare cases, vaults with many files would freeze when loading up. This should be fixed now.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-08-31-desktop-v0.8.10/index.html" class="font-semibold text-3xl sm:text-xl">
+						August 31, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-08-31-desktop-v0.8.10/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.10
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>Search &amp; backlinks now has an option to sort results, similar to file explorer.</li>
+<li>File sort order now includes sorting by creation time.</li>
+<li>Local graph nodes are now in decremental size from closest to farthest.</li>
+<li>A new search operator <code>tag:#mytag</code> is now available, which will only match tags that are parsed exactly as tags (for example, #mytag inside a code block will be properly ignored).</li>
+<li>A new hotkey has been added to create note in new pane.</li>
+<li>The Zettelkasten prefixer plugin can now set Zettel ID format, similar to daily notes.</li>
+<li>Daily note/Zettelkasten prefixer: Template file now accepts <code>{{date:format}}</code> and <code>{{time:format}}</code> just like the template plugin.</li>
+<li>Frontmatter in preview now has a CSS class to facilitate styling.</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Graph view has been greatly optimized. File changes only trigger incremental change detection to re-compute graph instead of a full scan.</li>
+<li>Search and backlinks now refreshes when files in the vault are changed. This update is also done incrementally to minimize performance impact.</li>
+<li>Backlinks pane has now been optimized when switching files or editing note, it will no longer cause lag to the editing experience.</li>
+<li>Opening help vault now wipes the folder first, which prevents older version of the help docs sticking around when they have been renamed.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Fixed Cmd/Ctrl-click links and tags in edit mode sometimes requires a 2nd click.</li>
+<li>Consecutive tables now include proper spacing between them instead of being stuck together.</li>
+<li>In the file explorer, you can now click on file names while renaming them without exiting rename mode.</li>
+<li>Fixed footnotes with embedded documents not linking to the right footnote reference when clicked.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-08-24-desktop-v0.8.8/index.html" class="font-semibold text-3xl sm:text-xl">
+						August 24, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-08-24-desktop-v0.8.8/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.8
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Changes</h2>
+<ul>
+<li>Hovering the unlink pane button now highlights the pane itself as well.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Clicking on a checkbox should check the correct box instead of the one 3 lines down, oops.</li>
+<li>Clicking an outline pane link would sometimes not work depending on pane configuration. That's fixed now.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-08-24-desktop-v0.8.7/index.html" class="font-semibold text-3xl sm:text-xl">
+						August 24, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-08-24-desktop-v0.8.7/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.7
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Changes</h2>
+<ul>
+<li>The cache file that was previously in <code>vault/.obsidian/cache</code> is now moved to the &quot;APPDATA&quot; folder under <code>APPDATA\Obsidian\ObsidianCache\VAULT-ID.json</code>. This should resolve issues with sync applications that caused conflicts with this file. See <a href="https://www.electronjs.org/docs/api/app#appgetpathname">Electron documentation</a> for the precise location of APPDATA on your platform.</li>
+<li>Removed non-functional work-in-progress publish plugin that was accidentally added in v0.8.6.</li>
+<li>Removed console.log of the i18n dictionary that was also accidentally added in v0.8.6.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-08-24-desktop-v0.8.6/index.html" class="font-semibold text-3xl sm:text-xl">
+						August 24, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-08-24-desktop-v0.8.6/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.6
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>Local graph now has an option to specify number of jumps from the current note.</li>
+<li>There is now a new sort algorithm for quick switcher and link suggestion that's faster and more accurate.</li>
+<li>New search operator <code>content:</code> will search the content of the file only.</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Excess spaces are now trimmed when creating new vaults.</li>
+<li>Obsidian is now available in French, Italian, Indonesian, Korean, and Romanian.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Reveal in file explorer no longer show up in file explorer itself.</li>
+<li>Fixed template can't be inserted in pinned panes.</li>
+<li>Fixed template error message using wrong translation.</li>
+<li>Fixed spellchecker suggestion inserts into the wrong location when clicking on the first letter.</li>
+<li>Fixed Chinese and Japanese &quot;exact match&quot; not working due to the lack of space characters.</li>
+<li>Fixed Settings &gt; About showing HTML tags.</li>
+<li>Graph nodes with links to self should not contribute to weight.</li>
+<li>Clicking on other panes should no longer navigate graph view.</li>
+</ul>
+<h2>Bugfix related to the parser switch in v0.8.5</h2>
+<ul>
+<li>Clicking on a checkbox should no longer scroll the page.</li>
+<li>Scroll-sync should no longer be janky, flicker, or cause jumps when typing.</li>
+<li>Footnote links should now work again.</li>
+<li>Clicking outline items now navigates and highlights the correct line.</li>
+<li>Fixed parse fail when there are <code>&amp;amp;</code> or other HTML entities.</li>
+<li>Tooltips no longer clip out of view when they're at the edge of the screen.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="flex py-16 flex-col md:flex-row">
+			<div class="grow">
+				<div class="md:sticky md:top-[var(--header-height)]">
+					<a href="../../2020-08-21-desktop-v0.8.5/index.html" class="font-semibold text-3xl sm:text-xl">
+						August 21, 2020
+					</a>
+					<div class="font-mono mt-2 text-muted">
+						<a href="../../2020-08-21-desktop-v0.8.5/index.html" class="flex items-center gap-4">
+							<span class="text-sm">0.8.5
+								
+									<span span class=""> Desktop</span>
+								
+							</span>
+						</a>
+					</div>
+					<div class="mb-8 mt-3 text-xs text-muted font-mono">
+						
+							<a href="../../../pricing.html#catalyst"><span class="bg-accent-900 text-accent-300 py-0.5 px-2 rounded-xl">catalyst</span></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="md:basis-3/4">
+				
+				<div class="typeset break-words">
+					<h2>Shiny new things</h2>
+<ul>
+<li>A new template plugin is now available. Designate a template folder and insert any of them on command. In the plugin setting, you can tell the plugin what to replace <code>{{date}}</code> and <code>{{time}}</code>  with. <code>{{title}}</code> will be replaced by the title of the current file. You can also insert {{date:FORMAT}} to customize date formatting individually.</li>
+<li>YAML Frontmatter is now recognized. You can also hide it using the option in Settings &gt; Editor &gt; Show frontmatter.</li>
+<li>There's now a new file menu item to &quot;reveal file in file explorer&quot;, which highlights the current file in the file explorer pane.</li>
+<li>You can now choose to auto-complete links in the Markdown standard format. This will automatically encode spaces as <code>%20</code>.</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>We've now switched from Markdown-It to Remark to parse Markdown files. This will inevitably change how some of your notes look like, since Remark is not fully CommonMark compliant. This change allows us to accurately calculate link positions within a document to properly render backlinks and to update references when files are renamed.</li>
+<li>Search now searches in file name as well.</li>
+</ul>
+<h2>No longer broken</h2>
+<ul>
+<li>Two identical links in the same paragraph now properly shows as two distinct backlinks, instead of showing the first one twice.</li>
+<li>Pressing <code>Tab</code> to autocomplete links no longer inserts an extra pair of <code>]]</code>.</li>
+<li>Footnotes used to link to the wrong place, that should be fixed now.</li>
+<li>Vault switcher should no longer flash blank for a second when first opened up.</li>
+<li>Fixed sometimes the window would overflow, causing the whole app to be scrolled up out of view.</li>
+<li>When vault resides in a folder with special characters, embedded images and media no longer worked. This shouldn't happen anymore.</li>
+<li>Pasting control characters (which are also invalid for file names) in the file rename field no longer causes an exception.</li>
+<li>LaTeX rendering using MathJax should no longer be broken if accidentally changed MathJax renderer using the right-click menu.</li>
+<li>Mermaid graphs that couldn't be rendered due to an error won't scroll the whole app anymore.</li>
+<li>Duplicate embeds, LaTeX, and code blocks now properly renders instead of having the first one disappear.</li>
+<li>Spellcheck correction is now properly applied when using custom CSS themes that reduce line height.</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="my-8 md:w-3/4 ml-auto border-t border-gray-800 text-sm md:text-base">
+			<nav>
+				<ol class="flex gap-2 my-8 flex-wrap leading-9 tabular-nums">
+					
+					
+					
+
+					<li class="mr-auto">
+						
+							<a href="../16/index.html" class="border rounded border-gray-800 py-2 px-3 text-accent font-medium">Next&nbsp;page&nbsp;&rarr;</a>
+						
+					</li>
+
+					
+						<li><a href='../../index.html' class="border rounded border-gray-800 py-2 px-3">1</a></li>
+					
+
+					
+						<li class="text-faint">&bull;&bull;&bull;</li>
+					
+
+					
+
+					
+					<li><a href="../14/index.html" class="border rounded border-gray-800 py-2 px-3">14</a></li>
+					
+
+					<li><a href="#" aria-current="page" class="font-semibold bg-secondary cursor-default hover:text-normal border rounded border-gray-800 py-2 px-3">15</a></li>
+
+					
+					<li><a href="../16/index.html" class="border rounded border-gray-800 py-2 px-3">16</a></li>
+					
+
+					
+
+					
+
+					
+					<li><a href="../17/index.html" class="border rounded border-gray-800 py-2 px-3">17</a></li>
+					
+				</ol>
+			</nav>
+		</div>
+	</div>
+</div>
+
+<script src="../../../prism.js"></script>
+
+		</div>
+		<div class="container flex flex-row-reverse flex-wrap pt-24 pb-12 sm:pt-24 md:pb-32">
+	<div class="grid grid-cols-2 gap-3 gap-y-6 md:grid-cols-3 justify-between w-full mb-24 ml-auto md:w-3/5 lg:w-1/2 md:mb-0 leading-loose md:leading-relaxed md:pl-6">
+
+		<div>
+			<ul class="">
+				<li class="text-gray-500 mb-3">Get started</li>
+				<li><a class="font-medium" href="../../../download.html">Download</a></li>
+				<li><a class="font-medium" href="../../../pricing.html">Pricing</a></li>
+				<li><a class="font-medium" href="../../../account/index.html">Account</a></li>
+			</ul>
+			<ul class="mt-8">
+				<li class="text-gray-500 mb-3">Obsidian</li>
+				<li><a class="font-medium" href="../../../index.html">Overview</a></li>
+				<li><a class="font-medium" href="../../../sync.html">Sync</a></li>
+				<li><a class="font-medium" href="../../../publish.html">Publish</a></li>
+				<li><a class="font-medium" href="../../../canvas.html">Canvas</a></li>
+				<li><a class="font-medium" href="../../../mobile.html">Mobile</a></li>
+				<li><a class="font-medium" href="../../../plugins.html">Plugins</a></li>
+			</ul>
+		</div>
+
+		<div>
+			<ul class="">
+				<li class="text-gray-500 mb-3">Learn</li>
+				<li><a class="font-medium" href="https://help.obsidian.md/" target="_blank">Help</a></li>
+				<li><a class="font-medium" href="https://docs.obsidian.md/" target="_blank">Developers</a></li>
+				<li><a class="font-medium" href="../../index.html">Changelog</a></li>
+				<li><a class="font-medium" href="../../../about.html">About</a></li>
+				<li><a class="font-medium" href="../../../roadmap/index.html">Roadmap</a></li>
+				<li><a class="font-medium" href="../../../blog/index.html">Blog</a></li>
+			</ul>
+			<ul class="mt-8">
+				<li class="text-gray-500 mb-3">Legal</li>
+				<li><a class="font-medium" href="../../../license.html">License overview</a></li>
+				<li><a class="font-medium" href="../../../terms.html">Terms of service</a></li>
+				<li><a class="font-medium" href="../../../privacy.html">Privacy</a> <span class="text-gray-600">/</span> <a class="font-medium" href="../../../security.html">Security</a></li>
+			</ul>
+		</div>
+
+		<div>
+			<ul class="">
+				<li class="text-gray-500 mb-3">Community</li>
+				<li><a class="font-medium" href="../../../community.html">Join the community</a></li>
+				<li><a class="font-medium" href="https://discord.gg/obsidianmd" rel="noopener noreferrer" target="_blank">Discord</a></li>
+				<li><a class="font-medium" href="https://forum.obsidian.md/" target="_blank">Forum</a> <span class="text-gray-600">/</span> <a class="font-medium" href="https://forum-zh.obsidian.md/" target="_blank">中文论坛</a></li>
+				<li><a class="font-medium" href="../../../softwear.html">Merch store</a></li>
+				<li><a class="font-medium" href="../../../brand.html">Brand guidelines</a></li>
+				<li><a class="font-medium" href="https://status.obsidian.md/" rel="noopener noreferrer">System status</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="mr-auto">
+		<a class="header-logo mr-4 flex items-center gap-x-2 transition-colors" href="../../../index.html" aria-label="Go to the Obsidian home page">
+			<svg alt="Obsidian" height="22" viewBox="0 0 143 25" width="126" xmlns="http://www.w3.org/2000/svg"><path fill="#A88BFA" d="m6.91927 14.5955c.64053-.1907 1.67255-.4839 2.85923-.5565-.71191-1.7968-.88376-3.3691-.74554-4.76905.15962-1.61678.72977-2.9662 1.28554-4.11442.1186-.24501.2326-.47313.3419-.69198.1549-.30984.3004-.60109.4365-.8953.2266-.48978.3948-.92231.4798-1.32416.0836-.39515.0841-.74806-.0148-1.08657-.099-.338982-.3093-.703864-.7093-1.1038132-.5222-.1353116-1.1017-.0165173-1.53613.3742922l-5.15591 4.638241c-.28758.25871-.47636.60929-.53406.99179l-.44455 2.94723c.69903.6179 2.42435 2.41414 3.47374 4.90644.09364.2224.1819.4505.26358.6838z"/><path fill="#A88BFA" d="m2.97347 10.3512c-.02431.1037-.05852.205-.10221.3024l-2.724986 6.0735c-.279882.6238-.15095061 1.3552.325357 1.8457l4.288349 4.4163c2.1899-3.2306 1.87062-6.2699.87032-8.6457-.75846-1.8013-1.90801-3.2112-2.65683-3.9922z"/><path fill="#A88BFA" d="m5.7507 23.5094c.07515.012.15135.0192.2281.0215.81383.0244 2.18251.0952 3.29249.2997.90551.1669 2.70051.6687 4.17761 1.1005 1.1271.3294 2.2886-.5707 2.4522-1.7336.1192-.8481.343-1.8075.7553-2.6869l-.0095.0033c-.6982-1.9471-1.5865-3.2044-2.5178-4.0073-.9284-.8004-1.928-1.1738-2.8932-1.3095-1.60474-.2257-3.07497.1961-4.00103.4682.55465 2.3107.38396 5.0295-1.48417 7.8441z"/><path fill="#A88BFA" d="m17.3708 19.3102c.9267-1.3985 1.5868-2.4862 1.9352-3.0758.1742-.295.1427-.6648-.0638-.9383-.5377-.7126-1.5666-2.1607-2.1272-3.5015-.5764-1.3785-.6624-3.51876-.6673-4.56119-.0019-.39626-.1275-.78328-.3726-1.09465l-3.3311-4.23183c-.0117.19075-.0392.37998-.0788.56747-.1109.52394-.32 1.04552-.5585 1.56101-.1398.30214-.3014.62583-.4646.95284-.1086.21764-.218.4368-.3222.652-.5385 1.11265-1.0397 2.32011-1.1797 3.73901-.1299 1.31514.0478 2.84484.8484 4.67094.1333.0113.2675.0262.4023.0452 1.1488.1615 2.3546.6115 3.4647 1.5685.9541.8226 1.8163 2.0012 2.5152 3.6463z"/><path fill="currentColor" d="m39.752 4.5038c-5.952 0-10.248 3.744-10.248 8.88s4.296 8.88 10.248 8.88c5.928 0 10.224-3.744 10.224-8.88s-4.296-8.88-10.224-8.88zm0 3.47999c3.576 0 6.144 2.13601 6.144 5.40001s-2.568 5.4-6.144 5.4c-3.6 0-6.168-2.136-6.168-5.4s2.568-5.40001 6.168-5.40001z"/><path fill="currentColor" d="m55.4847 20.5598c.864.936 2.472 1.704 4.584 1.704 4.32 0 6.8401-2.976 6.8401-6.576 0-3.624-2.5201-6.60001-6.8401-6.60001-2.112 0-3.72.79201-4.584 1.70401v-6.02401h-3.84v17.23201h3.84zm-.12-4.944c0-1.992 1.704-3.432 3.912-3.432 2.112 0 3.888 1.248 3.888 3.504s-1.776 3.48-3.888 3.48c-2.208 0-3.912-1.416-3.912-3.408z"/><path fill="currentColor" d="m67.3181 19.9118c1.464 1.488 4.272 2.352 7.2 2.352 3.96 0 6.936-1.44 6.936-4.392 0-2.88-2.832-3.432-6.072-3.816-2.736-.312-3.576-.384-3.576-1.08 0-.648.864-1.056 2.496-1.056 1.968 0 3.672.6 4.824 1.656l1.992-2.304c-1.272-1.224-3.648-2.18401-6.624-2.18401-4.008 0-6.48 1.72801-6.48 4.32001 0 2.712 2.52 3.312 5.544 3.696 2.832.336 4.032.336 4.032 1.176 0 .792-1.056 1.128-2.784 1.128-2.16 0-4.152-.672-5.664-2.064z"/><path fill="currentColor" d="m82.8395 8.05579h3.912v-3.288h-3.912zm3.864 1.29601h-3.84v12.648h3.84z"/><path fill="currentColor" d="m99.8264 20.5598v1.44h3.8396v-17.23201h-3.8396v6.02401c-.864-.912-2.472-1.70401-4.584-1.70401-4.32 0-6.84 2.97601-6.84 6.60001 0 3.6 2.52 6.576 6.84 6.576 2.112 0 3.72-.768 4.584-1.704zm.12-4.944v.144c0 1.992-1.704 3.408-3.912 3.408-2.112 0-3.888-1.224-3.888-3.48s1.776-3.504 3.888-3.504c2.208 0 3.912 1.44 3.912 3.432z"/><path fill="currentColor" d="m105.996 8.05579h3.912v-3.288h-3.912zm3.864 1.29601h-3.84v12.648h3.84z"/><path fill="currentColor" d="m116.863 22.2638c2.232 0 4.056-.648 5.208-1.656.648 1.2 2.184 1.92 4.992 1.392v-2.832c-1.344.288-1.632-.024-1.632-.696v-4.608c0-3.168-2.376-4.77601-6.408-4.77601-3.48 0-6.264 1.51201-7.056 3.79201l3.456.936c.384-.984 1.704-1.704 3.432-1.704 2.04 0 2.856.768 2.856 1.728v.072l-5.04.456c-2.976.288-5.16 1.512-5.16 3.984 0 2.496 2.232 3.912 5.352 3.912zm4.848-5.112c0 1.464-2.184 2.304-4.152 2.304-1.488 0-2.328-.432-2.328-1.248 0-.84.672-1.152 1.992-1.272l4.488-.456z"/><path fill="currentColor" d="m128.379 21.9998h3.84v-6.048c0-2.184 1.2-3.456 3.288-3.456 1.968 0 3 1.296 3 3.432v6.072h3.84v-7.2c0-3.504-2.232-5.71201-5.52-5.71201-2.04 0-3.624.76801-4.608 1.80001v-1.536h-3.84z"/></svg>
+		</a>
+		<div class="mt-6 text-sm text-gray-500 mb-1">Follow us</div>
+		<div class="grid grid-flow-col gap-3 mb-4 text-sm">
+			<a class="font-medium" href="https://twitter.com/obsdmd" rel="noopener noreferrer" target="_blank">Twitter</a>
+			<a class="font-medium" href="https://mas.to/@obsidian" rel="me noopener noreferrer" target="_blank">Mastodon</a>
+			<a class="font-medium" href="https://www.youtube.com/@obsdmd" rel="noopener noreferrer" target="_blank">YouTube</a>
+			<a class="font-medium" href="https://github.com/obsidianmd" rel="noopener noreferrer" target="_blank">GitHub</a>
+		</div>
+		<div class="text-sm text-gray-500">© 2024 Obsidian</div>
+	</div>
+</div>
+
+
+		<script src="../../../static.js"></script>
+	</body>
+
+<!-- Mirrored from obsidian.md/changelog/page/15/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2024 14:23:35 GMT -->
+</html>

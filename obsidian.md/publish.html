@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from obsidian.md/publish by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2024 14:21:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+	<title>Obsidian Publish</title>
+	<meta name="description" content="Obsidian Publish is the easiest way to publish your wiki, knowledge base, documentation, or digital garden.">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="tailwindcd00.css?hash=26">
+	<link rel="icon" href="favicon.ico" sizes="32x32">
+	<link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+	<link rel="alternate" type="application/atom+xml" href="feed.xml" title="Obsidian Blog">
+	<link rel="alternate" type="application/feed+json" href="feed.json" title="Obsidian Blog">
+	<link rel="alternate" type="application/atom+xml" href="changelog.xml" title="Obsidian Changelog">
+	<link rel="alternate" type="application/feed+json" href="changelog.json" title="Obsidian Changelog">
+
+	<meta property="og:title" content="Obsidian Publish">
+	<meta property="og:description" content="Obsidian Publish is the easiest way to publish your wiki, knowledge base, documentation, or digital garden.">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="images/banner.png">
+
+	<meta name="twitter:title" content="Obsidian Publish">
+	<meta name="twitter:description" content="Obsidian Publish is the easiest way to publish your wiki, knowledge base, documentation, or digital garden.">
+	<meta name="twitter:site" content="@obsdmd">
+	<meta name="twitter:domain" content="obsidian.md">
+	<meta name="twitter:creator" content="@obsdmd">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="images/banner.png">
+
+</head>
+<body class="theme-dark">
+<div class="">
+	<div class="header-height"></div>
+<header class="header">
+	<div class="container flex items-center justify-between">
+		<div class="flex items-center">
+			<a class="header-logo mr-4 flex items-center gap-x-2 transition-colors -mt-[3px]" href="index.html" aria-label="Go to the Obsidian home page">
+				<svg alt="Obsidian" height="22" viewBox="0 0 143 25" width="126" xmlns="http://www.w3.org/2000/svg"><path fill="#A88BFA" d="m6.91927 14.5955c.64053-.1907 1.67255-.4839 2.85923-.5565-.71191-1.7968-.88376-3.3691-.74554-4.76905.15962-1.61678.72977-2.9662 1.28554-4.11442.1186-.24501.2326-.47313.3419-.69198.1549-.30984.3004-.60109.4365-.8953.2266-.48978.3948-.92231.4798-1.32416.0836-.39515.0841-.74806-.0148-1.08657-.099-.338982-.3093-.703864-.7093-1.1038132-.5222-.1353116-1.1017-.0165173-1.53613.3742922l-5.15591 4.638241c-.28758.25871-.47636.60929-.53406.99179l-.44455 2.94723c.69903.6179 2.42435 2.41414 3.47374 4.90644.09364.2224.1819.4505.26358.6838z"/><path fill="#A88BFA" d="m2.97347 10.3512c-.02431.1037-.05852.205-.10221.3024l-2.724986 6.0735c-.279882.6238-.15095061 1.3552.325357 1.8457l4.288349 4.4163c2.1899-3.2306 1.87062-6.2699.87032-8.6457-.75846-1.8013-1.90801-3.2112-2.65683-3.9922z"/><path fill="#A88BFA" d="m5.7507 23.5094c.07515.012.15135.0192.2281.0215.81383.0244 2.18251.0952 3.29249.2997.90551.1669 2.70051.6687 4.17761 1.1005 1.1271.3294 2.2886-.5707 2.4522-1.7336.1192-.8481.343-1.8075.7553-2.6869l-.0095.0033c-.6982-1.9471-1.5865-3.2044-2.5178-4.0073-.9284-.8004-1.928-1.1738-2.8932-1.3095-1.60474-.2257-3.07497.1961-4.00103.4682.55465 2.3107.38396 5.0295-1.48417 7.8441z"/><path fill="#A88BFA" d="m17.3708 19.3102c.9267-1.3985 1.5868-2.4862 1.9352-3.0758.1742-.295.1427-.6648-.0638-.9383-.5377-.7126-1.5666-2.1607-2.1272-3.5015-.5764-1.3785-.6624-3.51876-.6673-4.56119-.0019-.39626-.1275-.78328-.3726-1.09465l-3.3311-4.23183c-.0117.19075-.0392.37998-.0788.56747-.1109.52394-.32 1.04552-.5585 1.56101-.1398.30214-.3014.62583-.4646.95284-.1086.21764-.218.4368-.3222.652-.5385 1.11265-1.0397 2.32011-1.1797 3.73901-.1299 1.31514.0478 2.84484.8484 4.67094.1333.0113.2675.0262.4023.0452 1.1488.1615 2.3546.6115 3.4647 1.5685.9541.8226 1.8163 2.0012 2.5152 3.6463z"/><path fill="currentColor" d="m39.752 4.5038c-5.952 0-10.248 3.744-10.248 8.88s4.296 8.88 10.248 8.88c5.928 0 10.224-3.744 10.224-8.88s-4.296-8.88-10.224-8.88zm0 3.47999c3.576 0 6.144 2.13601 6.144 5.40001s-2.568 5.4-6.144 5.4c-3.6 0-6.168-2.136-6.168-5.4s2.568-5.40001 6.168-5.40001z"/><path fill="currentColor" d="m55.4847 20.5598c.864.936 2.472 1.704 4.584 1.704 4.32 0 6.8401-2.976 6.8401-6.576 0-3.624-2.5201-6.60001-6.8401-6.60001-2.112 0-3.72.79201-4.584 1.70401v-6.02401h-3.84v17.23201h3.84zm-.12-4.944c0-1.992 1.704-3.432 3.912-3.432 2.112 0 3.888 1.248 3.888 3.504s-1.776 3.48-3.888 3.48c-2.208 0-3.912-1.416-3.912-3.408z"/><path fill="currentColor" d="m67.3181 19.9118c1.464 1.488 4.272 2.352 7.2 2.352 3.96 0 6.936-1.44 6.936-4.392 0-2.88-2.832-3.432-6.072-3.816-2.736-.312-3.576-.384-3.576-1.08 0-.648.864-1.056 2.496-1.056 1.968 0 3.672.6 4.824 1.656l1.992-2.304c-1.272-1.224-3.648-2.18401-6.624-2.18401-4.008 0-6.48 1.72801-6.48 4.32001 0 2.712 2.52 3.312 5.544 3.696 2.832.336 4.032.336 4.032 1.176 0 .792-1.056 1.128-2.784 1.128-2.16 0-4.152-.672-5.664-2.064z"/><path fill="currentColor" d="m82.8395 8.05579h3.912v-3.288h-3.912zm3.864 1.29601h-3.84v12.648h3.84z"/><path fill="currentColor" d="m99.8264 20.5598v1.44h3.8396v-17.23201h-3.8396v6.02401c-.864-.912-2.472-1.70401-4.584-1.70401-4.32 0-6.84 2.97601-6.84 6.60001 0 3.6 2.52 6.576 6.84 6.576 2.112 0 3.72-.768 4.584-1.704zm.12-4.944v.144c0 1.992-1.704 3.408-3.912 3.408-2.112 0-3.888-1.224-3.888-3.48s1.776-3.504 3.888-3.504c2.208 0 3.912 1.44 3.912 3.432z"/><path fill="currentColor" d="m105.996 8.05579h3.912v-3.288h-3.912zm3.864 1.29601h-3.84v12.648h3.84z"/><path fill="currentColor" d="m116.863 22.2638c2.232 0 4.056-.648 5.208-1.656.648 1.2 2.184 1.92 4.992 1.392v-2.832c-1.344.288-1.632-.024-1.632-.696v-4.608c0-3.168-2.376-4.77601-6.408-4.77601-3.48 0-6.264 1.51201-7.056 3.79201l3.456.936c.384-.984 1.704-1.704 3.432-1.704 2.04 0 2.856.768 2.856 1.728v.072l-5.04.456c-2.976.288-5.16 1.512-5.16 3.984 0 2.496 2.232 3.912 5.352 3.912zm4.848-5.112c0 1.464-2.184 2.304-4.152 2.304-1.488 0-2.328-.432-2.328-1.248 0-.84.672-1.152 1.992-1.272l4.488-.456z"/><path fill="currentColor" d="m128.379 21.9998h3.84v-6.048c0-2.184 1.2-3.456 3.288-3.456 1.968 0 3 1.296 3 3.432v6.072h3.84v-7.2c0-3.504-2.232-5.71201-5.52-5.71201-2.04 0-3.624.76801-4.608 1.80001v-1.536h-3.84z"/></svg>
+			</a>
+
+			<ul class="hidden md:flex">
+				<li><a class="px-3 py-2 font-medium text-gray-400" href="download.html">Download</a></li>
+
+				<li><a class="px-3 py-2 font-medium text-gray-400" href="pricing.html">Pricing</a></li>
+
+				<li><a class="px-3 py-2 font-medium text-gray-400" href="sync.html">Sync</a></li>
+
+				<li><a class="px-3 py-2 font-medium text-gray-400" href="publish.html">Publish</a></li>
+			</ul>
+
+		</div>
+		<div class="ml-auto md:hidden z-10 text-gray-200 hover:text-gray-100">
+			<a class="header-mobile-nav" href="#" aria-label="Open the navigation menu">
+				<div class="header-mobile-nav-button">
+					<div class="header-mobile-nav-button-inner"></div>
+				</div>
+			</a>
+		</div>
+		<div class="ml-auto hidden md:block">
+			<a class="px-3 py-2 font-medium text-gray-400" href="community.html">Community</a>
+			<a class="px-3 py-2 font-medium text-gray-400" href="account/index.html">Account</a>
+		</div>
+	</div>
+</header>
+
+<div class="header-mobile-nav-menu fixed top-0 right-0 bottom-0 left-0 overflow-scroll overscroll-contain block md:hidden">
+	<div class="container py-4">
+		<ul class="text-lg font-medium gap-2 grid sm:grid-cols-2 mb-4">
+			<li><a class="flex button-primary rounded hover:text-normal p-3 items-center gap-2" href="download.html">
+				Get the app</a></li>
+			<li><a class="flex rounded bg-secondary p-3 items-center gap-2" href="account/index.html">
+				Account</a></li>
+			<li><a class="flex rounded bg-secondary p-3 items-center gap-3" href="sync.html">
+				Sync</a></li>
+			<li><a class="flex rounded bg-secondary p-3 items-center gap-3" href="publish.html">
+				Publish</a></li>
+			<li><a class="flex rounded bg-secondary p-3 items-center gap-3" href="pricing.html">
+				Pricing</a></li>
+			<li><a class="flex rounded bg-secondary p-3 items-center gap-3" href="plugins.html">
+				Plugins</a></li>
+		</ul>
+		<div class="text-muted text-sm mt-8">Learn more</div>
+		<ul class="font-medium text-sm gap-2 grid grid-cols-2 my-4 pb8">
+			<li><a class="block rounded bg-secondary p-3" href="https://help.obsidian.md/" target="_blank">Help</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="blog/index.html">Blog</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="about.html">Manifesto</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="https://discord.gg/obsidianmd" rel="noopener noreferrer" target="_blank">Discord</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="changelog/index.html">Changelog</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="roadmap/index.html">Roadmap</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="softwear.html">Merch store</a></li>
+			<li><a class="block rounded bg-secondary p-3" href="community.html">Report a bug</a></li>
+		</ul>
+	</div>
+</div>
+
+	<div class="min-h-[60vh] flex items-center overflow-hidden purple-fade">
+		<div class="container pt-36 pb-24">
+			<div class="max-w-xl">
+				<p class="mb-2 text-accent flex items-center">
+					<svg alt="Obsidian Publish" width="123" height="32" viewBox="0 0 96 25" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path d="M3.1 12v7.8H.6V1.1h11.5c4 0 6.6 1.8 6.6 5.4 0 3.5-2.6 5.5-6.6 5.5H3Zm0-2.2H12c2.6 0 4.2-1.2 4.2-3.3 0-2.1-1.6-3.3-4.2-3.3H3v6.6ZM34 6.2v13.6h-2.4v-2.3a6 6 0 0 1-5.2 2.6c-3.8 0-6-2.5-6-6.2V6.2h2.4v7.4c0 2.6 1.4 4.4 4.2 4.4 2.7 0 4.6-1.9 4.6-4.8v-7H34Zm5.7 11.2v2.4h-2.3V1.1h2.3v7.5c1-1.5 3-2.7 5.8-2.7C50 5.9 53 9 53 13c0 4-3 7.1-7.5 7.1a6.8 6.8 0 0 1-5.8-2.7Zm0-4.5v.2c0 3.1 2.6 5 5.5 5 3 0 5.5-2 5.5-5 0-3.3-2.5-5.2-5.5-5.2-2.9 0-5.6 2-5.6 5ZM57.8 1v18.8h-2.4V1.1h2.4ZM61 3.8V1h2.6v2.7h-2.5Zm2.5 2.4v13.6h-2.3V6.2h2.3Zm1.8 10.4 1.7-1.4c1.2 2 3.3 3 6 3 2.4 0 4.2-.7 4.2-2.3 0-1.6-1.6-1.7-5-2-3.4-.4-6-1-6-3.8 0-2.5 2.5-4.2 6.1-4.2 3.3 0 5.8 1.3 6.9 3l-1.6 1.4c-1-1.6-3-2.4-5.4-2.4-2.4 0-3.8.8-3.8 2 0 1.4 1.4 1.5 4.3 1.9 3.7.4 6.8.7 6.8 4 0 2.8-3.1 4.3-6.5 4.3-3.5 0-6.4-1.2-7.7-3.5Zm16.5 3.2V1.1H84v7.5c1-1.5 2.8-2.7 5.4-2.7 3.8 0 6 2.6 6 6.3v7.6H93v-7.2C93 10 91.7 8 89 8s-5 2-5 4.9v7h-2.3Z"/>
+					</svg>
+				</p>
+				<h1 class="text-title mb-6">Give your knowledge a home on the web.</h1>
+				<p class="text-2xl text-muted">The easiest way to publish your wiki, knowledge base, documentation, or digital&nbsp;garden.</p>
+				<div class="py-6 mt-4 flex items-start sm:items-center gap-6 flex-col sm:flex-row">
+					<a href="buy/publish.html" class="button button-primary text-lg py-4 px-6">
+						Create your site
+					</a>
+					<a href="buy/publish.html" class="text-lg text-accent font-medium">
+						$8 per month
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="overflow-hidden pb-16 sm:pb-24">
+		<div class="container tab-container" style="--active-tab: 0;">
+		<div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2">
+			<div class="lg:pr-8 lg:pt-4">
+				<div class="lg:max-w-lg">
+					<p class="text-lg font-semibold leading-7 text-accent">Features</p>
+					<h2 class="mt-2 font-semibold text-3xl sm:text-4xl">The publishing platform for non-linear thinkers</h2>
+					<p class="mt-6 text-xl sm:text-2xl text-muted">Obsidian Publish is designed to bring your interconnected content online. It comes with unique features that help readers explore your web of&nbsp;ideas.</p>
+
+					<div class="mt-8 text-lg relative max-w-xl lg:max-w-none">
+						<div class="tab-glider absolute md:bg-secondary -left-[3%] h-1/4 rounded-lg w-[106%] transition-all duration-100" style="transform: translateY(calc(100% * var(--active-tab))"></div>
+						<dl class="grid grid-cols-1 auto-rows-fr text-muted">
+							<div class="tab-button active relative pl-9 pr-3 rounded-lg py-4" data-tab="tab-previews">
+								<dt class="inline font-semibold text-normal">
+									<i icon-name="picture-in-picture-2" class="icon-xl absolute left-0 top-4 text-accent-400"></i>
+									Hover previews. 
+								</dt>
+								<dd class="inline">Display a popover preview of the linked page when you hover over it, like&nbsp;Wikipedia.</dd>
+							</div>
+
+							<div class="tab-button relative pl-9 pr-3 rounded-lg py-4" data-tab="tab-graph">
+								<dt class="inline font-semibold text-normal">
+									<i icon-name="git-fork" class="icon-xl absolute left-0 top-4 text-accent-400"></i>
+									Graph view. 
+								</dt>
+								<dd class="inline">Visually explore the connections between the pages on your&nbsp;site.</dd>
+							</div>
+
+							<div class="tab-button relative pl-9 pr-3 rounded-lg py-4" data-tab="tab-stacked">
+								<dt class="inline font-semibold text-normal">
+									<i icon-name="layers" class="icon-xl absolute left-0 top-4 text-accent-400"></i>
+									Stacked pages.
+								</dt>
+								<dd class="inline">Make links open in horizontal panes that you can browse like a stack of pages on a&nbsp;desk.</dd>
+							</div>
+
+							<div class="tab-button relative pl-9 pr-3 rounded-lg py-4" data-tab="tab-backlinks">
+								<dt class="inline font-semibold text-normal">
+									<i icon-name="link" class="icon-xl absolute left-0 top-4 text-accent-400"></i>
+									Backlinks.
+								</dt>
+								<dd class="inline">Automatically list links to pages that reference the current page you are&nbsp;on.</dd>
+							</div>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="tab-content bg-secondary w-[48rem] overflow-hidden max-w-none rounded-2xl shadow-xl border border-gray-700 sm:w-[57rem] md:-ml-4 lg:-ml-0">
+				<img src="images/publish-example-dark.png" alt="Example Obsidian Publish site" class="tab-pane active" width="2899" height="1757" data-tab="tab-previews">
+				<img src="images/publish-example-dark.png" alt="Example Obsidian Publish site" class="tab-pane" width="2899" height="1757" data-tab="tab-graph">
+				<img src="images/publish-example-dark.png" alt="Example Obsidian Publish site" class="tab-pane" width="2899" height="1757" data-tab="tab-stacked">
+				<img src="images/publish-example-dark.png" alt="Example Obsidian Publish site" class="tab-pane" width="2899" height="1757" data-tab="tab-backlinks">
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div class="py-16 sm:py-32">
+		<div class="container ">
+			<div class="max-w-xl">
+				<p class="text-lg font-semibold text-accent">Authoring and collaboration</p>
+				<h2 class="mt-2 text-3xl font-semibold sm:text-4xl">A seamless publishing experience</h2>
+				<p class="mt-6 text-xl sm:text-2xl text-muted">Publish is built into Obsidian for desktop and mobile, so you can write, collaborate, and publish seamlessly.</p>
+			</div>
+		</div>
+		<div class="relative overflow-hidden pt-16 mb-24">
+			<div class="container">
+				<div class="w-[48rem] md:w-auto">
+					<img src="images/publish-experience.png" alt="Example of Obsidian Help site powered by Obsidian Publish" class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-white/10" style="object-position: 0 -1px;" width="2400" height="1600">
+					<div class="relative" aria-hidden="true">
+					<div class="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-primary pt-[7%]"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container mt-16 sm:mt-20 md:mt-24">
+		<dl class="mx-auto grid max-w-2xl grid-cols-1 gap-12 text-base text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+			<div class="text-xl">
+				<dt class="text-xl font-semibold">
+					Edit with Markdown
+				</dt>
+				<dd class="mt-2 text-lg leading-6 text-muted">Blazing fast text editing built on the simplicity and reliability of&nbsp;Markdown.</dd>
+			</div>
+			<div class="text-xl">
+				<dt class="font-semibold">
+					Collaborate seamlessly
+				</dt>
+				<dd class="mt-2 text-lg leading-6 text-muted">Invite your team to collaboratively create and maintain your Publish&nbsp;site.</dd>
+			</div>
+			<div class="text-xl">
+				<dt class="font-semibold">
+					Publish natively
+				</dt>
+				<dd class="mt-2 text-lg leading-6 text-muted">Make your changes public in just a few taps, even from your mobile&nbsp;devices.</dd>
+			</div>			
+		</dl>
+		</div>
+	</div>
+
+
+	<div class="cards container py-16 sm:py-32">
+		<div class="card card-shimmer card-grow bg-secondary mx-auto rounded-xl sm:rounded-3xl items-center transition-shadow hover:shadow-xl lg:flex">
+			<div class="p-8 sm:p-12 lg:flex-auto">
+				<h2 class="text-3xl sm:text-4xl font-semibold">Pricing</h2>
+				<p class="mt-6 text-lg sm:text-xl leading-7 text-muted">Host your Obsidian Publish site for one all-inclusive price. If you're not satisfied, get a refund within 7 days, no questions&nbsp;asked.</p>
+				<div class="mt-10 flex items-center gap-x-4">
+					<h3 class="flex-none font-semibold leading-6 text-green-500">What's included</h3>
+					<div class="h-px flex-auto bg-gray-700"></div>
+				</div>
+				<ul role="list" class="mt-8 grid grid-cols-1 gap-4 leading-6 sm:grid-cols-2 sm:gap-6">
+					<li class="flex gap-x-3">
+						<i icon-name="check" class="text-green-500"></i>
+						Hosting for your site up to 4GB
+					</li>
+
+					<li class="flex gap-x-3">
+						<i icon-name="check" class="text-green-500"></i>
+						Priority email support
+					</li>
+
+					<li class="flex gap-x-3">
+						<i icon-name="check" class="text-green-500"></i>
+						Customizable theme and domain
+					</li>
+
+					<li class="flex gap-x-3">
+						<i icon-name="check" class="text-green-500"></i>
+						SEO and mobile performance
+					</li>
+				</ul>
+			</div>
+			<div class="mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+				<div class="rounded-2xl pb-8 sm:py-8 text-center lg:flex lg:flex-col lg:justify-center lg:py-16">
+					<div class="mx-auto max-w-xs px-8">
+					<div class="rounded-lg border border-gray-700 p-0.5">
+						<div class="flex h-7 yearly-toggle yearly-toggle-on relative" role="tablist">
+							<button role="tab" class="h-7 flex items-center justify-center absolute left-0 z-10 w-1/2 rounded-md py-1 px-2 text-sm font-semibold yearly text-muted">
+								Yearly
+							</button>
+							<button role="tab" class="h-7 flex items-center justify-center absolute right-0 z-10 w-1/2 rounded-md py-1 px-2 text-sm font-semibold monthly text-muted">
+								Monthly
+							</button>
+							<div class="absolute glider rounded-md w-1/2 h-7 bg-gray-700 transition-all"></div>
+						</div>
+					</div>
+					<div class="yearly-price">
+						<p class="mt-8 flex items-baseline justify-center gap-x-2">
+							<span class="text-5xl font-semibold text-white">$8</span>
+							<span class="text-sm leading-6 text-muted">USD</span>
+						</p>
+						<div class="text-muted text-sm mt-3">per month, per site<br>billed yearly</div>
+					</div>
+					<div class="monthly-price" style="display:none;">
+						<p class="mt-8 flex items-baseline justify-center gap-x-2">
+							<span class="text-5xl font-semibold text-white">$10</span>
+							<span class="text-sm leading-6 text-muted">USD</span>
+						</p>
+						<div class="text-muted text-sm mt-3">per month, per site<br>billed monthly</div>
+					</div>
+					<a href="buy/publish.html" class="mt-10 block button button-primary text-lg py-4 px-6 drop-shadow-md">Create your site</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="overflow-hidden py-12 sm:py-24">
+		<div class="container tab-container" style="--active-tab: 0;">
+			<div class="grid grid-cols-1 gap-x-16 gap-y-16 items-center sm:gap-y-20 lg:grid-cols-2">
+				<div class="tab-content">
+					<div class="aspect-square tab-pane active relative rounded-xl sm:rounded-3xl isolate overflow-hidden bg-accent-400 pl-8 pt-8 sm:mx-auto sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none" data-tab="tab-themes">
+						<div class="h-[100%] whitespace-nowrap ui ui-light rounded-tl-xl shadow-xl pt-8 pl-8 bg-white">
+							<div class="text-xl font-semibold pb-4">Publish theme</div>
+							<div class="h-[100%] border-l border-t border-gray-200 rounded-tl-xl p-4 flex gap-2">
+								<div class="text-sm text-gray-600 font-mono">
+								<span class="text-gray-400">/* Solarized theme */</span><br><br>
+								<span class="text-green-500">.theme-light</span> {<br>
+								  <span class="text-blue-500">--background-primary</span>: #FDF6E3;<br>
+								  <span class="text-blue-500">--background-secondary</span>: #EEE8D5;<br>
+								  <span class="text-blue-500">--text-normal</span>: #073642;<br>
+								  <span class="text-blue-500">--text-muted</span>: #586E75;<br>
+								  <span class="text-blue-500">--text-accent</span>: #248BD2;<br>
+								}<br>
+								<span class="text-green-500">.theme-dark</span> {<br>
+								  <span class="text-blue-500">--background-primary</span>: #002B36;<br>
+								  <span class="text-blue-500">--background-secondary</span>: #073642;<br>
+								  <span class="text-blue-500">--text-normal</span>: #93A1A1;<br>
+								  <span class="text-blue-500">--text-muted</span>: #657B83;<br>
+								  <span class="text-blue-500">--text-accent</span>: #248BD2;<br>
+								}<br>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="aspect-square tab-pane relative rounded-xl sm:rounded-3xl isolate overflow-hidden bg-accent-400 pl-8 pt-8 sm:mx-auto sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none" data-tab="tab-domain">
+						<div class="h-full ui ui-light rounded-tl-xl shadow-xl pt-8 pl-8 pr-4 bg-white">
+								<div class="text-xl font-semibold border-b pb-4 border-gray-200">Publish settings</div>
+								<div class="border-b py-4 border-gray-200 flex items-center gap-2">
+									<div>
+										<div>Site name</div>
+										<div class="text-sm text-muted pt-1">Name of your site.</div>
+									</div>
+									<div class="ml-auto"><input type="text" class="text-sm ring-gray-300 bg-white text-black w-full hover:ring-gray-300 focus:ring-gray-400" value="Developer Docs" placeholder="Site name"></div>
+								</div>
+								<div class="border-b py-4 border-gray-200 flex items-center gap-2">
+									<div>
+										<div>Logo</div>
+										<div class="text-sm text-muted pt-1">Pick an image for your site.</div>
+									</div>
+									<div class="ml-auto"><input type="text" class="text-sm ring-gray-300 bg-white text-black w-full hover:ring-gray-300 focus:ring-gray-400" value="logo.png" placeholder="Image link"></div>
+								</div>
+								<div class="border-b py-4 border-gray-200 flex items-center gap-2">
+									<div>
+										<div>Custom URL</div>
+										<div class="text-sm text-muted pt-1">Define your custom domain.</div>
+									</div>
+									<div class="ml-auto"><input type="text" class="text-sm ring-gray-300 bg-white text-black w-full hover:ring-gray-300 focus:ring-gray-400" value="docs.obsidian.md" placeholder="www.domain.com"></div>
+								</div>
+								<div class="border-b py-4 border-gray-200 flex items-center gap-2">
+									<div>
+										<div id="publish-redirect">Redirect to your domain</div>
+										<div class="text-sm text-muted pt-1 flex items-center">Visitors to publish.obsidian.md will be redirected.</div>
+									</div>
+									<div class="shrink-0 ml-auto checkbox-container is-enabled"><input type="checkbox" aria-labelledby="publish-redirect"></div>
+								</div>
+								<div class="border-b py-4 border-gray-200 flex items-center gap-2">
+									<div>
+										<div id="publish-indexing">Disallow search engine indexing</div>
+										<div class="text-sm text-muted pt-1">Prevent search engines from indexing your site.</div>
+									</div>
+									<div class="ml-auto checkbox-container"><input type="checkbox"  aria-labelledby="publish-indexing"></div>
+								</div>
+								<div class="border-b py-4 border-gray-200 flex items-center gap-2">
+									<div>
+										<div>Google Analytics code</div>
+										<div class="text-sm text-muted pt-1">Configure analytics for your domain.</div>
+									</div>
+									<div class="ml-auto"><input type="text" class="text-sm ring-gray-300 bg-white text-black w-full hover:ring-gray-300 focus:ring-gray-400" placeholder="G-XXXXXXX"></div>
+								</div>
+							</div>
+					</div>
+					<div class="aspect-square tab-pane relative rounded-xl sm:rounded-3xl isolate overflow-hidden bg-accent-400 pl-8 pt-8 sm:mx-auto sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none" data-tab="tab-password">
+						<div class="h-full flex flex-col justify-center items-center ui ui-light rounded-tl-xl shadow-xl pt-8 pl-8 pr-6 bg-white text-center">
+							<i icon-name="lock" class="my-4 text-xl "></i>
+							<div class="text-lg pb-2">This site is password protected</div>
+								<div class="py-4 flex items-center gap-2">
+									<input type="password" class="text-base ring-gray-300 bg-white text-black w-full hover:ring-gray-300 focus:ring-gray-400" placeholder="Enter password...">
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="">
+					<div class="mx-auto">
+						<p class="text-lg font-semibold leading-7 text-accent">Customization</p>
+						<h2 class="mt-2 text-3xl font-semibold sm:text-4xl">Make it your own</h2>
+						<p class="mt-6 text-xl sm:text-2xl text-muted">Obsidian Publish gives you control over the look and feel of your site. It's easy to create a unique and branded&nbsp;design.</p>
+						<div class="mt-8 text-lg relative max-w-xl lg:max-w-none">
+							<div class="tab-glider absolute md:bg-secondary -left-[3%] h-1/3 rounded-lg w-[106%] transition-all duration-100" style="transform: translateY(calc(100% * var(--active-tab))"></div>
+							<dl class="grid grid-cols-1 auto-rows-fr text-muted">
+								<div class="tab-button active relative pl-9 pr-3 rounded-lg py-4" data-tab="tab-themes">
+									<dt class="inline font-semibold text-normal">
+										<i icon-name="palette" class="icon-xl absolute left-0 top-4 text-accent-400"></i>
+										Themes. 
+									</dt>
+									<dd class="inline">The look of your Obsidian Publish site can be fully customized with CSS and Javascript. <a href="https://help.obsidian.md/Obsidian+Publish/Customize+your+site" target="_blank" class="text-faint">Learn&nbsp;more.</a></dd>
+								</div>
+
+								<div class="tab-button relative pl-9 pr-3 rounded-lg py-4" data-tab="tab-domain">
+									<dt class="inline font-semibold text-normal">
+										<i icon-name="settings" class="icon-xl absolute left-0 top-4 text-accent-400"></i>
+										Custom domain.
+									</dt>
+									<dd class="inline">Point your domain name to Obsidian Publish for a more branded experience. <a href="https://help.obsidian.md/Obsidian+Publish/Set+up+a+custom+domain" target="_blank" class="text-faint">Learn&nbsp;more.</a></dd>
+								</div>
+
+								<div class="tab-button relative pl-9 pr-3 rounded-lg py-4" data-tab="tab-password">
+									<dt class="inline font-semibold text-normal">
+										<i icon-name="lock" class="icon-xl absolute left-0 top-4 text-accent-400"></i>
+										Password protection. 
+									</dt>
+									<dd class="inline">Restrict access to your site with the ability to manage multiple passwords. <a href="https://help.obsidian.md/Obsidian+Publish/Security+and+privacy" target="_blank" class="text-faint">Learn&nbsp;more.</a></dd>
+								</div>
+
+								
+							</dl>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="py-16 sm:py-24 cards">
+		<div class="container">
+		<div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-2">
+			<div>
+			<p class="text-lg font-semibold leading-7 text-accent">Performance</p>
+			<h2 class="text-3xl font-semibold sm:text-4xl">Built-in performance</h2>
+			<p class="mt-6 text-xl sm:text-2xl text-muted">Speed and accessibility are built into every Obsidian Publish site. No configuration required.</p>
+			</div>
+			<dl class="col-span-2 grid grid-cols-1 gap-y-12 gap-x-4 sm:gap-y-4 sm:grid-cols-2">
+				<div class="card card-shimmer card-grow rounded-xl sm:p-6 sm:bg-secondary text-lg sm:text-xl transition-shadow hover:shadow-lg">
+					<dt class="font-semibold">
+						<div class="mb-2">
+							<i icon-name="search" class="icon-2xl text-accent h-8 w-8"></i>
+						</div>
+						First-class SEO
+					</dt>
+					<dd class="mt-2 text-lg leading-tight text-muted">Your Publish site is automatically optimized for search engines and social sharing cards. You can even customize metadata with descriptions, slugs, and images, on a page-by-page&nbsp;level.</dd>
+				</div>
+
+				<div class="card card-shimmer card-grow rounded-xl sm:p-6 sm:bg-secondary text-xl transition-shadow hover:shadow-lg">
+					<dt class="font-semibold">
+						<div class="mb-2">
+							<i icon-name="monitor-smartphone" class="icon-2xl text-accent h-8 w-8"></i>
+						</div>
+						Mobile-friendly
+					</dt>
+					<dd class="mt-2 text-lg leading-tight text-muted">Visitors on mobile devices are treated as first-class citizens, with an experience that's as intuitive and powerful as it is on the desktop. You can also edit and publish your site from the Obsidian mobile&nbsp;app.</dd>
+				</div>
+
+				<div class="card card-shimmer card-grow rounded-xl sm:p-6 sm:bg-secondary text-xl transition-shadow hover:shadow-lg">
+					<dt class="text-xl font-semibold">
+						<div class="mb-2 t">
+							<i icon-name="line-chart" class="icon-2xl text-accent h-8 w-8"></i>
+						</div>
+						Analytics are optional
+					</dt>
+					<dd class="mt-2 text-lg leading-tight text-muted">Obsidian Publish is private by default, but it's easy to track visits to your&nbsp;site if you choose to. Embed Google Analytics or privacy-friendly tools such as Plausible and Fathom.</dd>
+				</div>
+
+				<div class="card card-shimmer card-grow rounded-xl sm:p-6 sm:bg-secondary text-xl transition-shadow hover:shadow-lg">
+					<dt class="font-semibold">
+						<div class="mb-2">
+							<i icon-name="person-standing" class="icon-2xl text-accent h-8 w-8"></i>
+						</div>
+						Accessible by default
+					</dt>
+					<dd class="mt-2 text-lg leading-tight text-muted">Out of the box, Obsidian Publish has a perfect 100% Lighthouse accessibility score. It's our priority to make your content accessible for all&nbsp;visitors.</dd>
+				</div>
+			</dl>
+		</div>
+		</div>
+	</div>
+
+	<div class="">
+		<div class="container-lg py-16 sm:py-24">
+
+			<div class="mx-auto max-w-xl mb-16 sm:text-center">
+				<h2 class="mt-2 text-xl sm:text-2xl text-muted">Explore Publish sites by the Obsidian community</h2>
+			</div>
+
+			<div class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm font-semibold leading-tight text-center text-gray-400">
+
+				<a href="https://lab.marconoris.com/" target="_blank">
+					<img src="images/publish/marconoris.png" alt="Marco Noris" class="aspect-[3/2] object-cover rounded-lg mb-4">
+					<span>Marco Noris</span>
+				</a>
+				<a href="https://emrah.ca/" target="_blank">
+					<img src="images/publish/emrah.png" alt="Emrah" class="aspect-[3/2] object-cover rounded-lg mb-4">
+					<span>Emrah</span>
+				</a>
+				<a href="https://stephanlevin.blog/" target="_blank">
+					<img src="images/publish/stephanlenvin-light.png" alt="Stephan Lenvin" class="aspect-[3/2] object-cover rounded-lg mb-4">
+					<span>Stephan Lenvin</span>
+				</a>
+				<a href="https://untested.sonnet.io/" target="_blank">
+					<img src="images/publish/untested.png" alt="Untested" class="aspect-[3/2] object-cover rounded-lg mb-4">
+					<span>Untested</span>
+				</a>
+				<a href="https://publish.obsidian.md/discretecs" target="_blank">
+					<img src="images/publish/compsci.png" alt="Discrete Structures" class="aspect-[3/2] object-cover rounded-lg mb-4">
+					<span>Discrete Structures</span>
+				</a>
+				</a>
+				<a href="https://mister-chad.com/" target="_blank">
+					<img src="images/publish/chad.png" alt="Mister Chad" class="aspect-[3/2] object-cover rounded-lg mb-4">
+					<span>Mister Chad</span>
+				</a>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="py-16 sm:py-24">
+			<div class="relative isolate rounded-lg overflow-hidden bg-accent-400 px-6 py-24 sm:text-center shadow-2xl sm:rounded-2xl sm:px-16">
+				<h2 class="mx-auto max-w-2xl text-3xl font-semibold text-black sm:text-4xl">Launch your site today</h2>
+				<p class="mx-auto mt-6 max-w-lg text-xl text-black">You can create an Obsidian Publish site from your notes in just a few&nbsp;minutes. Why not start&nbsp;now?</p>
+				<div class="mt-10 flex flex-col sm:items-center justify-center gap-6 sm:flex-row">
+					<a href="buy/publish.html">
+						<div class="rounded-md bg-gray-900 px-6 py-4 text-lg font-semibold text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Create your site</div>
+					</a>
+					<div class="text-lg text-black opacity-60">
+						$8 per month
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container flex flex-row-reverse flex-wrap pt-24 pb-12 sm:pt-24 md:pb-32">
+	<div class="grid grid-cols-2 gap-3 gap-y-6 md:grid-cols-3 justify-between w-full mb-24 ml-auto md:w-3/5 lg:w-1/2 md:mb-0 leading-loose md:leading-relaxed md:pl-6">
+
+		<div>
+			<ul class="">
+				<li class="text-gray-500 mb-3">Get started</li>
+				<li><a class="font-medium" href="download.html">Download</a></li>
+				<li><a class="font-medium" href="pricing.html">Pricing</a></li>
+				<li><a class="font-medium" href="account/index.html">Account</a></li>
+			</ul>
+			<ul class="mt-8">
+				<li class="text-gray-500 mb-3">Obsidian</li>
+				<li><a class="font-medium" href="index.html">Overview</a></li>
+				<li><a class="font-medium" href="sync.html">Sync</a></li>
+				<li><a class="font-medium" href="publish.html">Publish</a></li>
+				<li><a class="font-medium" href="canvas.html">Canvas</a></li>
+				<li><a class="font-medium" href="mobile.html">Mobile</a></li>
+				<li><a class="font-medium" href="plugins.html">Plugins</a></li>
+			</ul>
+		</div>
+
+		<div>
+			<ul class="">
+				<li class="text-gray-500 mb-3">Learn</li>
+				<li><a class="font-medium" href="https://help.obsidian.md/" target="_blank">Help</a></li>
+				<li><a class="font-medium" href="https://docs.obsidian.md/" target="_blank">Developers</a></li>
+				<li><a class="font-medium" href="changelog/index.html">Changelog</a></li>
+				<li><a class="font-medium" href="about.html">About</a></li>
+				<li><a class="font-medium" href="roadmap/index.html">Roadmap</a></li>
+				<li><a class="font-medium" href="blog/index.html">Blog</a></li>
+			</ul>
+			<ul class="mt-8">
+				<li class="text-gray-500 mb-3">Legal</li>
+				<li><a class="font-medium" href="license.html">License overview</a></li>
+				<li><a class="font-medium" href="terms.html">Terms of service</a></li>
+				<li><a class="font-medium" href="privacy.html">Privacy</a> <span class="text-gray-600">/</span> <a class="font-medium" href="security.html">Security</a></li>
+			</ul>
+		</div>
+
+		<div>
+			<ul class="">
+				<li class="text-gray-500 mb-3">Community</li>
+				<li><a class="font-medium" href="community.html">Join the community</a></li>
+				<li><a class="font-medium" href="https://discord.gg/obsidianmd" rel="noopener noreferrer" target="_blank">Discord</a></li>
+				<li><a class="font-medium" href="https://forum.obsidian.md/" target="_blank">Forum</a> <span class="text-gray-600">/</span> <a class="font-medium" href="https://forum-zh.obsidian.md/" target="_blank">中文论坛</a></li>
+				<li><a class="font-medium" href="softwear.html">Merch store</a></li>
+				<li><a class="font-medium" href="brand.html">Brand guidelines</a></li>
+				<li><a class="font-medium" href="https://status.obsidian.md/" rel="noopener noreferrer">System status</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="mr-auto">
+		<a class="header-logo mr-4 flex items-center gap-x-2 transition-colors" href="index.html" aria-label="Go to the Obsidian home page">
+			<svg alt="Obsidian" height="22" viewBox="0 0 143 25" width="126" xmlns="http://www.w3.org/2000/svg"><path fill="#A88BFA" d="m6.91927 14.5955c.64053-.1907 1.67255-.4839 2.85923-.5565-.71191-1.7968-.88376-3.3691-.74554-4.76905.15962-1.61678.72977-2.9662 1.28554-4.11442.1186-.24501.2326-.47313.3419-.69198.1549-.30984.3004-.60109.4365-.8953.2266-.48978.3948-.92231.4798-1.32416.0836-.39515.0841-.74806-.0148-1.08657-.099-.338982-.3093-.703864-.7093-1.1038132-.5222-.1353116-1.1017-.0165173-1.53613.3742922l-5.15591 4.638241c-.28758.25871-.47636.60929-.53406.99179l-.44455 2.94723c.69903.6179 2.42435 2.41414 3.47374 4.90644.09364.2224.1819.4505.26358.6838z"/><path fill="#A88BFA" d="m2.97347 10.3512c-.02431.1037-.05852.205-.10221.3024l-2.724986 6.0735c-.279882.6238-.15095061 1.3552.325357 1.8457l4.288349 4.4163c2.1899-3.2306 1.87062-6.2699.87032-8.6457-.75846-1.8013-1.90801-3.2112-2.65683-3.9922z"/><path fill="#A88BFA" d="m5.7507 23.5094c.07515.012.15135.0192.2281.0215.81383.0244 2.18251.0952 3.29249.2997.90551.1669 2.70051.6687 4.17761 1.1005 1.1271.3294 2.2886-.5707 2.4522-1.7336.1192-.8481.343-1.8075.7553-2.6869l-.0095.0033c-.6982-1.9471-1.5865-3.2044-2.5178-4.0073-.9284-.8004-1.928-1.1738-2.8932-1.3095-1.60474-.2257-3.07497.1961-4.00103.4682.55465 2.3107.38396 5.0295-1.48417 7.8441z"/><path fill="#A88BFA" d="m17.3708 19.3102c.9267-1.3985 1.5868-2.4862 1.9352-3.0758.1742-.295.1427-.6648-.0638-.9383-.5377-.7126-1.5666-2.1607-2.1272-3.5015-.5764-1.3785-.6624-3.51876-.6673-4.56119-.0019-.39626-.1275-.78328-.3726-1.09465l-3.3311-4.23183c-.0117.19075-.0392.37998-.0788.56747-.1109.52394-.32 1.04552-.5585 1.56101-.1398.30214-.3014.62583-.4646.95284-.1086.21764-.218.4368-.3222.652-.5385 1.11265-1.0397 2.32011-1.1797 3.73901-.1299 1.31514.0478 2.84484.8484 4.67094.1333.0113.2675.0262.4023.0452 1.1488.1615 2.3546.6115 3.4647 1.5685.9541.8226 1.8163 2.0012 2.5152 3.6463z"/><path fill="currentColor" d="m39.752 4.5038c-5.952 0-10.248 3.744-10.248 8.88s4.296 8.88 10.248 8.88c5.928 0 10.224-3.744 10.224-8.88s-4.296-8.88-10.224-8.88zm0 3.47999c3.576 0 6.144 2.13601 6.144 5.40001s-2.568 5.4-6.144 5.4c-3.6 0-6.168-2.136-6.168-5.4s2.568-5.40001 6.168-5.40001z"/><path fill="currentColor" d="m55.4847 20.5598c.864.936 2.472 1.704 4.584 1.704 4.32 0 6.8401-2.976 6.8401-6.576 0-3.624-2.5201-6.60001-6.8401-6.60001-2.112 0-3.72.79201-4.584 1.70401v-6.02401h-3.84v17.23201h3.84zm-.12-4.944c0-1.992 1.704-3.432 3.912-3.432 2.112 0 3.888 1.248 3.888 3.504s-1.776 3.48-3.888 3.48c-2.208 0-3.912-1.416-3.912-3.408z"/><path fill="currentColor" d="m67.3181 19.9118c1.464 1.488 4.272 2.352 7.2 2.352 3.96 0 6.936-1.44 6.936-4.392 0-2.88-2.832-3.432-6.072-3.816-2.736-.312-3.576-.384-3.576-1.08 0-.648.864-1.056 2.496-1.056 1.968 0 3.672.6 4.824 1.656l1.992-2.304c-1.272-1.224-3.648-2.18401-6.624-2.18401-4.008 0-6.48 1.72801-6.48 4.32001 0 2.712 2.52 3.312 5.544 3.696 2.832.336 4.032.336 4.032 1.176 0 .792-1.056 1.128-2.784 1.128-2.16 0-4.152-.672-5.664-2.064z"/><path fill="currentColor" d="m82.8395 8.05579h3.912v-3.288h-3.912zm3.864 1.29601h-3.84v12.648h3.84z"/><path fill="currentColor" d="m99.8264 20.5598v1.44h3.8396v-17.23201h-3.8396v6.02401c-.864-.912-2.472-1.70401-4.584-1.70401-4.32 0-6.84 2.97601-6.84 6.60001 0 3.6 2.52 6.576 6.84 6.576 2.112 0 3.72-.768 4.584-1.704zm.12-4.944v.144c0 1.992-1.704 3.408-3.912 3.408-2.112 0-3.888-1.224-3.888-3.48s1.776-3.504 3.888-3.504c2.208 0 3.912 1.44 3.912 3.432z"/><path fill="currentColor" d="m105.996 8.05579h3.912v-3.288h-3.912zm3.864 1.29601h-3.84v12.648h3.84z"/><path fill="currentColor" d="m116.863 22.2638c2.232 0 4.056-.648 5.208-1.656.648 1.2 2.184 1.92 4.992 1.392v-2.832c-1.344.288-1.632-.024-1.632-.696v-4.608c0-3.168-2.376-4.77601-6.408-4.77601-3.48 0-6.264 1.51201-7.056 3.79201l3.456.936c.384-.984 1.704-1.704 3.432-1.704 2.04 0 2.856.768 2.856 1.728v.072l-5.04.456c-2.976.288-5.16 1.512-5.16 3.984 0 2.496 2.232 3.912 5.352 3.912zm4.848-5.112c0 1.464-2.184 2.304-4.152 2.304-1.488 0-2.328-.432-2.328-1.248 0-.84.672-1.152 1.992-1.272l4.488-.456z"/><path fill="currentColor" d="m128.379 21.9998h3.84v-6.048c0-2.184 1.2-3.456 3.288-3.456 1.968 0 3 1.296 3 3.432v6.072h3.84v-7.2c0-3.504-2.232-5.71201-5.52-5.71201-2.04 0-3.624.76801-4.608 1.80001v-1.536h-3.84z"/></svg>
+		</a>
+		<div class="mt-6 text-sm text-gray-500 mb-1">Follow us</div>
+		<div class="grid grid-flow-col gap-3 mb-4 text-sm">
+			<a class="font-medium" href="https://twitter.com/obsdmd" rel="noopener noreferrer" target="_blank">Twitter</a>
+			<a class="font-medium" href="https://mas.to/@obsidian" rel="me noopener noreferrer" target="_blank">Mastodon</a>
+			<a class="font-medium" href="https://www.youtube.com/@obsdmd" rel="noopener noreferrer" target="_blank">YouTube</a>
+			<a class="font-medium" href="https://github.com/obsidianmd" rel="noopener noreferrer" target="_blank">GitHub</a>
+		</div>
+		<div class="text-sm text-gray-500">© 2024 Obsidian</div>
+	</div>
+</div>
+
+</div>
+<script src="static.js"></script>
+</body>
+
+<!-- Mirrored from obsidian.md/publish by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2024 14:21:22 GMT -->
+</html>

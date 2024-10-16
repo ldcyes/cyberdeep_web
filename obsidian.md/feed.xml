@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>Obsidian Blog</title>
+	<subtitle>New blog posts from the Obsidian team.</subtitle>
+	<link href="https://obsidian.md/feed.xml" rel="self"/>
+	<link href="https://obsidian.md/"/>
+	<updated>2024-10-01T00:00:00Z</updated>
+	<id>https://obsidian.md/</id>
+	<author>
+		<name>Obsidian</name>
+	</author>
+	
+	<entry>
+		<title>Obsidian October 2024</title>
+		<link href="https://obsidian.md/blog/2024-obsidian-october/"/>
+		<updated>2024-10-01T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2024-obsidian-october/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;October is here, which means only one thing: Obsidian October aka O_O is here! And this year we&#39;re making O_O all about &lt;em&gt;speed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Every year O_O has introduced developers to the world of making Obsidian plugins. Today, there are nearly 2,000 community-built plugins. We never imagined that the ecosystem would be so rich and expansive.&lt;/p&gt;
+&lt;p&gt;So this year, we&#39;re switching things up. We want to encourage the developer community to revisit existing plugins to make them even better.&lt;/p&gt;
+&lt;p&gt;In the last few months, we have put a major emphasis on app performance while continuing to expand the &lt;a href=&quot;https://docs.obsidian.md/&quot;&gt;plugin API&lt;/a&gt;. We want to see more plugins adopt these new APIs, and focus on creating a snappy experience.&lt;/p&gt;
+&lt;p&gt;This month you can join Obsidian October in the following ways.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sign up for a plugin critique.&lt;/strong&gt; If you want to have your plugin critiqued by the Obsidian team, &lt;a href=&quot;https://discord.com/channels/686053708261228577/840286264964022302/1290743805708079198&quot;&gt;sign up on Discord&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Self-assessment.&lt;/strong&gt; Follow our checklists to improve your plugin, theme, or vault:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.obsidian.md/oo24/plugin&quot;&gt;Plugin checklist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.obsidian.md/oo24/theme&quot;&gt;Theme checklist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.obsidian.md/oo24/vault&quot;&gt;Vault checklist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Join new Discord channels&lt;/strong&gt; to &lt;a href=&quot;https://discord.com/channels/686053708261228577/1290740823893344378&quot;&gt;showcase your project&lt;/a&gt; and &lt;a href=&quot;https://discord.com/channels/686053708261228577/1290741034720039022&quot;&gt;chat with other participants&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;We hope everyone has a great time! 🍻&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Obsidian Sync now starts at $4 per month with the new Standard plan</title>
+		<link href="https://obsidian.md/blog/standard-plan/"/>
+		<updated>2024-03-20T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/standard-plan/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;p&gt;Today we are making &lt;a href=&quot;https://obsidian.md/sync&quot;&gt;Obsidian Sync&lt;/a&gt; more accessible with the new &lt;em&gt;Standard&lt;/em&gt; plan which starts at $4 per month billed annually, or $5 per month billed monthly.&lt;/p&gt;
+&lt;p&gt;Obsidian Sync is the easiest way to securely sync your notes across devices, with end-to-end encryption, version history, and collaborative &lt;a href=&quot;https://help.obsidian.md/Obsidian+Sync/Collaborate+on+a+shared+vault&quot;&gt;shared vaults&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Below is a comparison between the new Standard plan and the existing Plus plan, billed annually:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Standard&lt;/th&gt;
+&lt;th&gt;Plus&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Price&lt;/td&gt;
+&lt;td&gt;$4 per month&lt;/td&gt;
+&lt;td&gt;$8 per month&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Synced vaults&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Maximum file size&lt;/td&gt;
+&lt;td&gt;5 MB&lt;/td&gt;
+&lt;td&gt;200 MB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Total storage&lt;/td&gt;
+&lt;td&gt;1 GB&lt;/td&gt;
+&lt;td&gt;10 GB*&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Revision history&lt;/td&gt;
+&lt;td&gt;1 month&lt;/td&gt;
+&lt;td&gt;12 months&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Devices&lt;/td&gt;
+&lt;td&gt;Unlimited&lt;/td&gt;
+&lt;td&gt;Unlimited&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shared vaults&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&quot;text-sm text-muted pb-6&quot;&gt;*Storage on the Sync Plus plan can be increased to 100&amp;nbsp;GB for $16 per month, billed annually. If you are an early supporter, the storage on your Sync Plus plan remains unchanged at 50&amp;nbsp;GB.&lt;/div&gt;
+&lt;p&gt;As we state in our &lt;a href=&quot;https://obsidian.md/about&quot;&gt;Manifesto&lt;/a&gt;, we believe that everyone should have the tools to think clearly and organize ideas effectively. We are committed to keeping Obsidian apps free for personal use without any requirement to sign up for an account. Our add-on services &lt;a href=&quot;https://obsidian.md/sync&quot;&gt;Obsidian Sync&lt;/a&gt; and &lt;a href=&quot;https://obsidian.md/publish&quot;&gt;Publish&lt;/a&gt; allow us to remain &lt;a href=&quot;https://stephango.com/vcware&quot;&gt;100% user-supported&lt;/a&gt;, and help us fund continued development.&lt;/p&gt;
+&lt;p&gt;Because Obsidian is built on local files that you control, our add-on services have many free alternatives and self-hostable options. Obsidian Sync is our approach to making the most intuitive and secure sync option. With this new plan, we&#39;re excited to make Sync accessible to even more people!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://obsidian.md/account&quot;&gt;Start using Sync →&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;FAQ&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;As a current Sync subscriber what happens to my plan?&lt;/strong&gt;&lt;br&gt;
+Nothing changes. Your Sync plan is now called &lt;em&gt;Sync Plus&lt;/em&gt; and has all the same features and pricing as before, including any discounts you may have.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How do these new plans affect early bird pricing, non-profit, or educational discounts?&lt;/strong&gt;&lt;br&gt;
+Any discounts on your account can be applied to the new Standard plan.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Do shared vaults count towards the number of vaults?&lt;/strong&gt;&lt;br&gt;
+Only &lt;a href=&quot;https://help.obsidian.md/Obsidian+Sync/Local+and+remote+vaults&quot;&gt;remote vaults&lt;/a&gt; that you create count towards your vault limit. Remote vaults that are shared with you by another user do not count towards your vault limit.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can I upgrade from Standard to Plus?&lt;/strong&gt;&lt;br&gt;
+Yes. You can upgrade at any time and pricing is prorated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can I downgrade from Plus to Standard?&lt;/strong&gt;&lt;br&gt;
+Yes. To downgrade you must first make sure that your account meets the constraints of the Standard plan — meaning that you have only 1 remote vault with less than 1 GB used.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can I retain 50GB of storage if I downgrade to Standard?&lt;/strong&gt;&lt;br&gt;
+No. If you are an early supporter and purchased the Plus plan with 50 GB before January 1st 2024, you must remain on the Plus plan to continue receiving 50 GB of storage.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;More questions? Visit our &lt;a href=&quot;https://help.obsidian.md/Obsidian+Sync&quot;&gt;Help site →&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Announcing JSON Canvas: an open file format for infinite canvas data</title>
+		<link href="https://obsidian.md/blog/json-canvas/"/>
+		<updated>2024-03-11T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/json-canvas/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;p&gt;Today we&#39;re excited to announce that the &lt;a href=&quot;https://obsidian.md/canvas&quot;&gt;Obsidian Canvas&lt;/a&gt; file format is now called &lt;a href=&quot;https://jsoncanvas.org/&quot;&gt;JSON Canvas&lt;/a&gt; and has its own site, specification, and open source resources at &lt;a href=&quot;https://jsoncanvas.org/&quot;&gt;jsoncanvas.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;JSON Canvas can be implemented freely as an import, export, and storage format for &lt;a href=&quot;https://jsoncanvas.org/docs/apps/&quot;&gt;any app or tool&lt;/a&gt;. All the resources associated with JSON Canvas are open source under the MIT license, and can be found &lt;a href=&quot;https://github.com/obsidianmd/jsoncanvas&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For the &lt;a href=&quot;https://obsidian.md/changelog/2022-12-05-desktop-v1.1.0/&quot;&gt;release&lt;/a&gt; of Obsidian Canvas we created the &lt;code&gt;.canvas&lt;/code&gt; format with an open spec. We created this format because we felt it was essential to follow the &lt;a href=&quot;https://obsidian.md/about&quot;&gt;principles&lt;/a&gt; that have guided us since the start. Your Obsidian data should always be stored locally, accessible offline, completely in your control, in open file formats that are &lt;a href=&quot;https://stephango.com/file-over-app&quot;&gt;easy to retrieve and read&lt;/a&gt;. For notes we achieve this by using plain text &lt;code&gt;.md&lt;/code&gt; files with Markdown syntax, a widely supported format. However, infinite canvas data does not yet have a similarly established format.&lt;/p&gt;
+&lt;p&gt;While infinite canvas tools are not new, they have been quickly &lt;a href=&quot;https://infinitecanvas.tools/&quot;&gt;growing in popularity&lt;/a&gt;. The JSON Canvas format was created in hopes of providing longevity, readability, interoperability, and extensibility to data created with infinite canvas apps. The format is designed to be easy to parse and give users ownership over their data.&lt;/p&gt;
+&lt;p&gt;The JSON Canvas spec is currently at &lt;a href=&quot;https://jsoncanvas.org/spec/1.0&quot;&gt;version 1.0&lt;/a&gt;. The spec is relatively conservative, it does not support every feature that canvas apps may want to implement. However we think it is a useful starting point to build upon, and we plan to continue improving on it over time.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2023 Gems of the year winners</title>
+		<link href="https://obsidian.md/blog/2023-goty-winners/"/>
+		<updated>2024-01-24T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2023-goty-winners/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;It has been nearly four years since the first line of code of Obsidian was written on January 31st, 2020. Today we&#39;re thrilled to announce the winners of our fourth annual Gems of the Year awards!&lt;/p&gt;
+&lt;p&gt;This year the Obsidian community nominated 287 projects, including plugins, themes, tools, content, and templates. After our panel narrowed down the selection and the community voted on the entries, we&#39;re now excited to announce the winners.&lt;/p&gt;
+&lt;p&gt;🎉 Thank you to everyone who participated, and congratulations to the winners! &lt;em&gt;We will be in touch with winners soon so you can receive your prizes.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;New plugin&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/omnivore-app/obsidian-omnivore&quot;&gt;Omnivore&lt;/a&gt; by Omnivore&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Obsidian plugin to fetch articles and highlights from Omnivore.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/LostPaul/obsidian-folder-notes&quot;&gt;Folder Notes&lt;/a&gt; by @LostPaul&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/olrenso/obsidian-home-tab&quot;&gt;Home Tab&lt;/a&gt; by @olrenso&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A browser-like search tab for your local files in Obsidian.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ivan-lednev/better-search-views&quot;&gt;Better Search Views&lt;/a&gt; by Ivan Lednev&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Outliner-like breadcrumb trees for search, backlinks and embedded queries.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/brianpetro/obsidian-smart-connections&quot;&gt;Smart Connections&lt;/a&gt; by Brian Petro (@WFHBrian)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Chat with your notes in Obsidian! Plus, see what&#39;s most relevant in real-time! Interact and stay organized. Powered by OpenAI ChatGPT, GPT-4 &amp;amp; Embeddings.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;New theme&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/Akifyss/obsidian-border&quot;&gt;Border&lt;/a&gt; by Akifyss&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A clean and highly customisable theme for Obsidian.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/kepano/flexoki-obsidian&quot;&gt;Flexoki&lt;/a&gt; by Steph Ango (@kepano)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Flexoki, an inky color scheme for Obsidian.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/tcmmichaelb139/obsidian-tokyonight&quot;&gt;Tokyo Night&lt;/a&gt; by Michael Bao&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A Tokyo Night theme for Obsidian. Colors from tokyonight.nvim and VSCode Tokyonight.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Existing plugin&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/scambier/obsidian-omnisearch&quot;&gt;Omnisearch&lt;/a&gt; by Simon Cambier&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Omnisearch is a search engine that &amp;quot;just works&amp;quot;. It always instantly shows you the most relevant results, thanks to its smart weighting algorithm.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/chhoumann/quickadd&quot;&gt;QuickAdd&lt;/a&gt; by Christian Bager Bach Houmann (@chhoumann)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;QuickAdd is a powerful combination of four tools: templates, captures, macros, and multis.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/platers/obsidian-linter&quot;&gt;Linter&lt;/a&gt; by Victor Tao (@platers)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Formats and styles your notes with a focus on configurability and extensibility.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/mdelobelle/metadatamenu&quot;&gt;Metadata Menu&lt;/a&gt; by Mathieu Delobelle (@mdelobelle)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For data management enthusiasts: type and manage the metadata of your notes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/liamcain/obsidian-periodic-notes&quot;&gt;Periodic Notes&lt;/a&gt; by Liam Cain&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Periodic Notes plugin expands on the idea of daily notes and introduces weekly and monthly notes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Tools&lt;/h2&gt;
+&lt;p&gt;This new category highlights bookmarklets, browser extensions, publishing tools, scripts, and any other non-plugin tools that work with with Obsidian.&lt;/p&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://quartz.jzhao.xyz/&quot;&gt;Quartz&lt;/a&gt; by Jacky Zhao&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A fast, batteries-included static-site generator that transforms Markdown content into fully functional websites.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://tfthacker.com/canvas-candy&quot;&gt;Canvas Candy&lt;/a&gt; by @TfTHacker&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Canvas Candy Vault is a set of tools specially designed for use with the canvas feature of Obsidian.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ebullient/ttrpg-convert-cli&quot;&gt;TTRPG-Convert-CLI&lt;/a&gt; by Erin Schnabel (@ebullient)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Utility to convert JSON data (for content you own) from 5etools or pf2etools into Obsidian-friendly Markdown.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Content&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://www.youtube.com/@nicolevdh&quot;&gt;Nicole van der Hoeven&lt;/a&gt; by Nicole van der Hoeven&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nicole is a developer advocate at k6.io (Grafana Labs), and she talks about testing for application performance, travelling the world while working, and the work-changing magic of taking notes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DbsAQSIKQXk&quot;&gt;Hack your brain with Obsidian&lt;/a&gt; by No Boilerplate&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tris has used many note-taking tools over the years, simple-note, notion, and extensively emacs org-mode, none have improved his thinking in the way that Obsidian has. Today is a deep-dive into my second brain, and if you take my advice, YOUR second brain.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/@DannyHatcher&quot;&gt;Danny Hatcher&#39;s YouTube channel&lt;/a&gt; by Danny Hatcher&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Danny makes videos about research, tech, and other related topics.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Template&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/TfTHacker/DashboardPlusPlus&quot;&gt;Dashboard++&lt;/a&gt; by @TfTHacker&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Demonstrating the Dashboard++ method of organizing a vault in Obsidian.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://start.linkingyourthinking.com/ideaverse-for-obsidian&quot;&gt;Ideaverse&lt;/a&gt; by Nick Milo&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ideaverse is a starter kit to manage your whole life created by Nick Milo, founder of Linking Your Thinking.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://stephango.com/vault&quot;&gt;Kepano Vault Template&lt;/a&gt; by Steph Ango (@kepano)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Steph&#39;s personal Obsidian vault template. A bottom-up approach to note-taking and organizing things he is interested in.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;Congratulations again to all who won and participated!&lt;/p&gt;
+&lt;p&gt;Previous Gems of the Year:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://obsidian.md/blog/2020-goty-winners/&quot;&gt;2020&lt;/a&gt; | &lt;a href=&quot;https://obsidian.md/blog/2021-goty-winners/&quot;&gt;2021&lt;/a&gt; | &lt;a href=&quot;https://obsidian.md/blog/2022-goty-winners/&quot;&gt;2022&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New security page and independent audit completed by Cure53</title>
+		<link href="https://obsidian.md/blog/cure53-security-audit/"/>
+		<updated>2024-01-10T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/cure53-security-audit/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;p&gt;Obsidian is designed to be a private and secure space for your thoughts. Since the start, Obsidian has been built to give you full control over your data, without the requirement to sign up for an account or share any private information.&lt;/p&gt;
+&lt;p&gt;Our new &lt;a href=&quot;/security&quot;&gt;Security page&lt;/a&gt; compiles information about how Obsidian approaches protecting your data. It is also the home for security audits completed by third parties. Our first audit by Cure53 is now available, and detailed below.&lt;/p&gt;
+&lt;p&gt;We make Obsidian so that we can capture our own private thoughts and ideas. Independent audits help us ensure that our code and procedures meet the highest security standards. We will continue working with industry-leading security firms on more audits that provide comprehensive coverage and transparency towards this commitment.&lt;/p&gt;
+&lt;h3&gt;Independent audit of Obsidian apps by Cure53&lt;/h3&gt;
+&lt;p&gt;We asked the Berlin-based security firm &lt;a href=&quot;https://cure53.de/&quot;&gt;Cure53&lt;/a&gt; to perform a penetration test and source code audit of the Obsidian apps. A future report will provide an audit of the Obsidian Sync server.&lt;/p&gt;
+&lt;p&gt;We invite you to read &lt;a href=&quot;/files/security/2023-11-Obsidian-Cure53-Audit-Summary.pdf&quot;&gt;a summary of the findings&lt;/a&gt; and the &lt;a href=&quot;/files/security/2023-11-Obsidian-Cure53-Audit-Full.pdf&quot;&gt;full report&lt;/a&gt;. The project concluded in late December 2023, with fixes incorporated into &lt;a href=&quot;/changelog/2023-12-26-desktop-v1.5.3/&quot;&gt;Obsidian 1.5.3&lt;/a&gt; released publicly on December 26th, 2023.&lt;/p&gt;
+&lt;p&gt;During the audit, the Cure53 team discovered four vulnerabilities that were promptly resolved:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CORS bypass via flawed URL validation&lt;/li&gt;
+&lt;li&gt;Arbitrary file read via local file embedding&lt;/li&gt;
+&lt;li&gt;Arbitrary file write via path traversal in Sync plugin&lt;/li&gt;
+&lt;li&gt;App protocol origin leak via CSS snippets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&#39;re proud to report that the Cure53 team reviewed the resolutions and concluded that their recommendations have been properly followed. From the report summary:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As the final phase of this project, in late December 2023, Cure53 conducted a remediation verification phase to examine how the Obsidian scope has improved over time and in relation to the findings communicated. In this area, the audit team is pleased to report that all vulnerabilities have been properly addressed and the recommendations from the assessment have been properly followed. Cure53 was able to review the diffs created by the Obsidian team to fix the reported issues and was therefore able to make reliable judgments about the quality of the fixes.&lt;/p&gt;
+&lt;p&gt;From the perspective of the Cure53 team, appropriate steps have been taken to ensure that good fixes have been created and are now in effect for the Obsidian clients, UI and features.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We look forward to publishing more security audits and updates, so you can continue to feel confident trusting Obsidian apps and services.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2023 Gems of the year nominations</title>
+		<link href="https://obsidian.md/blog/2023-goty-nominations/"/>
+		<updated>2023-12-22T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2023-goty-nominations/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;The year is almost over and that means it&#39;s time to nominate your favorite projects from the Obsidian community for our Gems of the Year awards!&lt;/p&gt;
+&lt;p&gt;To nominate projects go here: &lt;a href=&quot;https://airtable.com/appGYQmbdmPaXnxhD/pagjmQhiNSdRnmBm5/form&quot;&gt;Gems of the Year 2023 Nomination&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nominations are due by January 3rd, 2024. We look forward to your nominations! Voting will begin soon after.&lt;/p&gt;
+&lt;p&gt;Project can be nominated in any of the following categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Plugins&lt;/li&gt;
+&lt;li&gt;Themes&lt;/li&gt;
+&lt;li&gt;Tools — e.g. bookmarklets, browser extensions, publishing tools, scripts, etc&lt;/li&gt;
+&lt;li&gt;Content — e.g. videos, blog posts, etc&lt;/li&gt;
+&lt;li&gt;Vault templates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A few words on nominations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anyone can nominate, no login or account is required.&lt;/li&gt;
+&lt;li&gt;You can nominate new projects created in 2023, or existing projects that were updated in 2023.&lt;/li&gt;
+&lt;li&gt;You can nominate your own project.&lt;/li&gt;
+&lt;li&gt;You can submit multiple nominations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once nominations are in, the Obsidian team will select projects for the voting phase. Nominations help us gather a list of projects, so the number of nominations per project doesn&#39;t affect the outcome. Once nominations end, you&#39;ll have the opportunity to vote on your favorite projects for the final awards and prizes!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New Obsidian Sync plans: bigger, better, faster, smoother</title>
+		<link href="https://obsidian.md/blog/new-sync-plans/"/>
+		<updated>2023-11-21T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/new-sync-plans/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://obsidian.md/sync&quot;&gt;Obsidian Sync&lt;/a&gt; makes it easy to securely sync your Obsidian data across all major mobile and desktop platforms with end-to-end encryption, version history, and granular settings per device. Today we&#39;re excited to share a host of improvements to Obsidian Sync.&lt;/p&gt;
+&lt;h3&gt;What&#39;s new?&lt;/h3&gt;
+&lt;p&gt;Over the next few weeks, we will be updating Obsidian Sync to support the following improvements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;More vaults.&lt;/strong&gt; Vault limit has increased from 5 to 10 vaults.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexible storage.&lt;/strong&gt; Per-vault storage limits have changed to a single account-wide storage limit. This means you can allocate your storage any way you want across all your vaults.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;More storage options.&lt;/strong&gt; Vault storage will be expandable up to 100 GB.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bigger files.&lt;/strong&gt; Maximum file size is doubling from 100 MB to 200 MB.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Closer servers.&lt;/strong&gt; You can sync faster by choosing your region. Options will include North America, Europe, Asia, and Oceania.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Starting in January 2024, these will be the new Sync plans:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;10 GB for $10/mo, or $8/mo billed yearly&lt;/li&gt;
+&lt;li&gt;100 GB for $20/mo, or $16/mo billed yearly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Join Sync now for an early supporter holiday deal&lt;/h3&gt;
+&lt;p&gt;If you &lt;a href=&quot;https://obsidian.md/pricing&quot;&gt;sign up for Obsidian Sync&lt;/a&gt; between now and January 1st, 2024, you will get 50 GB of storage for $10/mo or $8/mo billed yearly.&lt;/p&gt;
+&lt;p&gt;If you are a current Sync subscriber your plan has automatically been upgraded to 50 GB of flexible storage, 10 vaults, and increased file size limit. Your pricing will not change, including any discounts you have.&lt;/p&gt;
+&lt;p&gt;Happy holidays, and thank you for being an early supporter!&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&quot;https://help.obsidian.md/Licenses+and+payment/Gifting&quot;&gt;gift Sync to your friends and family&lt;/a&gt; with this early supporter benefit through the end of the year.&lt;/p&gt;
+&lt;h3&gt;About these changes&lt;/h3&gt;
+&lt;p&gt;With these new plans, our goal is to continue offering more flexibility and speed while maintaining the price we launched with in 2020.&lt;/p&gt;
+&lt;p&gt;As Obsidian has grown beyond &lt;a href=&quot;https://obsidian.md/blog/new-obsidian-icon/&quot;&gt;a million users&lt;/a&gt; we have seen a growing variety in vault sizes and storage needs. Some people prefer one large vault, while others split their work across many vaults. Some people are strict text-only writers, while others love working with images, audio, video, and our &lt;a href=&quot;https://obsidian.md/changelog/2023-05-09-desktop-v1.3/&quot;&gt;recently improved PDF capabilities&lt;/a&gt;. This variety of use cases made it clear that Sync should grow beyond a one-size-fits-all plan.&lt;/p&gt;
+&lt;p&gt;Previously, the 5 vault limit and 10 GB per vault made Obsidian Sync too restrictive for some users. By making Sync more flexible we&#39;re excited to see what new use cases open up.&lt;/p&gt;
+&lt;h3&gt;FAQs&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Q: As a current user do I need to do anything special to access the new plan and features?&lt;/strong&gt;&lt;br&gt;
+A: As a current Sync subscriber, your account will be automatically upgraded to 10 vaults with 50 GB of flexible storage. There will be no changes in pricing at your next renewal. All discounts are preserved.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: How do these new plans affect early bird pricing, non-profit, or educational discounts?&lt;/strong&gt;&lt;br&gt;
+A: Any discounts on your account are still applied to the new plans. Your existing pricing will remain unchanged. If you upgrade to 100 GB of storage you will still benefit from the discounts on your account.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: If I cancel my 50 GB plan can I sign up for it again?&lt;/strong&gt;&lt;br&gt;
+A: No. If you cancel your 50 GB plan, it will no longer be available to you. Starting in January 2024, you will only have access to the new 10 GB and 100 GB storage options.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: Can I switch between monthly and yearly billing without losing my plan?&lt;/strong&gt;&lt;br&gt;
+A: Yes. You can switch between monthly and yearly billing (or vice versa) without affecting your plan features or any discount you may have.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: How can I change the server region for my Sync vault?&lt;/strong&gt;&lt;br&gt;
+A: You can only select a server region when you initially set up Sync. If you need to change servers you&#39;ll need to create a new remote vault and re-upload your vault data. Unfortunately you will lose version history if you do so. We do not currently offer a way to migrate your vault to a different region.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: Does the Sync server region affect the security or privacy of my data?&lt;/strong&gt;&lt;br&gt;
+A: No. Sync uses the same end-to-end encryption and &lt;a href=&quot;https://help.obsidian.md/Obsidian+Sync/Security+and+privacy&quot;&gt;approach to security and privacy&lt;/a&gt; regardless of the server region.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Goodbye legacy editor</title>
+		<link href="https://obsidian.md/blog/goodbye-legacy-editor/"/>
+		<updated>2023-11-02T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/goodbye-legacy-editor/</id>
+		<author>
+			<name>liam</name>
+		</author>
+		<content type="html">&lt;p&gt;In the upcoming Obsidian v1.5, the &lt;em&gt;legacy editor&lt;/em&gt; will be removed from the app.&lt;/p&gt;
+&lt;p&gt;For plugin developers, this means we will be completely removing CodeMirror 5 and you will be able to assume users on newer versions of Obsidian will be using CodeMirror 6.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;legacy editor&lt;/em&gt; has been a part of Obsidian since the beginning. In Obsidian v0.13, (which we shipped almost 2 years ago!), we completely rewrote the editor to be more robust and more future-proof. This new editor has been the default editing experience since it was introduced; however, the old editor has continued to stick around as an option. Many of Obsidian&#39;s first community plugins relied on the legacy editor so we kept it around for compatibility.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/remove-legacy-editor.png&quot; alt=&quot;Obsidian Settings showing legacy editor option&quot;&gt;&lt;/p&gt;
+&lt;p&gt;As we look forward to big and better editing improvements, we&#39;ve decided it&#39;s time to part ways. For most users, you likely won&#39;t notice anything different. Longer term, this will make it even easier for us to ship &lt;a href=&quot;/roadmap&quot;&gt;newer and better editing experiences&lt;/a&gt;. Of course, source mode will remain an option if you&#39;re looking for a strictly plain text experience.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/table-editing.gif&quot; alt=&quot;Table editing experience sneak peek&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Obsidian Importer now converts Apple Notes to portable, durable files</title>
+		<link href="https://obsidian.md/blog/apple-notes-export/"/>
+		<updated>2023-10-19T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/apple-notes-export/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://help.obsidian.md/import&quot;&gt;Obsidian Importer&lt;/a&gt; allows you to convert your data from a variety of proprietary formats to portable, durable files. These files work with any Markdown app, so you have control over your data, and are not locked into any tool.&lt;/p&gt;
+&lt;p&gt;Today we&#39;re excited to share that Importer now works with Apple Notes, and is compatible with its many content types — including internal links added in iOS 17. See our guide: &lt;a href=&quot;https://help.obsidian.md/import/apple-notes&quot;&gt;How to convert your Apple Notes to Obsidian&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Three months ago, &lt;a href=&quot;/blog/free-your-notes&quot;&gt;we introduced Importer&lt;/a&gt; as an &lt;a href=&quot;https://github.com/obsidianmd/obsidian-importer&quot;&gt;open-source project&lt;/a&gt;. Thanks to contributions from the Obsidian community, Importer supports converting your data from &lt;a href=&quot;https://help.obsidian.md/import/notion&quot;&gt;Notion&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/evernote&quot;&gt;Evernote&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/google-keep&quot;&gt;Google Keep&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/onenote&quot;&gt;Microsoft OneNote&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/bear&quot;&gt;Bear&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/roam&quot;&gt;Roam Research&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/html&quot;&gt;HTML files&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import&quot;&gt;and more&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The latest version of Importer tackles the most challenging format to date: Apple Notes.&lt;/p&gt;
+&lt;p&gt;Unfortunately, Apple Notes is one of the few note-taking apps that does not have a built-in export feature. Because Apple Notes uses a proprietary format, it makes data complicated to migrate, and nearly impossible to use in conjunction with other tools.&lt;/p&gt;
+&lt;p&gt;Apple Notes supports content such as tables, images, drawings, scans, and PDFs. As of iOS 17 it also supports links between notes. This breadth of content makes the conversion process more challenging. Here&#39;s the good news: all of these content types can now be extracted using Obsidian Importer.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/import-apple-notes.png&quot; alt=&quot;Obsidian Importer showing Apple Notes import&quot;&gt;&lt;/p&gt;
+&lt;p&gt;So, how does it work? Apple Notes stores your data in a local SQLite database. This data is in an undocumented format, but it&#39;s possible to decode how it is stored and convert it. Decoding the Protocol Buffers stored in the Apple Notes database was made possible by &lt;a href=&quot;https://github.com/threeplanetssoftware/apple_cloud_notes_parser&quot;&gt;the work of Jon Baumann&lt;/a&gt; from &lt;a href=&quot;https://www.ciofecaforensics.com/&quot;&gt;Ciofeca Forensics&lt;/a&gt; and its &lt;a href=&quot;https://github.com/obsidianmd/obsidian-importer/pull/125&quot;&gt;adaptation for Obsidian&lt;/a&gt; by &lt;a href=&quot;https://novov.me/&quot;&gt;Mir Novov&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Whether you&#39;re planning to migrate away from Apple Notes or just want to back up your data, the new Obsidian Importer gives you the freedom to easily convert your Apple Notes to portable, durable files.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Obsidian October 2023</title>
+		<link href="https://obsidian.md/blog/2023-obsidian-october/"/>
+		<updated>2023-09-26T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2023-obsidian-october/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;Welcome back to Obsidian October! For our third year, we&#39;re here to help you complete the community projects that you&#39;ve been meaning to work on.&lt;/p&gt;
+&lt;p&gt;Whether it&#39;s a plugin, theme, tool, or template, this is the month to get it across the finish line!&lt;/p&gt;
+&lt;p&gt;Join us in the &lt;a href=&quot;https://discord.gg/obsidianmd&quot;&gt;#obsidian-october-2023&lt;/a&gt; Discord channel to collaborate with the Obsidian team and community members. Whether you hit a snag, want some guidance, or are just looking for encouragement, we&#39;re excited to help!&lt;/p&gt;
+&lt;p&gt;For 2023, we will start our &lt;strong&gt;Gems of the Year&lt;/strong&gt; awards competition in early December. So, as Obsidian October unfolds, it&#39;s the ideal time to polish your project and release it. This will give the community a chance to play with your creation ahead of our annual awards.&lt;/p&gt;
+&lt;p&gt;Time to rock! Join us on &lt;a href=&quot;https://discord.gg/obsidianmd&quot;&gt;Discord&lt;/a&gt; and the &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-october-2023-daily-progress-and-learnings/68224&quot;&gt;Obsidian Forum&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Free your notes</title>
+		<link href="https://obsidian.md/blog/free-your-notes/"/>
+		<updated>2023-07-12T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/free-your-notes/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;p&gt;Apps come and go, but the files you create should last.&lt;/p&gt;
+&lt;p&gt;Today, we are excited to share a new official, &lt;a href=&quot;https://github.com/obsidianmd/obsidian-importer&quot;&gt;open source&lt;/a&gt; plugin for Obsidian called Importer. You can find it &lt;a href=&quot;https://obsidian.md/plugins?id=obsidian-importer&quot;&gt;in the Plugins directory&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Our goal for Importer is to make it easy to convert your notes from a variety of formats to &lt;a href=&quot;https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax&quot;&gt;Markdown&lt;/a&gt; files that you own and can use with any app that supports plain text files.&lt;/p&gt;
+&lt;p&gt;As we state in our &lt;a href=&quot;https://obsidian.md/about&quot;&gt;Manifesto&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We believe that your data should be future-proof and easily accessible, no matter where you are.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;By converting your notes to plain text files, you can take ownership over your data and avoid becoming locked into a specific tool.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2023-07-importer.png#border&quot; alt=&quot;Obsidian Importer screenshot&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Importer supports converting from a wide variety of apps and formats. These include &lt;a href=&quot;https://help.obsidian.md/import/apple-notes&quot;&gt;Apple Notes&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/notion&quot;&gt;Notion&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/evernote&quot;&gt;Evernote&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/google-keep&quot;&gt;Google Keep&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/onenote&quot;&gt;Microsoft OneNote&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/bear&quot;&gt;Bear&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/roam&quot;&gt;Roam Research&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import/html&quot;&gt;HTML files&lt;/a&gt;, &lt;a href=&quot;https://help.obsidian.md/import&quot;&gt;and more&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Obsidian stores your files in a local folder on your device, so that you always have control over them, even offline.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>How to verify Obsidian Sync&#39;s end-to-end encryption</title>
+		<link href="https://obsidian.md/blog/verify-obsidian-sync-encryption/"/>
+		<updated>2023-06-05T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/verify-obsidian-sync-encryption/</id>
+		<author>
+			<name>licat</name>
+		</author>
+		<content type="html">&lt;p&gt;On our &lt;a href=&quot;https://obsidian.md&quot;&gt;About page&lt;/a&gt;, we describe the guiding principles that have shaped Obsidian since the start. Privacy is one of these principles, and we go to great lengths to make sure we can uphold this statement:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We believe that your thoughts and ideas belong to you and deserve complete privacy. That&#39;s why your data is stored on your device, inaccessible to us. When you use our online services, your data is protected with end-to-end encryption for maximum security.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When you use &lt;a href=&quot;https://obsidian.md/sync&quot;&gt;Obsidian Sync&lt;/a&gt;, your data is end-to-end encrypted. But how can you be sure that is true?&lt;/p&gt;
+&lt;p&gt;In this guide, we provide step-by-step instructions so that you can trustlessly verify the end-to-end encryption of your data when it is sent and received via our Sync servers.&lt;/p&gt;
+&lt;h3&gt;How Obsidian Sync works&lt;/h3&gt;
+&lt;p&gt;Let&#39;s review how Obsidian Sync encryption works:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You provide a vault password, or let our managed server generate one for you. This password is separate from your account password and is only used for establishing a remote vault.&lt;/li&gt;
+&lt;li&gt;The Obsidian app generates a unique &lt;a href=&quot;https://en.wikipedia.org/wiki/Salt_(cryptography)&quot;&gt;salt&lt;/a&gt; for each vault. A salt is random data used to protect your password by mixing it with your password before hashing.&lt;/li&gt;
+&lt;li&gt;Your encryption key is derived from your password + salt using an algorithm called &lt;a href=&quot;https://en.wikipedia.org/wiki/Scrypt&quot;&gt;scrypt&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;This encryption key is used to encrypt/decrypt data with &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Encryption_Standard&quot;&gt;AES-256&lt;/a&gt; using &lt;a href=&quot;https://en.wikipedia.org/wiki/Galois/Counter_Mode&quot;&gt;Galois/Counter Mode&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In the next few steps, you&#39;ll learn how to get your vault&#39;s salt, and test the encryption of your data.&lt;/p&gt;
+&lt;h3&gt;Getting your vault&#39;s salt&lt;/h3&gt;
+&lt;p&gt;First, get the salt used to derive your encryption key by following these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make sure that Obsidian Sync is turned on.&lt;/li&gt;
+&lt;li&gt;Open Developer Tools in the Obsidian app using the hotkey &lt;kbd&gt;Cmd+Opt+I&lt;/kbd&gt; on macOS or &lt;kbd&gt;Ctrl+Shift+I&lt;/kbd&gt; on Windows.&lt;/li&gt;
+&lt;li&gt;Go to the Console and run the following code, by copy/pasting it and pressing the Return key:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;let data = await (await fetch(&#39;https://api.obsidian.md/vault/list&#39;, {method:&#39;POST&#39;, headers: {&#39;Content-Type&#39;:&#39;application/json&#39;}, body: JSON.stringify({token: JSON.parse(localStorage.getItem(&#39;obsidian-account&#39;)).token})})).json();
+let vaults = [].concat(data.shared, data.vaults);
+let vault = vaults.find(v =&amp;gt; v.id === app.internalPlugins.getEnabledPluginById(&#39;sync&#39;).vaultId);
+console.log(`The salt of your vault ${vault.name} is: &amp;quot;${vault.salt}&amp;quot;`);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You should see a message containing your salt:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;The salt of your vault Notes is: &amp;quot;8II2%?YeNpddlbd@4Z)c&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Decrypting data&lt;/h3&gt;
+&lt;p&gt;Next, find an example of a sync event and decrypt it. Here we will use the Network tab of Developers Tools. This is where all sync events are logged, so you can see data that is being sent and received by the Obsidian app, and confirm that it is using your encryption key.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to the Network tab of the Developer Tools, and filter by &amp;quot;WS&amp;quot; types (for &lt;a href=&quot;https://en.wikipedia.org/wiki/WebSocket&quot;&gt;WebSocket&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Find the WebSocket connection to Obsidian Sync. It will look like &lt;code&gt;sync-xx.obsidian.md&lt;/code&gt; — you may need to reload Obsidian to see it.&lt;/li&gt;
+&lt;li&gt;In the WebSocket data stream, go to the Message tab. There you will see binary messages of uploads and downloads. If you aren&#39;t seeing them, you can easily trigger one by modifying any synced note in your vault.&lt;/li&gt;
+&lt;li&gt;Right click on one of them and choose &lt;code&gt;Copy message &amp;gt; Copy as Base64&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Using the following code, enter your password, your salt, and base64 binary data, and run the decryption routine in the Console (alternatively you can run it in a NodeJS prompt or script).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;// Use the standard crypto package from NodeJS
+let crypto = require(&#39;crypto&#39;);
+
+// Enter your password, salt, and binary data as base64
+let password = &#39;E@QAXVBo44PQtzS6EAyU&#39;;
+let salt = &#39;8II2%?YeNpddlbd@4Z)c&#39;;
+let data = Buffer.from(&#39;ApLmsQVGwGHmjb7jM4G2ZXnl2+Wi8CJMZSbgCTvcBHendXw01iNw3oWQ8Y8gW1tS7f/OMly1n4KoNhjy&#39;, &#39;base64&#39;);
+
+// Derive the encryption/decryption key from your password and salt
+let key = crypto.scryptSync(Buffer.from(password.normalize(&#39;NFKC&#39;), &#39;utf8&#39;), Buffer.from(salt.normalize(&#39;NFKC&#39;), &#39;utf8&#39;),
+  32, {N: 32768, r: 8, p: 1, maxmem: 128 * 32768 * 8 * 2});
+
+// Split up the data blob into the 12-bytes IV, the encrypted data, and the 16-bytes auth tag.
+let iv = data.subarray(0, 12);
+let encryptedData = data.subarray(12, data.length - 16);
+let authTag = data.subarray(data.length - 16);
+
+// Decrypt the data
+let decipher = crypto.createDecipheriv(&#39;aes-256-gcm&#39;, key, iv);
+decipher.setAuthTag(authTag);
+let decrypted = Buffer.concat([decipher.update(encryptedData), decipher.final()]);
+
+// Print it to a string
+console.log(decrypted.toString(&#39;utf8&#39;));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The data that is returned should be a revision of a file that was sent or received via the Obsidian Sync&#39;s servers. That&#39;s it! If it properly decrypts, you&#39;ll know your encryption key is working.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The new Obsidian icon</title>
+		<link href="https://obsidian.md/blog/new-obsidian-icon/"/>
+		<updated>2023-06-01T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/new-obsidian-icon/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;p&gt;Since we started three years ago, we&#39;ve built Obsidian on &lt;a href=&quot;https://obsidian.md/about&quot;&gt;core principles&lt;/a&gt; that continue to motivate everything we do.&lt;/p&gt;
+&lt;p&gt;We&#39;ve been encouraged to see that these principles are resonating. Obsidian is rounding the corner on 1,000 community plugins, 100,000 Discord members, and 1 million downloads on our latest release!&lt;/p&gt;
+&lt;p&gt;As we celebrate this milestone, we&#39;re thrilled to introduce a new logo and app icon that reflects &lt;a href=&quot;https://obsidian.md/about&quot;&gt;Obsidian’s values&lt;/a&gt;, and can continue to inspire the community going forward.&lt;/p&gt;
+&lt;p&gt;Say hello to the new Obsidian app icon:&lt;/p&gt;
+&lt;div class=&quot;py-16&quot;&gt;
+&lt;a class=&quot;logo-shimmer&quot; href=&quot;https://obsidian.md&quot;&gt;
+&lt;div class=&quot;mx-auto card card-logo card-shimmer flex items-center justify-center bg-secondary rounded-[20%] w-48 h-48 lg:w-64 lg:h-64 shadow-2xl hover:shadow-3xl&quot;&gt;
+&lt;img src=&quot;/images/obsidian-logo-gradient.svg&quot; width=&quot;85%&quot; height=&quot;85%&quot; alt=&quot;Obsidian&quot; class=&quot;sm:hidden&quot; /&gt;
+&lt;svg fill=&quot;none&quot; class=&quot;hidden sm:inline-block&quot; height=&quot;100%&quot; width=&quot;100%&quot; viewBox=&quot;0 0 512 512&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+	&lt;radialGradient id=&quot;logo-bottom-left&quot; cx=&quot;0&quot; cy=&quot;0&quot; gradientTransform=&quot;matrix(-59 -225 150 -39 161.4 470)&quot; gradientUnits=&quot;userSpaceOnUse&quot; r=&quot;1&quot;&gt;
+		&lt;stop offset=&quot;0&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.4&quot;/&gt;
+		&lt;stop offset=&quot;1&quot; stop-opacity=&quot;.1&quot;/&gt;
+	&lt;/radialGradient&gt;
+	&lt;radialGradient id=&quot;logo-top-right&quot; cx=&quot;0&quot; cy=&quot;0&quot; gradientTransform=&quot;matrix(50 -379 280 37 360 374.2)&quot; gradientUnits=&quot;userSpaceOnUse&quot; r=&quot;1&quot;&gt;
+		&lt;stop offset=&quot;0&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.6&quot;/&gt;
+		&lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.1&quot;/&gt;
+	&lt;/radialGradient&gt;
+	&lt;radialGradient id=&quot;logo-top-left&quot; cx=&quot;0&quot; cy=&quot;0&quot; gradientTransform=&quot;matrix(69 -319 218 47 175.4 307)&quot; gradientUnits=&quot;userSpaceOnUse&quot; r=&quot;1&quot;&gt;
+		&lt;stop offset=&quot;0&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.8&quot;/&gt;
+		&lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.4&quot;/&gt;
+	&lt;/radialGradient&gt;
+	&lt;radialGradient id=&quot;logo-bottom-right&quot; cx=&quot;0&quot; cy=&quot;0&quot; gradientTransform=&quot;matrix(-96 -163 187 -111 335.3 512.2)&quot; gradientUnits=&quot;userSpaceOnUse&quot; r=&quot;1&quot;&gt;
+		&lt;stop offset=&quot;0&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.3&quot;/&gt;
+		&lt;stop offset=&quot;1&quot; stop-opacity=&quot;.3&quot;/&gt;
+	&lt;/radialGradient&gt;
+	&lt;radialGradient id=&quot;logo-top-edge&quot; cx=&quot;0&quot; cy=&quot;0&quot; gradientTransform=&quot;matrix(-36 166 -112 -24 310 128.2)&quot; gradientUnits=&quot;userSpaceOnUse&quot; r=&quot;1&quot;&gt;
+		&lt;stop offset=&quot;0&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;0&quot;/&gt;
+		&lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.2&quot;/&gt;
+	&lt;/radialGradient&gt;
+	&lt;radialGradient id=&quot;logo-left-edge&quot; cx=&quot;0&quot; cy=&quot;0&quot; gradientTransform=&quot;matrix(88 89 -190 187 111 220.2)&quot; gradientUnits=&quot;userSpaceOnUse&quot; r=&quot;1&quot;&gt;
+		&lt;stop offset=&quot;0&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.2&quot;/&gt;
+		&lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.4&quot;/&gt;
+	&lt;/radialGradient&gt;
+	&lt;radialGradient id=&quot;logo-bottom-edge&quot; cx=&quot;0&quot; cy=&quot;0&quot; gradientTransform=&quot;matrix(9 130 -276 20 215 284)&quot; gradientUnits=&quot;userSpaceOnUse&quot; r=&quot;1&quot;&gt;
+		&lt;stop offset=&quot;0&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.2&quot;/&gt;
+		&lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.3&quot;/&gt;
+	&lt;/radialGradient&gt;
+	&lt;radialGradient id=&quot;logo-middle-edge&quot; cx=&quot;0&quot; cy=&quot;0&quot; gradientTransform=&quot;matrix(-198 -104 327 -623 400 399.2)&quot; gradientUnits=&quot;userSpaceOnUse&quot; r=&quot;1&quot;&gt;
+		&lt;stop offset=&quot;0&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.2&quot;/&gt;
+		&lt;stop offset=&quot;.5&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.2&quot;/&gt;
+		&lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.3&quot;/&gt;
+	&lt;/radialGradient&gt;
+	&lt;clipPath id=&quot;clip&quot;&gt;
+		&lt;path d=&quot;M.2.2h512v512H.2z&quot;/&gt;
+	&lt;/clipPath&gt;
+	&lt;g clip-path=&quot;url(#clip)&quot;&gt;
+		&lt;path d=&quot;M382.3 475.6c-3.1 23.4-26 41.6-48.7 35.3-32.4-8.9-69.9-22.8-103.6-25.4l-51.7-4a34 34 0 0 1-22-10.2l-89-91.7a34 34 0 0 1-6.7-37.7s55-121 57.1-127.3c2-6.3 9.6-61.2 14-90.6 1.2-7.9 5-15 11-20.3L248 8.9a34.1 34.1 0 0 1 49.6 4.3L386 125.6a37 37 0 0 1 7.6 22.4c0 21.3 1.8 65 13.6 93.2 11.5 27.3 32.5 57 43.5 71.5a17.3 17.3 0 0 1 1.3 19.2 1494 1494 0 0 1-44.8 70.6c-15 22.3-21.9 49.9-25 73.1z&quot; fill=&quot;#6c31e3&quot;/&gt;
+		&lt;path d=&quot;M165.9 478.3c41.4-84 40.2-144.2 22.6-187-16.2-39.6-46.3-64.5-70-80-.6 2.3-1.3 4.4-2.2 6.5L60.6 342a34 34 0 0 0 6.6 37.7l89.1 91.7a34 34 0 0 0 9.6 7z&quot; fill=&quot;url(#logo-bottom-left)&quot;/&gt;
+		&lt;path d=&quot;M278.4 307.8c11.2 1.2 22.2 3.6 32.8 7.6 34 12.7 65 41.2 90.5 96.3 1.8-3.1 3.6-6.2 5.6-9.2a1536 1536 0 0 0 44.8-70.6 17 17 0 0 0-1.3-19.2c-11-14.6-32-44.2-43.5-71.5-11.8-28.2-13.5-72-13.6-93.2 0-8.1-2.6-16-7.6-22.4L297.6 13.2a34 34 0 0 0-1.5-1.7 96 96 0 0 1 2 54 198.3 198.3 0 0 1-17.6 41.3l-7.2 14.2a171 171 0 0 0-19.4 71c-1.2 29.4 4.8 66.4 24.5 115.8z&quot; fill=&quot;url(#logo-top-right)&quot;/&gt;
+		&lt;path d=&quot;M278.4 307.8c-19.7-49.4-25.8-86.4-24.5-115.9a171 171 0 0 1 19.4-71c2.3-4.8 4.8-9.5 7.2-14.1 7.1-13.9 14-27 17.6-41.4a96 96 0 0 0-2-54A34.1 34.1 0 0 0 248 9l-105.4 94.8a34.1 34.1 0 0 0-10.9 20.3l-12.8 85-.5 2.3c23.8 15.5 54 40.4 70.1 80a147 147 0 0 1 7.8 24.8c28-6.8 55.7-11 82.1-8.3z&quot; fill=&quot;url(#logo-top-left)&quot;/&gt;
+		&lt;path d=&quot;M333.6 511c22.7 6.2 45.6-12 48.7-35.4a187 187 0 0 1 19.4-63.9c-25.6-55-56.5-83.6-90.4-96.3-36-13.4-75.2-9-115 .7 8.9 40.4 3.6 93.3-30.4 162.2 4 1.8 8.1 3 12.5 3.3 0 0 24.4 2 53.6 4.1 29 2 72.4 17.1 101.6 25.2z&quot; fill=&quot;url(#logo-bottom-right)&quot;/&gt;
+		&lt;g clip-rule=&quot;evenodd&quot; fill-rule=&quot;evenodd&quot;&gt;
+			&lt;path d=&quot;M254.1 190c-1.3 29.2 2.4 62.8 22.1 112.1l-6.2-.5c-17.7-51.5-21.5-78-20.2-107.6a174.7 174.7 0 0 1 20.4-72c2.4-4.9 8-14.1 10.5-18.8 7.1-13.7 11.9-21 16-33.6 5.7-17.5 4.5-25.9 3.8-34.1 4.6 29.9-12.7 56-25.7 82.4a177.1 177.1 0 0 0-20.7 72z&quot; fill=&quot;url(#logo-top-edge)&quot;/&gt;
+			&lt;path d=&quot;M194.3 293.4c2.4 5.4 4.6 9.8 6 16.5L195 311c-2.1-7.8-3.8-13.4-6.8-20-17.8-42-46.3-63.6-69.7-79.5 28.2 15.2 57.2 39 75.7 81.9z&quot; fill=&quot;url(#logo-left-edge)&quot;/&gt;
+			&lt;path d=&quot;M200.6 315.1c9.8 46-1.2 104.2-33.6 160.9 27.1-56.2 40.2-110.1 29.3-160z&quot; fill=&quot;url(#logo-bottom-edge)&quot;/&gt;
+			&lt;path d=&quot;M312.5 311c53.1 19.9 73.6 63.6 88.9 100-19-38.1-45.2-80.3-90.8-96-34.8-11.8-64.1-10.4-114.3 1l-1.1-5c53.2-12.1 81-13.5 117.3 0z&quot; fill=&quot;url(#logo-middle-edge)&quot;/&gt;
+		&lt;/g&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;h3&gt;To make something that lasts, look to the past&lt;/h3&gt;
+&lt;p&gt;The new Obsidian icon is inspired by its namesake, the volcanic rock which has been used since the dawn of humanity to make arrowheads, scrapers, knives, and other tools.&lt;/p&gt;
+&lt;p&gt;We want to make it possible for your digital notes to be preserved for generations to come. While we can&#39;t predict how computers and digital information will evolve in the future, the new icon is a reminder that we can look to the past for inspiration.&lt;/p&gt;
+&lt;p&gt;Obsidian notes are stored in simple, plain text files, which have been in use since the dawn of &lt;em&gt;computing&lt;/em&gt;. If you want your writing to still be readable on a computer from the 2060s or 2160s, we think it&#39;s important that your Obsidian notes can be read on a computer from the 1960s.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2023-06-logo-reductions.png&quot; alt=&quot;Obsidian logo reduced to single color&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The new logo is designed to remain legible when reduced to single color applications — because it too should have looked groovy in the 60s.&lt;/p&gt;
+&lt;h3&gt;Sharpen your thinking&lt;/h3&gt;
+&lt;p&gt;Extending the metaphor of obsidian tools, our ambition is for Obsidian to be the tool that helps you think more clearly. As a material, obsidian is shaped using a technique called &lt;a href=&quot;https://en.wikipedia.org/wiki/Knapping&quot;&gt;knapping&lt;/a&gt;, chipping off flakes of rock to create sharp edges.&lt;/p&gt;
+&lt;p&gt;Obsidian aims to help you hone your thoughts and refine your ideas with precision. The new icon represents a practical, user-friendly tool that helps you cut through the clutter and carve out clear ideas.&lt;/p&gt;
+&lt;h3&gt;You shape your tools, and they shape you&lt;/h3&gt;
+&lt;p&gt;We believe that Obsidian should adapt to your way of thinking, not the other way around. That&#39;s why we focus on making Obsidian highly customizable and extensible, so you can shape it to your unique needs.&lt;/p&gt;
+&lt;p&gt;Like the app itself, the new Obsidian icon is malleable. It can be personalized to reflect your favorite color scheme. With our &lt;a href=&quot;/brand&quot;&gt;customizable vector files&lt;/a&gt;, you can tailor the Obsidian icon to your liking. Give it a try!&lt;/p&gt;
+&lt;div class=&quot;card card-logo my-16 mx-auto flex items-center justify-center rounded-[20%] w-48 h-48 lg:w-64 lg:h-64&quot;&gt; 
+&lt;svg id=&quot;custom-logo&quot; width=&quot;512&quot; height=&quot;512&quot; viewBox=&quot;0 0 512 512&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;height:100%;width:100%;&quot;&gt;
+  &lt;defs&gt;
+    &lt;radialGradient id=&quot;b&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;1&quot; gradientUnits=&quot;userSpaceOnUse&quot; gradientTransform=&quot;matrix(-48 -185 123 -32 179 429.7)&quot;&gt;
+      &lt;stop stop-color=&quot;#fff&quot; stop-opacity=&quot;.4&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; stop-opacity=&quot;.1&quot;/&gt;
+    &lt;/radialGradient&gt;
+    &lt;radialGradient id=&quot;c&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;1&quot; gradientUnits=&quot;userSpaceOnUse&quot; gradientTransform=&quot;matrix(41 -310 229 30 341.6 351.3)&quot;&gt;
+      &lt;stop stop-color=&quot;#fff&quot; stop-opacity=&quot;.6&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.1&quot;/&gt;
+    &lt;/radialGradient&gt;
+    &lt;radialGradient id=&quot;d&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;1&quot; gradientUnits=&quot;userSpaceOnUse&quot; gradientTransform=&quot;matrix(57 -261 178 39 190.5 296.3)&quot;&gt;
+      &lt;stop stop-color=&quot;#fff&quot; stop-opacity=&quot;.8&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.4&quot;/&gt;
+    &lt;/radialGradient&gt;
+    &lt;radialGradient id=&quot;e&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;1&quot; gradientUnits=&quot;userSpaceOnUse&quot; gradientTransform=&quot;matrix(-79 -133 153 -90 321.4 464.2)&quot;&gt;
+      &lt;stop stop-color=&quot;#fff&quot; stop-opacity=&quot;.3&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; stop-opacity=&quot;.3&quot;/&gt;
+    &lt;/radialGradient&gt;
+    &lt;radialGradient id=&quot;f&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;1&quot; gradientUnits=&quot;userSpaceOnUse&quot; gradientTransform=&quot;matrix(-29 136 -92 -20 300.7 149.9)&quot;&gt;
+      &lt;stop stop-color=&quot;#fff&quot; stop-opacity=&quot;0&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.2&quot;/&gt;
+    &lt;/radialGradient&gt;
+    &lt;radialGradient id=&quot;g&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;1&quot; gradientUnits=&quot;userSpaceOnUse&quot; gradientTransform=&quot;matrix(72 73 -155 153 137.8 225.2)&quot;&gt;
+      &lt;stop stop-color=&quot;#fff&quot; stop-opacity=&quot;.2&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.4&quot;/&gt;
+    &lt;/radialGradient&gt;
+    &lt;radialGradient id=&quot;h&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;1&quot; gradientUnits=&quot;userSpaceOnUse&quot; gradientTransform=&quot;matrix(20 118 -251 43 215.1 273.7)&quot;&gt;
+      &lt;stop stop-color=&quot;#fff&quot; stop-opacity=&quot;.1&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.3&quot;/&gt;
+    &lt;/radialGradient&gt;
+    &lt;radialGradient id=&quot;i&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;1&quot; gradientUnits=&quot;userSpaceOnUse&quot; gradientTransform=&quot;matrix(-162 -85 268 -510 374.4 371.7)&quot;&gt;
+      &lt;stop stop-color=&quot;#fff&quot; stop-opacity=&quot;.2&quot;/&gt;
+      &lt;stop offset=&quot;.5&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.2&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.3&quot;/&gt;
+    &lt;/radialGradient&gt;
+    &lt;filter id=&quot;a&quot; x=&quot;80.1&quot; y=&quot;37&quot; width=&quot;351.1&quot; height=&quot;443.2&quot; filterUnits=&quot;userSpaceOnUse&quot; color-interpolation-filters=&quot;sRGB&quot;&gt;
+      &lt;feFlood flood-opacity=&quot;0&quot; result=&quot;BackgroundImageFix&quot;/&gt;
+      &lt;feBlend in=&quot;SourceGraphic&quot; in2=&quot;BackgroundImageFix&quot; result=&quot;shape&quot;/&gt;
+      &lt;feGaussianBlur stdDeviation=&quot;6.5&quot; result=&quot;effect1_foregroundBlur_744_9191&quot;/&gt;
+    &lt;/filter&gt;
+  &lt;/defs&gt;
+  &lt;rect id=&quot;logo-bg&quot; fill=&quot;#262626&quot; width=&quot;512&quot; height=&quot;512&quot; rx=&quot;100&quot; /&gt;
+  &lt;g filter=&quot;url(#a)&quot;&gt;
+    &lt;path d=&quot;M359.2 437.5c-2.6 19-21.3 33.9-40 28.7-26.5-7.2-57.2-18.6-84.8-20.7l-42.4-3.2a28 28 0 0 1-18-8.3l-73-74.8a27.7 27.7 0 0 1-5.4-30.7s45-98.6 46.8-103.7c1.6-5.1 7.8-49.9 11.4-73.9a28 28 0 0 1 9-16.5L249 57.2a28 28 0 0 1 40.6 3.4l72.6 91.6a29.5 29.5 0 0 1 6.2 18.3c0 17.3 1.5 53 11.2 76a301.3 301.3 0 0 0 35.6 58.2 14 14 0 0 1 1 15.6c-6.3 10.7-18.9 31.3-36.6 57.6a142.2 142.2 0 0 0-20.5 59.6Z&quot; fill=&quot;#000&quot; fill-opacity=&quot;.3&quot;/&gt;
+  &lt;/g&gt;
+  &lt;path id=&quot;arrow&quot; d=&quot;M359.9 434.3c-2.6 19.1-21.3 34-40 28.9-26.4-7.3-57-18.7-84.7-20.8l-42.3-3.2a27.9 27.9 0 0 1-18-8.4l-73-75a27.9 27.9 0 0 1-5.4-31s45.1-99 46.8-104.2c1.7-5.1 7.8-50 11.4-74.2a28 28 0 0 1 9-16.6l86.2-77.5a28 28 0 0 1 40.6 3.5l72.5 92a29.7 29.7 0 0 1 6.2 18.3c0 17.4 1.5 53.2 11.1 76.3a303 303 0 0 0 35.6 58.5 14 14 0 0 1 1.1 15.7c-6.4 10.8-18.9 31.4-36.7 57.9a143.3 143.3 0 0 0-20.4 59.8Z&quot; fill=&quot;#6C31E3&quot;/&gt;
+  &lt;path d=&quot;M182.7 436.4c33.9-68.7 33-118 18.5-153-13.2-32.4-37.9-52.8-57.3-65.5-.4 1.9-1 3.7-1.8 5.4L96.5 324.8a27.9 27.9 0 0 0 5.5 31l72.9 75c2.3 2.3 5 4.2 7.8 5.6Z&quot; fill=&quot;url(#b)&quot;/&gt;
+  &lt;path d=&quot;M274.9 297c9.1.9 18 2.9 26.8 6.1 27.8 10.4 53.1 33.8 74 78.9 1.5-2.6 3-5.1 4.6-7.5a1222 1222 0 0 0 36.7-57.9 14 14 0 0 0-1-15.7 303 303 0 0 1-35.7-58.5c-9.6-23-11-58.9-11.1-76.3 0-6.6-2.1-13.1-6.2-18.3l-72.5-92-1.2-1.5c5.3 17.5 5 31.5 1.7 44.2-3 11.8-8.6 22.5-14.5 33.8-2 3.8-4 7.7-5.9 11.7a140 140 0 0 0-15.8 58c-1 24.2 3.9 54.5 20 95Z&quot; fill=&quot;url(#c)&quot;/&gt;
+  &lt;path d=&quot;M274.8 297c-16.1-40.5-21-70.8-20-95 1-24 8-42 15.8-58l6-11.7c5.8-11.3 11.3-22 14.4-33.8a78.5 78.5 0 0 0-1.7-44.2 28 28 0 0 0-39.4-2l-86.2 77.5a28 28 0 0 0-9 16.6L144.2 216c0 .7-.2 1.3-.3 2 19.4 12.6 44 33 57.3 65.3 2.6 6.4 4.8 13.1 6.4 20.4a200 200 0 0 1 67.2-6.8Z&quot; fill=&quot;url(#d)&quot;/&gt;
+  &lt;path d=&quot;M320 463.2c18.6 5.1 37.3-9.8 39.9-29a153 153 0 0 1 15.9-52.2c-21-45.1-46.3-68.5-74-78.9-29.5-11-61.6-7.3-94.2.6 7.3 33.1 3 76.4-24.8 132.7 3.1 1.6 6.6 2.5 10.1 2.8l43.9 3.3c23.8 1.7 59.3 14 83.2 20.7Z&quot; fill=&quot;url(#e)&quot;/&gt;
+  &lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M255 200.5c-1.1 24 1.9 51.4 18 91.8l-5-.5c-14.5-42.1-17.7-63.7-16.6-88 1-24.3 8.9-43 16.7-59 2-4 6.6-11.5 8.6-15.3 5.8-11.3 9.7-17.2 13-27.5 4.8-14.4 3.8-21.2 3.2-28 3.7 24.5-10.4 45.8-21 67.5a145 145 0 0 0-17 59Z&quot; fill=&quot;url(#f)&quot;/&gt;
+  &lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M206 285.1c2 4.4 3.7 8 4.9 13.5l-4.3 1c-1.7-6.4-3-11-5.5-16.5-14.6-34.3-38-52-57-65 23 12.4 46.7 31.9 61.9 67Z&quot; fill=&quot;url(#g)&quot;/&gt;
+  &lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M211.1 303c8 37.5-1 85.2-27.5 131.6 22.2-46 33-90.1 24-131l3.5-.7Z&quot; fill=&quot;url(#h)&quot;/&gt;
+  &lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M302.7 299.5c43.5 16.3 60.3 52 72.8 81.9-15.5-31.2-37-65.7-74.4-78.5-28.4-9.8-52.4-8.6-93.5.7l-.9-4c43.6-10 66.4-11.2 96 0Z&quot; fill=&quot;url(#i)&quot;/&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class=&quot;flex text-center mx-auto justify-center items-center&quot;&gt;
+	&lt;input type=&quot;color&quot; value=&quot;#262626&quot; id=&quot;logo-bg-input&quot; class=&quot;cursor-pointer p-0 rounded-full mr-4&quot;&gt;
+	&lt;input type=&quot;color&quot; value=&quot;#6c31e3&quot; id=&quot;arrow-input&quot; class=&quot;cursor-pointer p-0 rounded-full mr-4&quot;&gt;
+	&lt;button title=&quot;Reset&quot; id=&quot;reset-button&quot; class=&quot;font-medium text-sm text-muted p-2 mr-1 rounded hover:bg-secondary hover:text-white&quot;&gt;&lt;i icon-name=&quot;rotate-ccw&quot; class=&quot;icon-xl sm:icon-lg&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+	&lt;button title=&quot;Shuffle&quot; id=&quot;randomize-button&quot; class=&quot;font-medium text-sm text-muted p-2 mr-1 rounded hover:bg-secondary hover:text-white&quot;&gt;&lt;i icon-name=&quot;shuffle&quot; class=&quot;icon-xl sm:icon-lg&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;flex justify-center items-center text-center mx-auto mt-4 mb-16&quot;&gt;
+	&lt;div class=&quot;p-1 border rounded border-gray-800 flex items-center&quot;&gt;
+		&lt;span class=&quot;font-medium sm:text-base text-normal mr-2 pl-2&quot;&gt;Save to&lt;/span&gt;
+		&lt;button id=&quot;save-button-png&quot; class=&quot;font-medium sm:text-base text-accent py-1 px-2 rounded hover:bg-accent-700 hover:text-white&quot;&gt;PNG&lt;/button&gt;
+		&lt;button id=&quot;save-button-svg&quot; class=&quot;font-medium sm:text-base text-accent py-1 px-2 rounded hover:bg-accent-700 hover:text-white&quot;&gt;SVG&lt;/button&gt;
+		&lt;button id=&quot;save-button-ico&quot; class=&quot;font-medium sm:text-base text-accent py-1 px-2 rounded hover:bg-accent-700 hover:text-white&quot;&gt;ICO&lt;/button&gt;
+		&lt;button id=&quot;save-button-icns&quot; class=&quot;font-medium sm:text-base text-accent py-1 px-2 rounded hover:bg-accent-700 hover:text-white&quot;&gt;ICNS&lt;/button&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mt-8 flex text-center text-base mx-auto gap-4 justify-center items-center hidden&quot;&gt;
+	&lt;select id=&quot;color-presets&quot;&gt;
+		&lt;option value=&quot;#262626&quot; data-arrow=&quot;#6c31e3&quot; data-background=&quot;#262626&quot;&gt;Default (dark)&lt;/option&gt;
+		&lt;option value=&quot;#6c31e3&quot; data-arrow=&quot;#6c31e3&quot; data-background=&quot;#FFFFFF&quot;&gt;Default (light)&lt;/option&gt;
+		&lt;option value=&quot;#7e52bc&quot; data-arrow=&quot;#7e52bc&quot; data-background=&quot;#282a37&quot;&gt;Dracula&lt;/option&gt;
+		&lt;option value=&quot;#8DA102&quot; data-arrow=&quot;#8DA102&quot; data-background=&quot;#323B43&quot;&gt;Everforest&lt;/option&gt;
+		&lt;option value=&quot;#D65D0D&quot; data-arrow=&quot;#D65D0D&quot; data-background=&quot;#282828&quot;&gt;Gruvbox&lt;/option&gt;
+		&lt;option value=&quot;#5E81AC&quot; data-arrow=&quot;#5E81AC&quot; data-background=&quot;#2E3440&quot;&gt;Nord&lt;/option&gt;
+		&lt;option value=&quot;#002B36&quot; data-arrow=&quot;#839497&quot; data-background=&quot;#002B36&quot;&gt;Solarized&lt;/option&gt;
+	&lt;/select&gt;
+&lt;/div&gt;
+&lt;p&gt;Our new icon and branding was created internally. Thank you to everyone who provided feedback along the way!&lt;/p&gt;
+&lt;p&gt;You will see the new icon by &lt;a href=&quot;https://obsidian.md/download&quot;&gt;downloading&lt;/a&gt; the latest version of Obsidian. We&#39;ve also polished the website, and added two new sections, the &lt;a href=&quot;https://obsidian.md/blog&quot;&gt;Blog&lt;/a&gt; and &lt;a href=&quot;https://obsidian.md/changelog&quot;&gt;Changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;script src=&quot;/logogen.js&quot;&gt;&lt;/script&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New developer documentation site</title>
+		<link href="https://obsidian.md/blog/new-documentation-site/"/>
+		<updated>2023-04-27T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/new-documentation-site/</id>
+		<author>
+			<name>marcusolsson</name>
+		</author>
+		<content type="html">&lt;p&gt;Are you building a plugin or theme for Obsidian?&lt;/p&gt;
+&lt;p&gt;Today we&#39;re launching our new Developer Documentation: &lt;a href=&quot;https://docs.obsidian.md&quot;&gt;docs.obsidian.md&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Learn how to get started and how to polish an existing project, using our new resources for developers.&lt;/p&gt;
+&lt;p&gt;Here are a few of the things you can find in the new docs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tutorials&lt;/strong&gt; for how to get started with plugin and theme development.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reference docs&lt;/strong&gt; for both our plugin API and CSS variables&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Guidelines&lt;/strong&gt; for how to publish your project to the Obsidian catalog.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We look forward to hearing what you think, and to continuing to improve the docs with more developer content!&lt;/p&gt;
+&lt;p&gt;Visit &lt;a href=&quot;https://docs.obsidian.md&quot;&gt;docs.obsidian.md&lt;/a&gt; to get started.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Obsidian Publish now offers more for less: a lower price, with new features, improved SEO and accessibility</title>
+		<link href="https://obsidian.md/blog/obsidian-publish-now-offers-more-for-less/"/>
+		<updated>2023-04-18T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/obsidian-publish-now-offers-more-for-less/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;p&gt;We&#39;re excited to announce changes that make &lt;a href=&quot;https://obsidian.md/publish&quot;&gt;Obsidian Publish&lt;/a&gt; even better for hosting your wiki, knowledge base, documentation, or digital garden.&lt;/p&gt;
+&lt;h3&gt;What&#39;s new?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;50% lower price. Publish now costs the same as &lt;a href=&quot;https://obsidian.md/sync&quot;&gt;Sync&lt;/a&gt; at $96 per year, or $10 per month (USD)&lt;/li&gt;
+&lt;li&gt;Faster and more accessible. Publish now has near 100% Lighthouse scores on performance, SEO, accessibility, and best practices&lt;/li&gt;
+&lt;li&gt;Improved search engine indexing&lt;/li&gt;
+&lt;li&gt;Pretty social sharing cards, customizable using YAML metadata&lt;/li&gt;
+&lt;li&gt;Customize which pages appear in the sidebar and in which order&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you missed it, we also recently released &lt;a href=&quot;https://forum.obsidian.md/t/publish-theming-guide/54445&quot;&gt;a new default theme for Obsidian Publish&lt;/a&gt; that is more accessible and customizable.&lt;/p&gt;
+&lt;p&gt;Explore the &lt;a href=&quot;https://help.obsidian.md/Obsidian+Publish/Introduction+to+Obsidian+Publish&quot;&gt;Obsidian Publish documentation&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;h3&gt;FAQ&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Q: Is this a limited time price change?&lt;/strong&gt;&lt;br&gt;
+A: No, this is the new price for Obsidian Publish starting today.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: How do various discounts work with the new price?&lt;/strong&gt;&lt;br&gt;
+A: Educational discount, non-profit discount, as well as early bird discount will be applied to the new pricing, just like Sync.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: What happens to my existing Publish subscription?&lt;/strong&gt;&lt;br&gt;
+A: Your next renewal will automatically switch to the new price, you don&#39;t need to do anything.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2022 Gems of the year winners</title>
+		<link href="https://obsidian.md/blog/2022-goty-winners/"/>
+		<updated>2023-02-21T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2022-goty-winners/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;Results for our 3rd Gems of the Year awards are out!&lt;/p&gt;
+&lt;p&gt;We received an overwhelming number of great nominations. For the competitive categories, we let the community vote for their favorites among the most nominated submissions.&lt;/p&gt;
+&lt;p&gt;🎉 Thank you to everyone who nominated and voted, and congratulations to the winners!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We will be in touch with winners soon so you can receive your prizes!&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Plugins&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/obsidian-tasks-group/obsidian-tasks&quot;&gt;Obsidian Tasks&lt;/a&gt; by Martin Schenck and Clare Macrae (&lt;a href=&quot;https://obsidian-tasks-group.github.io/obsidian-tasks/&quot;&gt;Documentation&lt;/a&gt;)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Track tasks across your entire vault. Query them and mark them as done wherever you want. Supports due dates, recurring tasks (repetition), done dates, sub-set of checklist items, and filtering.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/obsidian-tasks-group/obsidian-tasks&quot;&gt;&lt;img src=&quot;https://forum.obsidian.md/uploads/default/original/3X/6/f/6f7973320e134c5c674535f238e4c1a1a317149f.png&quot; alt=&quot;image|690x476, 75%&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Make-md/makemd&quot;&gt;Make.md&lt;/a&gt; by JP Cen&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Experience a combination of intuitive and powerful features that helps you keep track and stay focused. Dive right into make.md or see a preview below.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/RafaelGB/obsidian-db-folder&quot;&gt;Database Folder&lt;/a&gt; by Rafael Gómez Bermejo (&lt;a href=&quot;https://rafaelgb.github.io/obsidian-db-folder/&quot;&gt;Documentation&lt;/a&gt;)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This plugin is a Notion like database based on folders, links, tags, or dataview queries.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Themes&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/AnubisNekhet/AnuPpuccin&quot;&gt;AnuPpuccin&lt;/a&gt; by Anubis&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/AnubisNekhet/AnuPpuccin&quot;&gt;&lt;img src=&quot;https://forum.obsidian.md/uploads/default/original/3X/e/3/e343f2208d01a4a88ff995f06a600a36fc7f9884.jpeg&quot; alt=&quot;image|690x464, 75%&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/catppuccin/obsidian&quot;&gt;Catppuccin&lt;/a&gt; by Marshall Beckrich&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/catppuccin/obsidian&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/catppuccin/obsidian/main/assets/screenshot-hq.png&quot; alt=&quot;image|690x439, 50%&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/7368697661/Origami&quot;&gt;Origami&lt;/a&gt; by kneecaps&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/7368697661/Origami&quot;&gt;&lt;img src=&quot;https://forum.obsidian.md/uploads/default/original/3X/b/b/bbc748cbadf4ac049fd74a7cfada27698a6bdee6.png&quot; alt=&quot;image|690x370, 50%&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Community&lt;/h2&gt;
+&lt;h3&gt;Developers&lt;/h3&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/Quorafind&quot;&gt;boninall&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Creator of popular plugins like &lt;a href=&quot;https://github.com/Quorafind/Obsidian-Memos&quot;&gt;Memos&lt;/a&gt; and &lt;a href=&quot;https://github.com/PKM-er/Obsidian-Surfing&quot;&gt;Surfing&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.buymeacoffee.com/boninall&quot;&gt;♥ Support boninall through Buy Me a Coffee
+&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/valentine195&quot;&gt;javalent (Jeremy Valentine)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Creator of popular plugins like &lt;a href=&quot;https://github.com/valentine195/obsidian-admonition&quot;&gt;Admonition&lt;/a&gt; and &lt;a href=&quot;https://github.com/valentine195/obsidian-leaflet-plugin&quot;&gt;Obsidian Leaflet&lt;/a&gt;. Big contributor for the Obsidian TTRPG community.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.buymeacoffee.com/valentine195&quot;&gt;♥ Support javalent through Buy Me a Coffee&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/zsviczian&quot;&gt;zsviczian (Zsolt Viczián)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Creator of popular visual plugins like &lt;a href=&quot;https://github.com/zsviczian/obsidian-excalidraw-plugin&quot;&gt;Obsidian Excalidraw&lt;/a&gt; and &lt;a href=&quot;https://github.com/zsviczian/excalibrain&quot;&gt;Excalibrain&lt;/a&gt;. Big proponent of visual thinking and host of the &lt;a href=&quot;https://www.youtube.com/c/VisualPKM&quot;&gt;Visual PKM&lt;/a&gt; channel on YouTube.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko-fi.com/zsolt&quot;&gt;♥ Support zsviczian through Ko-fi&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Discord members&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eleanorkonik.com/&quot;&gt;Eleanor Konik&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/chrisgrieser&quot;&gt;pseudometa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/AB1908&quot;&gt;AB1908&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Forum members&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;@justdoitcc&lt;/li&gt;
+&lt;li&gt;@CawlinTeffid&lt;/li&gt;
+&lt;li&gt;@Craig&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I’m joining Obsidian full-time as CEO</title>
+		<link href="https://obsidian.md/blog/kepano-ceo/"/>
+		<updated>2023-02-06T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/kepano-ceo/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;p&gt;A bit of exciting news. I’m joining Obsidian full-time as CEO!&lt;/p&gt;
+&lt;p&gt;I have been using Obsidian and developing for it since Silver and Licat first launched in 2020. I can’t overstate how life-changing Obsidian has been for me. It has fundamentally improved the way I think. I want to see what happens if more people gain that superpower.&lt;/p&gt;
+&lt;p&gt;Silver and Licat aren’t going anywhere, quite the opposite! As I take on this role, Silver and Licat will have more time to do what they do best — building the amazing product and community we all love.&lt;/p&gt;
+&lt;p&gt;You may know me from Minimal and my contributions to Obsidian 1.0, but I’ve spent about 20 years building companies, and learned a lot along the way. Obsidian is built on strong values. My goal is to create the structure that helps us uphold those values for as long as possible.&lt;/p&gt;
+&lt;p&gt;Obsidian is, and will continue to be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Free for personal use&lt;/li&gt;
+&lt;li&gt;Built on durable, open file formats without lock-in&lt;/li&gt;
+&lt;li&gt;Private, offline-first, and E2E encrypted&lt;/li&gt;
+&lt;li&gt;Endlessly customizable via API/plugins&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above all, Obsidian is 100% user-supported. There are no investors pushing us to compromise on these values.&lt;/p&gt;
+&lt;p&gt;I believe these strong values are why Obsidian has such a kind and dedicated community. It’s genuinely one of the most generous and friendly places online.&lt;/p&gt;
+&lt;p&gt;There is nothing I’d rather do than help Obsidian fulfill its potential, and I’m excited to commit myself to it fully.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New Code of Conduct for our community</title>
+		<link href="https://obsidian.md/blog/new-code-of-conduct/"/>
+		<updated>2023-01-23T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/new-code-of-conduct/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;Hi everyone! Our community is almost 3 years old! 🥳&lt;/p&gt;
+&lt;p&gt;After basically only having two simple rules (“be nice” and “don’t spam”) for so long, today we’re rolling out &lt;a href=&quot;https://help.obsidian.md/Obsidian/Community+code+of+conduct&quot;&gt;our official community code of conduct&lt;/a&gt;. If you see behaviors described in the code of conduct, please follow the directions to report to our moderators.&lt;/p&gt;
+&lt;p&gt;Thanks for keeping our community a nice place for everyone!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2022 Gems of the year nominations</title>
+		<link href="https://obsidian.md/blog/2022-goty-nominations/"/>
+		<updated>2022-12-30T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2022-goty-nominations/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;We’re almost at the end of 2022!&lt;/p&gt;
+&lt;p&gt;Time to nominate your favorite projects and people this year in the Obsidian community for the Gems of the Year prizes!&lt;/p&gt;
+&lt;p&gt;To nominate go here: &lt;a href=&quot;https://airtable.com/shrMd4Dj4oLgL55yt&quot;&gt;Gems of the Year 2022 Nomination&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nominations are due on January 15. Looking forward to your nominations!&lt;/p&gt;
+&lt;p&gt;Categories you can nominate this year:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Best plugin&lt;/li&gt;
+&lt;li&gt;Best theme&lt;/li&gt;
+&lt;li&gt;Most helpful Discord member&lt;/li&gt;
+&lt;li&gt;Most helpful forum member&lt;/li&gt;
+&lt;li&gt;Most helpful community developer&lt;/li&gt;
+&lt;li&gt;Best canvas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A few words on submission:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anyone can nominate, no login or account is required.&lt;/li&gt;
+&lt;li&gt;You can nominate yourself or your own project.&lt;/li&gt;
+&lt;li&gt;You can submit multiple nominations.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Obsidian October 2022 winners</title>
+		<link href="https://obsidian.md/blog/2022-obsidian-october-winners/"/>
+		<updated>2022-12-07T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2022-obsidian-october-winners/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;p&gt;Our second Obsidian October has come to a close, and once again we were overwhelmed with all the amazing content, plugins, and themes that the Obsidian community created.&lt;/p&gt;
+&lt;p&gt;We received &lt;a href=&quot;https://airtable.com/shrFnFY00zy1ORZgI/tblP9bDDDDCib7Roy&quot;&gt;84 entries&lt;/a&gt;, judged by our panel that included joethei, liam, luke, ryanjamurphy, bri, silver and kepano. In keeping with our “Back to School” theme, a few of the entries were selected by our judges as their 🧑‍🎓 &lt;em&gt;student pick&lt;/em&gt;, ideal for anyone in school and academia.&lt;/p&gt;
+&lt;p&gt;🎉 Thank you to everyone who participated, and congratulations to the winners!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We will be in touch with winners soon so you can receive your prizes!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://airtable.com/shrFnFY00zy1ORZgI/tblP9bDDDDCib7Roy&quot;&gt;Browse all entries&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;New plugin&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/marcusolsson/obsidian-projects&quot;&gt;Obsidian Projects&lt;/a&gt; by Marcus Olsson&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Projects&lt;/em&gt; is a plugin for Obsidian that lets you manage and visualize notes for project management.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/marcusolsson/obsidian-projects&quot;&gt;&lt;img src=&quot;https://forum.obsidian.md/uploads/default/original/3X/a/3/a3685f32c1c2c20f4dd31e3a0a9040a07fbab3d7.png&quot; alt=&quot;obsidian-projects-table|690x431&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/TfTHacker/obsidian42-strange-new-worlds&quot;&gt;Strange New Worlds&lt;/a&gt; by TfT Hacker&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discover the connections of thought in your Obsidian vault. The basic idea is we want to see when links, block references and embeds have associations with other files in the vault. The problem is you have to search, open backlinks and so on to find out what is going on. But there are so many strange new worlds of networked thought to discover in our vault. This plugin attempts to resurface those connections and not be to intrusive (or not too intrusive) in doing so.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/gtg922r/obsidian-numerals&quot;&gt;Numerals&lt;/a&gt; by RyanC&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numerals&lt;/em&gt; gives you the power of an advanced calculator inside a &lt;code&gt;math&lt;/code&gt; code block, complete with currencies, units, variables, and math functions!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/make-md/makemd&quot;&gt;make.md&lt;/a&gt; by JP — 🧑‍🎓 &lt;em&gt;student pick&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Make.md&lt;/em&gt; enhances your Obsidian experience with powerful features whether you&#39;re a beginner 🚲 or an Obsidian Magician 🪄&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;New theme&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/7368697661/Origami&quot;&gt;Origami&lt;/a&gt; by kneecaps&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A playful workhorse theme for Obsidian, inspired by paper and ink&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/7368697661/Origami&quot;&gt;&lt;img src=&quot;https://forum.obsidian.md/uploads/default/original/3X/f/9/f9392760c33cc784b46b6d7bb0745c0ae8466451.jpeg&quot; alt=&quot;image|690x388&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/krios2146/obsidian-github&quot;&gt;GitHub theme&lt;/a&gt; by krios2146&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Theme for Obsidian inspired by GitHub color scheme&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/efemkay/obsidian-listive-theme&quot;&gt;Listive&lt;/a&gt; by efemkay&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Outliner-focused theme with differentiated header style and subtle interface for atomic notes with insight-based points&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Plugin update&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/MohrJonas/obsidian-ocr&quot;&gt;Obsidian-OCR&lt;/a&gt; by Jonas Mohr&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Obsidian OCR&lt;/em&gt; allows you to search for text in your images and pdfs&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/phibr0/obsidian-commander&quot;&gt;Commander&lt;/a&gt; by Johnny &amp;amp; phibr0&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Add commands to every part of Obsidian&#39;s user interface&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/kevboh/longform&quot;&gt;Longform 2.0&lt;/a&gt; by kevboh&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Longform&lt;/em&gt; is a plugin for Obsidian that helps you write and edit novels, screenplays, and other long projects. It lets you organize a series of notes, or &lt;em&gt;scenes&lt;/em&gt;, into an ordered manuscript.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Theme update&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/chrisgrieser/shimmering-focus&quot;&gt;Shimmering Focus Rewrite for Obsidian 1.0&lt;/a&gt; by pseudometa&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A minimalistic and opinionated Obsidian theme for the keyboard-centric user.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/damiankorcz/Prism-Theme/releases/tag/3.0.0&quot;&gt;Prism 3.0.0&lt;/a&gt; by Damian Korcz&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Prism 3.0.0 is a complete rewrite of the theme to incorporate the changes made by the new Default theme introduced in Obsidian 1.0.0. The theme aims to supports Desktop, Phone and Tablet clients. The theme makes liberal use of the newly introduced variables to help with CSS Snippet compatibility and general overridability of Prism styling.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/crashmoney/obsidian-typewriter&quot;&gt;Obsidian Typewriter 2.0.0&lt;/a&gt; by crashmoney&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Typewriter is an Obsidian theme designed for a focused writing experience.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Written content&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://www.obsidianroundup.org/the-konik-method-for-making-notes/&quot;&gt;The Konik Method for Making Useful Notes&lt;/a&gt; by Eleanor Konik&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How to make notes for reference, not self-improvement: A practical guide to messy notes meant to be used, not admired.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://betterhumans.pub/how-to-boost-your-productivity-for-scientific-research-using-obsidian-fe85c98c63c8&quot;&gt;How to Boost Your Productivity for Scientific Research Using Obsidian&lt;/a&gt; by Leonardo Castorina  — 🧑‍🎓 &lt;em&gt;student pick&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tools and workflows for managing your zettelkasten, projects, reading lists, notes, and inspiration during your PhD.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://samgqroberts.com/posts/the-atoms-of-obsidian-md&quot;&gt;The Atoms of Obsidian.md&lt;/a&gt; by Sam Roberts&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Writing notes on subjects and entities, and writing longer-form publishable Markdown files like this blog post, is really nice in Obsidian. These end up being the atoms of Obsidian, the basic building blocks of the experience and the nodes in the knowledge network graph.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Video&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://youtu.be/5Vz59TU115M&quot;&gt;Obsidian Onboarding&lt;/a&gt; by Danny Hatcher&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This video is part of my Obsidian Onboarding playlist that is on YouTube where I have posted (and will post more) videos during the event, focused on core and community plugin onboarding.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/7TECHXQRKWU&quot;&gt;How And Why To Setup A Knowledge Base&lt;/a&gt; by DJ Lensing&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A knowledge base is a place where information is gathered and organised into what we call knowledge. This lesson is meant to provide some help with the goal of setting up your own personal knowledge base. In practice, this comes down to a mindful approach to note-taking. More on this in the video. Enjoy!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=saVMgHPTLn0&quot;&gt;How to Turn Your Note-taking Into a Lifelong Learning Workflow with Obsidian&lt;/a&gt; by Marcel Samyn&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you&#39;re a note-taker like me, you probably learn and write down a TON of stuff. But without a workflow to integrate this into your knowledge as a whole, they just kinda disappear over time and you forget about it. I&#39;ve been thinking a lot about this lately, and trying to come up with a workflow or framework that gives me the practices to start really remembering what I learn. I also want to use MY OWN notes to generate new insights, and with the tips in this video that seems to be starting out well.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/PuqGjNJMiZQ&quot;&gt;How I Write Conceptual Lecture Notes in Obsidian&lt;/a&gt; by Aidan Helfant  — 🧑‍🎓 &lt;em&gt;student pick&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most students are never taught how to take effective notes that they can use even after the semester is over. In this video, I discuss how I use Obsidian to take lecture notes that stay make my knowledge unique and stay with me over years and years. I explain the dangers of bad notetaking and how to use my notetaking method, conceptual notemaking, before, during and after class.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Demo vault&lt;/h2&gt;
+&lt;h3&gt;Winner&lt;/h3&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://github.com/AnthropologieBiblique/ObsidianTheologicalStudies&quot;&gt;Obsidian for Biblical &amp;amp; Theological Studies&lt;/a&gt; by Limezy&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This vault is a demo of why we believe Obsidian to be the best tool currently available for exegesis, theological and philosophical studies.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Runners up&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/kinmury/obsidian-miss-w-template&quot;&gt;MISS W&lt;/a&gt; by Kinmury  — 🧑‍🎓 &lt;em&gt;student pick&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Management / Inbox / Slipbox / Source / Workbench
+This Vault was developed by a user with programming knowledge, a Computer Engineer student to be precise. This means that the design of the vault is affected by the workflow of a programming/engineer student.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/chris-lovejoy/academic-knowledge-management&quot;&gt;An Academic Knowledge Management System&lt;/a&gt; by Chris Lovejoy&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The purpose of an academic knowledge management (AKM) system is to enable you to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aggregate and organise academic papers of interest&lt;/li&gt;
+&lt;li&gt;Extract and synthesise their key findings and insights&lt;/li&gt;
+&lt;li&gt;Combine these insights for a birds-eye view of a research field&#39;s cutting edge&lt;/li&gt;
+&lt;li&gt;Exporting references and citations when conducting a research project&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;Congratulations again to all who won and participated!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Obsidian October 2022 &quot;Back to School&quot;: make plugins, content, and learn together</title>
+		<link href="https://obsidian.md/blog/2022-obsidian-october-announcement/"/>
+		<updated>2022-09-23T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2022-obsidian-october-announcement/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;It’s almost October again, which means it’s time for our second Obsidian October event!&lt;/p&gt;
+&lt;p&gt;This year the theme is “Back to School”, for actual students and also students of life. Participate to win cool prizes in any of the categories below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;New plugin&lt;/strong&gt;: a new plugin that you made&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin update&lt;/strong&gt;: a significant update of your existing plugin&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Video&lt;/strong&gt;: Obsidian related video posted to YouTube or TikTok&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Written content&lt;/strong&gt;: Obsidian related written content posted anywhere online&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Demo vault&lt;/strong&gt;: a downloadable vault to demonstrate how Obsidian can be used for a specific purpose&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There will be special prizes for creations that are most helpful to students as well.&lt;/p&gt;
+&lt;p&gt;Even if you don’t win, you’ll get to create something of your own and have a chance to be one of 3 lucky winners for each category!&lt;/p&gt;
+&lt;p&gt;Read more about the event &lt;a href=&quot;https://publish.obsidian.md/hub/Obsidian+October+2022&quot;&gt;on the Obsidian Hub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Share your progress and learnings &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-october-2022-daily-progress-and-learnings/43767&quot;&gt;on the forum&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>1.0 Theme migration guide</title>
+		<link href="https://obsidian.md/blog/1-0-theme-migration-guide/"/>
+		<updated>2022-08-29T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/1-0-theme-migration-guide/</id>
+		<author>
+			<name>kepano</name>
+		</author>
+		<content type="html">&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Obsidian 1.0 introduces a new default theme, a new theme versioning system, and several important new features. We expect that most themes and plugins will need some tweaks.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Migrating your theme to the new versioning system&lt;/li&gt;
+&lt;li&gt;How to design themes for v1.0+&lt;/li&gt;
+&lt;li&gt;New v1.0 features and modes to consider&lt;/li&gt;
+&lt;li&gt;Design guidelines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Migrating your theme to the new versioning system&lt;/h2&gt;
+&lt;p&gt;Because v1.0 contains a lot of breaking changes, we are taking this time to reset our theme gallery and improve how themes are loaded in Obsidian going forward.&lt;/p&gt;
+&lt;p&gt;Themes that are not compatible with v1.0 have been flagged in the &lt;code&gt;community-css-themes.json&lt;/code&gt; file as &amp;quot;legacy.&amp;quot; Legacy themes are hidden from the gallery until the theme author updates the theme opts to have the flag removed.&lt;/p&gt;
+&lt;p&gt;Even if your theme made the cut to the new list, we still recommend you take the following steps to prepare your theme for the new version of Obsidian:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a copy of your &lt;code&gt;obsidian.css&lt;/code&gt; file and rename it to &lt;code&gt;theme.css&lt;/code&gt;. Keep the &lt;code&gt;obsidian.css&lt;/code&gt; file in your repository so that older versions of Obsidian can continue to download your theme. If you have any preprocessing tools that output the &lt;code&gt;obsidian.css&lt;/code&gt; file, make sure to update those as well.&lt;/li&gt;
+&lt;li&gt;Test your theme on Obsidian 1.0 and apply any issues to &lt;code&gt;theme.css&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Create a &lt;strong&gt;&lt;code&gt;manifest.json&lt;/code&gt;&lt;/strong&gt; file in your repository. This file specifies the &lt;code&gt;minAppVersion&lt;/code&gt; for your theme, meaning: versions of Obsidian that are older than the version you specify will not be able to install your theme.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Sample Manifest.json&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{  
+   &amp;quot;name&amp;quot;: &amp;quot;Sample Theme&amp;quot;,  
+   &amp;quot;version&amp;quot;: &amp;quot;1.0.0&amp;quot;,  
+   &amp;quot;minAppVersion&amp;quot;: &amp;quot;1.0.0&amp;quot;,  
+   &amp;quot;author&amp;quot;: &amp;quot;Obsidian&amp;quot;,  
+   &amp;quot;authorUrl&amp;quot;: &amp;quot;https://obsidian.md&amp;quot;  
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;&lt;em&gt;Optional:&lt;/em&gt; Update your screenshot thumbnail. This should be 16:9 aspect ratio and the recommend size is 512 by 288px.&lt;/li&gt;
+&lt;li&gt;Update your theme&#39;s README file. Clicking on the theme in the Theme Gallery will now the README file from Github. This means you have more space to promote your theme and can load additional screenshots to showcase different features.&lt;/li&gt;
+&lt;li&gt;Create a Pull Request on the &lt;code&gt;obsidian-releases&lt;/code&gt; repo and remove &lt;code&gt;&amp;quot;legacy&amp;quot;: true&lt;/code&gt; from your  theme entry in &lt;code&gt;community-themes.json&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;How to design themes for v1.0+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;TLDR: Obsidian 1.0 introduces over 400 new CSS variables that help you style almost every aspect of the Obsidian UI. This enables themes to remove complex selectors and let variables do the heavy lifting.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;With the release of Obsidian v1.0 we’ve made it much easier to create custom themes and snippets.&lt;/p&gt;
+&lt;p&gt;Previously, many of Obsidian’s UI elements could only be targeted by writing complex CSS selectors with high specificity. Several selectors were typically required to target the same element across Reading mode and Live Preview.&lt;/p&gt;
+&lt;p&gt;With v1.0 we have abstracted most UI elements into CSS variables applied to the &lt;code&gt;body&lt;/code&gt; element. You can find an alphabetized list of all the CSS variables at the top of the &lt;code&gt;app.css&lt;/code&gt; file. These variables are also designed to provide parity across Reading mode and Live Preview.&lt;/p&gt;
+&lt;p&gt;Our goal was to make it possible to create highly expressive themes with less specificity in your CSS selectors. Most themes should be able to completely customize the interface by simply targeting &lt;code&gt;body&lt;/code&gt; for interface styling, and &lt;code&gt;.theme-light&lt;/code&gt;/&lt;code&gt;.theme-dark&lt;/code&gt; for colors.&lt;/p&gt;
+&lt;p&gt;We expect these changes to significantly reduce the number of lines of code in advanced themes. This should reduce maintainance work and make your code more future-proof.&lt;/p&gt;
+&lt;p&gt;If you are working on a complex theme, consider simplifying your selectors and using the new CSS variables to do the heavy lifting. The new CSS variables should also make it easier to create styles that are responsive to conditional CSS classes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explore the new variables in CSS by looking at &lt;code&gt;app.css&lt;/code&gt; and using the Developer Tools&lt;/li&gt;
+&lt;li&gt;Try to use the lowest specificity selectors you can. You may be able to only use &lt;code&gt;body&lt;/code&gt;, &lt;code&gt;.theme-light&lt;/code&gt; and &lt;code&gt;.theme-dark&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New 1.0 features and modes to consider&lt;/h2&gt;
+&lt;p&gt;Obsidian 1.0 contains new features and modes that you should consider in your theme.&lt;/p&gt;
+&lt;h4&gt;Accent color&lt;/h4&gt;
+&lt;p&gt;Users can now customize their accent color. Dynamic variables for accent HSL values &lt;code&gt;--accent-h&lt;/code&gt;, &lt;code&gt;--accent-s&lt;/code&gt;, &lt;code&gt;--accent-l&lt;/code&gt; are provided which can be modified with the CSS &lt;code&gt;calc()&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;If you define these variables in your theme, the user will see your default accent color, and resetting to default will return the user to your specified default accent color.&lt;/p&gt;
+&lt;h4&gt;Title bar style&lt;/h4&gt;
+&lt;p&gt;In &lt;code&gt;Settings &amp;gt; Appearance&lt;/code&gt; users can now choose between three different title bar styles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hidden:&lt;/strong&gt; no titlebar is displayed, only the the top row of tabs, default in 1.0+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom:&lt;/strong&gt; displays a custom titlebar element that can be styled with CSS (previously the default in versions 0.15 and older)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Native:&lt;/strong&gt; displays the native operating system titlebar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Top row of tabs and &lt;code&gt;.mod-top&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;The top area of the application which includes both the custom titlebar (if enabled) and the top row of tabs is considered a single UI area. The default theme uses a single background color for this top area.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;.mod-top&lt;/code&gt; modifier class is added to the top row of tabs in sidebars and panes. Tab containers inside of &lt;code&gt;.mod-top&lt;/code&gt; use the &lt;code&gt;--titlebar-background&lt;/code&gt; variables rather than &lt;code&gt;--tab-container-background&lt;/code&gt; variable.&lt;/p&gt;
+&lt;h4&gt;Sidebars and sidebar buttons&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Note: the right ribbon has been removed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sidebar toggle buttons have moved into the top row of tabs. Depending on the user’s operating system, the window buttons (minimize, maximize, close) may be on the left or right side of the application. When the user set title bar to Hidden, this means the position of the sidebar buttons needs to be accounted for.&lt;/p&gt;
+&lt;p&gt;Consider the following scenarios, particularly when titlebar is hidden, on macOS vs. Windows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Left sidebar closed&lt;/li&gt;
+&lt;li&gt;Right sidebar closed&lt;/li&gt;
+&lt;li&gt;Popout widow does not have sidebars&lt;/li&gt;
+&lt;li&gt;Fullscreen does not have window buttons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;View header&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;The view header is now disabled by default and the &lt;code&gt;view-header-icon&lt;/code&gt; has been removed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Users can re-enable the view header in &lt;code&gt;Appearance&lt;/code&gt; settings.&lt;/p&gt;
+&lt;h2&gt;Design guidelines&lt;/h2&gt;
+&lt;p&gt;Starting with 1.0, the default Obsidian experience is designed to be consistent with operating system design guidelines and best practices. Our intention is to make Obsidian feel familiar to new users, and create cohesiveness across the screens and modes of the application.&lt;/p&gt;
+&lt;p&gt;We encourage plugin developers to follow these design guidelines so that users have a cohesive experience when using the default theme.&lt;/p&gt;
+&lt;h4&gt;Padding, margins and spacing&lt;/h4&gt;
+&lt;p&gt;Obsidian uses a 4 pixel grid. The 4 pixel grid is chosen because it enables the interface to scale up and down across high/low DPI screens, and also provides convenient ratios for layouts.&lt;/p&gt;
+&lt;p&gt;UI elements use multiples of 4 for padding and spacing throughout the app. We recommend using the &lt;code&gt;--size&lt;/code&gt; CSS variables to define all dimensions throughout your plugin.&lt;/p&gt;
+&lt;p&gt;Each size variable contains two numbers which represent the base and the multiple, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--size-4-1&lt;/code&gt; represents &lt;code&gt;4*1 = 4px&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--size-4-2&lt;/code&gt; represents &lt;code&gt;4*2 = 8px&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--size-4-4&lt;/code&gt; represents &lt;code&gt;4*4 = 16px&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A few &lt;code&gt;--size-2-x&lt;/code&gt; variables are available for small spaces where fractions of 4 can be useful, e.g. &lt;code&gt;--size-2-1&lt;/code&gt; represents &lt;code&gt;2*1 = 2px&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Cursor&lt;/h4&gt;
+&lt;p&gt;Obsidian follows operating system conventions for cursors. This means that the &lt;code&gt;pointer&lt;/code&gt; cursor is only used when hovering over links. Avoid using the &lt;code&gt;pointer&lt;/code&gt; cursor for buttons and interactive elements.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;--cursor&lt;/code&gt; variable to follow system conventions&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;--cursor-link&lt;/code&gt; for links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Icons&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Important: In a future update to Obsidian, we will provide a new way for themes to replace icons. For now you should avoid replacing icons via CSS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Obsidian includes the &lt;a href=&quot;https://lucide.dev/&quot;&gt;Lucide&lt;/a&gt; icon library, which has over 800 icons that you can use for your plugin.&lt;/p&gt;
+&lt;p&gt;If you are looking to use an icon that is not available in the Lucide library, you can create your own. For best compatibility and cohesiveness with Obsidian, your icons should &lt;a href=&quot;https://github.com/lucide-icons/lucide/blob/main/docs/ICON_DESIGN_GUIDE.md&quot;&gt;follow Lucide’s guidelines&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Icons must be designed on a 24 by 24 pixels canvas&lt;/li&gt;
+&lt;li&gt;Icons must have at least 1 pixel padding within the canvas&lt;/li&gt;
+&lt;li&gt;Icons must have a stroke width of 2 pixels&lt;/li&gt;
+&lt;li&gt;Icons must use round joins&lt;/li&gt;
+&lt;li&gt;Icons must use round caps&lt;/li&gt;
+&lt;li&gt;Icons must use centered strokes&lt;/li&gt;
+&lt;li&gt;Shapes (such as rectangles) in icons must have border radius of 2 pixels&lt;/li&gt;
+&lt;li&gt;Distinct elements must have 2 pixels of spacing between each other&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lucide also &lt;a href=&quot;https://github.com/lucide-icons/lucide/blob/main/CONTRIBUTING.md&quot;&gt;provides templates and guides&lt;/a&gt; for vector editors such as Illustrator, Figma, and Inkscape.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>How to update your plugin to support pop-out windows</title>
+		<link href="https://obsidian.md/blog/how-to-update-plugins-to-support-pop-out-windows/"/>
+		<updated>2022-07-12T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/how-to-update-plugins-to-support-pop-out-windows/</id>
+		<author>
+			<name>licat</name>
+		</author>
+		<content type="html">&lt;p&gt;With the desktop release of &lt;a href=&quot;/changelog/2022-06-14-desktop-v0.15.0/&quot;&gt;Obsidian v0.15&lt;/a&gt;, we&#39;re introducing a new way of putting panes into pop-out windows. For most plugins adding simple DOM based plugin views, this should work out-of-the-box.&lt;/p&gt;
+&lt;p&gt;However, there are some things that work differently when your plugin renders things in pop-out windows.&lt;/p&gt;
+&lt;p&gt;Pop-out windows come with a complete different set of globals. It has its own &lt;code&gt;Window&lt;/code&gt; object, &lt;code&gt;Document&lt;/code&gt; object, and fresh copies of all global constructors (like &lt;code&gt;HTMLElement&lt;/code&gt; and &lt;code&gt;MouseEvent&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;This means that some of the things you previously had assumed to be global and can have only one, will now only work in the main window. Here are some examples:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;let myElement: HTMLElement = ...;
+
+// this will always append to the main window
+document.body.appendChild(myElement);
+
+// this will actually be false if element is in a pop-out window
+if (myElement instanceof HTMLElement) {
+
+}
+
+element.on(&#39;click&#39;, &#39;.my-css-class&#39;, (event) =&amp;gt; {
+    // This will be false if the event is triggered in a pop-out window
+    if (event instanceof MouseEvent) {
+
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To facilitate plugins, &lt;a href=&quot;https://github.com/obsidianmd/obsidian-api/blob/master/obsidian.d.ts&quot;&gt;we&#39;ve updated the Obsidian API&lt;/a&gt; to include various helper function and accessors.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A global &lt;a href=&quot;https://github.com/obsidianmd/obsidian-api/blob/b9bde9e32c007eb28c0fd632cf2c42b01dfd022a/obsidian.d.ts#L222&quot;&gt;&lt;code&gt;activeWindow&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/obsidianmd/obsidian-api/blob/b9bde9e32c007eb28c0fd632cf2c42b01dfd022a/obsidian.d.ts#L227&quot;&gt;&lt;code&gt;activeDocument&lt;/code&gt;&lt;/a&gt; variable, which always points to the current focused window and its document.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/obsidianmd/obsidian-api/blob/b9bde9e32c007eb28c0fd632cf2c42b01dfd022a/obsidian.d.ts#L60&quot;&gt;&lt;code&gt;element.win&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/obsidianmd/obsidian-api/blob/b9bde9e32c007eb28c0fd632cf2c42b01dfd022a/obsidian.d.ts#L56&quot;&gt;&lt;code&gt;element.doc&lt;/code&gt;&lt;/a&gt;, which points to the Window and Document objects that the element belongs to.&lt;/li&gt;
+&lt;li&gt;A function for performing cross-window compatible &lt;code&gt;instanceof&lt;/code&gt; checks. Use &lt;a href=&quot;https://github.com/obsidianmd/obsidian-api/blob/b9bde9e32c007eb28c0fd632cf2c42b01dfd022a/obsidian.d.ts#L50&quot;&gt;&lt;code&gt;element.instanceOf(HTMLElement)&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/obsidianmd/obsidian-api/blob/b9bde9e32c007eb28c0fd632cf2c42b01dfd022a/obsidian.d.ts#L200&quot;&gt;&lt;code&gt;event.instanceOf(MouseEvent)&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/obsidianmd/obsidian-api/blob/b9bde9e32c007eb28c0fd632cf2c42b01dfd022a/obsidian.d.ts#L181&quot;&gt;&lt;code&gt;HTMLElement.onWindowMigrated(callback)&lt;/code&gt;&lt;/a&gt; which hooks an event on the element for when it is inserted into a different window than it originally was in. This can be used for complex renderers like canvases to re-initialize the rendering context.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Using the new APIs, the previous example would look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;let myElement: HTMLElement = ...;
+
+// this will append myElement to the same window as someElement
+someElement.doc.body.appendChild(myElement);
+
+// this will work correctly in pop-out windows
+if (myElement.instanceOf(HTMLElement)) {
+
+}
+
+element.on(&#39;click&#39;, &#39;.my-css-class&#39;, (event) =&amp;gt; {
+    // this will work correctly in pop-out windows
+    if (event.instanceOf(MouseEvent)) {
+
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Plugin developers: CodeMirror 6 migration guide for v6.0</title>
+		<link href="https://obsidian.md/blog/codemirror-6-migration-guide/"/>
+		<updated>2022-06-14T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/codemirror-6-migration-guide/</id>
+		<author>
+			<name>licat</name>
+		</author>
+		<content type="html">&lt;p&gt;CodeMirror 6.0 is finally stable. That means Obsidian will be migrating from CM6 v0.19 to v6.0 soon.&lt;/p&gt;
+&lt;p&gt;In this post I will attempt to summarize everything you need to know about this upcoming migration with breaking changes.&lt;/p&gt;
+&lt;p&gt;When you upgrade your plugin to target CM6 v6.0, there is a possibility that it no longer works with older versions of Obsidian using CM6 v0.19. If this is the case, you should update your plugin&#39;s &lt;code&gt;manifest.json&lt;/code&gt; to indicate that your &lt;code&gt;minAppVersion&lt;/code&gt; is &lt;code&gt;0.15.0&lt;/code&gt;, and also add the appropriate entries to &lt;code&gt;versions.json&lt;/code&gt; to prevent users with older versions of Obsidian to upgrade your plugin.&lt;/p&gt;
+&lt;p&gt;Major changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Prec.fallback/override/extend&lt;/code&gt; is now &lt;code&gt;Prec.highest/high/lowest&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;blockAtHeight&lt;/code&gt;, &lt;code&gt;visualLineAtHeight&lt;/code&gt;, &lt;code&gt;viewportLines&lt;/code&gt;, &lt;code&gt;visualLineAt&lt;/code&gt; are now deprecated. The replacements work slightly differently but they should be &lt;a href=&quot;https://codemirror.net/6/docs/ref/#view.EditorView.lineBlockAtHeight&quot;&gt;&lt;code&gt;lineBlockAtHeight&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://codemirror.net/6/docs/ref/#view.EditorView.viewportLineBlocks&quot;&gt;&lt;code&gt;viewportLineBlocks&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://codemirror.net/6/docs/ref/#view.EditorView.lineBlockAt&quot;&gt;&lt;code&gt;lineBlockAt&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Syntax trees &lt;code&gt;iterate&lt;/code&gt; function has changed signature from 3 parameters &lt;code&gt;(node, from, to)&lt;/code&gt; to a single object parameter &lt;code&gt;(obj: {node, type, from, to})&lt;/code&gt; (&lt;a href=&quot;https://lezer.codemirror.net/docs/ref/#common.SyntaxNodeRef&quot;&gt;details&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;scrollPosIntoView&lt;/code&gt;, &lt;code&gt;scrollTo&lt;/code&gt;, and &lt;code&gt;centerOn&lt;/code&gt; is now &lt;a href=&quot;https://codemirror.net/6/docs/ref/#view.EditorView%5EscrollIntoView&quot;&gt;&lt;code&gt;scrollIntoView&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Plugin fields no longer exist, and providing decorations from a view plugin now happens by providing a function to the &lt;a href=&quot;https://codemirror.net/6/docs/ref/#view.EditorView%5Edecorations&quot;&gt;&lt;code&gt;EditorView.decorations&lt;/code&gt;&lt;/a&gt; facet. Same for atomic ranges and scroll margins — you must use a facet for them now.&lt;/li&gt;
+&lt;li&gt;Many packages has been merged into other packages:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;text&lt;/code&gt; and &lt;code&gt;rangeset&lt;/code&gt; are merged into &lt;code&gt;state&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tooltip&lt;/code&gt;, &lt;code&gt;gutter&lt;/code&gt;, &lt;code&gt;panel&lt;/code&gt;, and &lt;code&gt;rectangular-selection&lt;/code&gt; are merged into &lt;code&gt;view&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;matchbrackets&lt;/code&gt;, &lt;code&gt;stream-parser&lt;/code&gt;, &lt;code&gt;fold&lt;/code&gt; are merged into &lt;code&gt;language&lt;/code&gt;. The custom exports from &lt;code&gt;stream-parser&lt;/code&gt; are now available at &lt;a href=&quot;https://github.com/lishid/cm-language&quot;&gt;&lt;code&gt;lishid/cm-language&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;comment&lt;/code&gt; and &lt;code&gt;history&lt;/code&gt; are merged into &lt;code&gt;commands&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;closebrackets&lt;/code&gt; is merged into &lt;code&gt;autocomplete&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;highlight&lt;/code&gt; is split into &lt;code&gt;language&lt;/code&gt; and &lt;code&gt;@lezer/highlight&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more minor changes, check out &lt;a href=&quot;https://discuss.codemirror.net/t/release-0-20-0/4302&quot;&gt;the full breaking release notes&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2021 Gems of the year winners</title>
+		<link href="https://obsidian.md/blog/2021-goty-winners/"/>
+		<updated>2022-01-25T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2021-goty-winners/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;The results of Gems of the Year 2021 are out!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://obsidian.md/goty2021&quot; title=&quot;https://obsidian.md/goty2021&quot;&gt;See the results&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Live Preview update</title>
+		<link href="https://obsidian.md/blog/live-preview-update/"/>
+		<updated>2021-12-15T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/live-preview-update/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;Obsidian 0.13 introduces a brand new editor engine that comes with several enhancements to your editing experience. In this post, we&#39;ll take a closer look at one of the biggest improvements in the latest release: &lt;em&gt;Live Preview&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Live Preview is a new editor mode that lets you preview your notes in the same view that you&#39;re writing them in. Live Preview delivers a cleaner writing experience by only displaying Markdown syntax around the cursor. Let&#39;s see an example!&lt;/p&gt;
+&lt;p&gt;This is what your editing experience used to look like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Source%20view.png&quot; alt=&quot;Source view&quot;&gt;&lt;/p&gt;
+&lt;p&gt;And here&#39;s the same note using Live Preview:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Live%20preview.gif&quot; alt=&quot;Livew Preview&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Live Preview gives you an improved editing experience that lets you see how your Markdown note will look like, without having to switch between Edit and Preview.&lt;/p&gt;
+&lt;p&gt;To enable Live Preview for an existing vault:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the sidebar, click &lt;strong&gt;Editor&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under &lt;strong&gt;General&lt;/strong&gt;, disable &lt;strong&gt;Legacy Editor&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;strong&gt;Relaunch&lt;/strong&gt; button for the change to take effect.&lt;/li&gt;
+&lt;li&gt;After Obsidian restarts, open &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the sidebar, click &lt;strong&gt;Editor&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under &lt;strong&gt;General&lt;/strong&gt;, set &lt;strong&gt;Default editing mode&lt;/strong&gt; to &lt;strong&gt;Live Preview&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When you open a new pane, it&#39;ll use Live Preview by default. If you already have some panes open, they&#39;ll be in &lt;em&gt;Source mode&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Edit notes using Live Preview or Source mode&lt;/h2&gt;
+&lt;p&gt;We think you&#39;re going to love Live Preview. But if you want to keep your current editing experience, we&#39;ve got you covered. You can keep editing your notes the same way as before by switching to the new Source mode.&lt;/p&gt;
+&lt;p&gt;To toggle between Live Preview and Source mode:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In the upper right corner of the pane, click &lt;strong&gt;More options&lt;/strong&gt; (the three dots).&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Toggle source/live preview mode&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can also toggle the editing view by opening the Command palette and searching for the &lt;strong&gt;Toggle source/live preview mode command&lt;/strong&gt;, or change it permanently by setting &lt;strong&gt;Default editing mode&lt;/strong&gt; to Source mode.&lt;/p&gt;
+&lt;p&gt;Live Preview and Source mode are two ways to edit your Markdown notes in Obsidian. Try them out to see which one you prefer!&lt;/p&gt;
+&lt;p&gt;If you want to know how the terminology changes with the new features, here&#39;s a handy chart by Argentum:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Editor%20update%20chart.png&quot; alt=&quot;Editor update chart&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Wait, I&#39;m not ready to switch!&lt;/h2&gt;
+&lt;p&gt;Some plugins and themes may not be fully compatible with the new editor. If your favorite plugin doesn&#39;t yet support the new editor, you can switch back to the old one by enabling the Legacy editor.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the sidebar, click &lt;strong&gt;Editor&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under &lt;strong&gt;General&lt;/strong&gt;, enable &lt;strong&gt;Legacy Editor&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;strong&gt;Relaunch&lt;/strong&gt; button for the change to take effect.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the legacy editor if you&#39;re not ready to upgrade to the new editor. You&#39;ll miss out some sweet features, but know that you can switch to the new editor at any time.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2021 Gems of the year nominations</title>
+		<link href="https://obsidian.md/blog/2021-goty-nominations/"/>
+		<updated>2021-12-08T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2021-goty-nominations/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;Hey, it&#39;s that time of the year again! 🎉&lt;/p&gt;
+&lt;p&gt;This year, we&#39;re calling our end-of-year award &amp;quot;Gems of the Year&amp;quot;. (Yes, it&#39;s coincidentally also abbreviated &amp;quot;GotY&amp;quot; for you gamers out there 😆 )&lt;/p&gt;
+&lt;p&gt;This year, we&#39;re looking for great plugins, themes, content creators, workflows, and achievements! If you found anything useful from any of the categories above, come and nominate your favorites!&lt;/p&gt;
+&lt;p&gt;Timeline:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nomination: now ~ Dec 15&lt;/li&gt;
+&lt;li&gt;Voting: Dec 16 ~ Jan 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://publish.obsidian.md/hub/01+-+Community/Events/Gems+of+the+Year+2021&quot;&gt;Find event details on the Obsidian Hub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To nominate:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-plugins/28224&quot;&gt;Nominate plugins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-themes/28225&quot;&gt;Nominate themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-content-creators/28226&quot;&gt;Nominate content creators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-workflows/28227&quot;&gt;Nominate workflows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://forum.obsidian.md/t/obsidian-gems-of-the-year-2021-nomination-achievements/28228&quot;&gt;Nominate achievements&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Obsidian October 2021 winners</title>
+		<link href="https://obsidian.md/blog/2021-obsidian-october-winners/"/>
+		<updated>2021-12-01T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2021-obsidian-october-winners/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;If you’re following Obsidian October 2021, the results are in and the prizes are on their way!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://obsidian.md/october2021&quot;&gt;See the results&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Congrats to Primary, Sanctum, Prism, Bubble Space (themes), and CodeMirror Options, Fantasy Calendar, Graph Analysis, Vale (plugins)!&lt;/p&gt;
+&lt;p&gt;See you next year!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Obsidian October 2021: make plugins and themes together and win awards!</title>
+		<link href="https://obsidian.md/blog/2021-obsidian-october-announcement/"/>
+		<updated>2021-09-21T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2021-obsidian-october-announcement/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;Been thinking about making a plugin or theme but never had the opportunity to do it? October is the time!&lt;/p&gt;
+&lt;p&gt;Obsidian October is an official event to help you get started with making your very own plugins and themes, starting now and ending on Oct 31, 2021.&lt;/p&gt;
+&lt;p&gt;Make a plugin or theme (or both!) to win some awesome awards! Winners will get hundreds of dollars in credit to spend on Obsidian services; the top winner will even get a custom trophy from us! Submissions will be judged by our awesome judge panel: &lt;a href=&quot;https://forum.obsidian.md/u/liam&quot;&gt;@liam&lt;/a&gt; , &lt;a href=&quot;https://forum.obsidian.md/u/mgmeyers&quot;&gt;@mgmeyers&lt;/a&gt; and &lt;a href=&quot;https://forum.obsidian.md/u/argentum&quot;&gt;@argentum&lt;/a&gt; for plugins and &lt;a href=&quot;https://forum.obsidian.md/u/kepano&quot;&gt;@kepano&lt;/a&gt;, &lt;a href=&quot;https://forum.obsidian.md/u/chetachi&quot;&gt;@Chetachi&lt;/a&gt; and &lt;a href=&quot;https://forum.obsidian.md/u/slrvb&quot;&gt;@SlRvb&lt;/a&gt; for themes.&lt;/p&gt;
+&lt;p&gt;Even if you don’t win, you’ll get to make your first plugin or theme and have a chance to be one of 3 randomly chosen lucky winners for each category!&lt;/p&gt;
+&lt;p&gt;Read more event details here: &lt;a href=&quot;https://publish.obsidian.md/hub/Events/Obsidian+October+2021&quot;&gt;Obsidian October 2021&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Get the Discord role by reacting to &lt;a href=&quot;https://discord.com/channels/686053708261228577/702717892533157999/889615286095986688&quot;&gt;this message&lt;/a&gt; if you’re on our Discord.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Last chance to get early bird discount for Sync and Publish</title>
+		<link href="https://obsidian.md/blog/last-chance-to-get-early-bird/"/>
+		<updated>2021-07-01T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/last-chance-to-get-early-bird/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;This is a heads-up that early bird discount for both Obsidian Sync and Obsidian Publish will end on September 30, 2021.&lt;/p&gt;
+&lt;p&gt;We waited a bit to end the early bird discount in order to accommodate back-to-school season, so if Obsidian helps with your studies, right now would be a good time to grab either services. We’re a small team who depends on people like you to spread the word to grow, so please please recommend Obsidian to your classmates and peers if you find helpful, thank you so much!&lt;/p&gt;
+&lt;h2&gt;FAQ&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Q: I live in another time zone. Which time zone is the deadline in?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A: We understand the end of September 30 is not the same time everywhere in the world. As long as you pay before the end of that day in your local time zone, you will be fine.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: I’m paying via PayPal and haven’t received my instructions, will I miss the early bird discount?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A: As long as you send an email to us before September 30 in your local time, you can get it! It might take some time to process all the requests but you will still qualify.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: I’m paying via Wechat and have not received my service before September, will I miss the early bird discount?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A: As long as you send the payment and email us before September 30 in your local time, you will get early bird discount for life.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q : Can I switch from monthly to yearly or yearly to monthly after the discount ends?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A: Yes, you can switch without losing the discount.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: If I buy Sync now, will I have discount for Publish?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A: No, the discounts work separately. The Publish discount doesn’t work for Sync either.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: If I stop renewing my subscription after getting the early bird discount, will I still have it?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A: Yes, your account will always have the discount even after you stop renewing. But you need to pay at least once; if you refund all the payments, you will lose the early bird discount.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: Do I have to buy Sync and Publish? Are there free alternatives?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A: No, you don’t have to buy them to sync or publish your vault. Their selling points are convenience and easy setup.&lt;/p&gt;
+&lt;p&gt;To synchronize your vault between devices, you can use any sync solution that works on local folders, such as Dropbox, iCloud, and Google Drive. For mobile, you may need apps like DropSync to help with syncing, although iCloud can work for iOS.&lt;/p&gt;
+&lt;p&gt;To publish your vault is a more technical task. Fortunately Markdown is a developer favorite, and there are lots of popular tools to convert Markdown into static, ready-to-publish sites like Hugo, Jekyll, and Quartz.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: If i purchased an Obsdian publish for one site, will be the early bird price apply for additional sites after September 30th?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A: Yes, as long as you’ve purchased Publish by the end of September, your account will be grandfathered for early bird rates and the discount will apply for any additional sites you purchase under the same account.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2020 Gems of the year winners</title>
+		<link href="https://obsidian.md/blog/2020-goty-winners/"/>
+		<updated>2021-01-09T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2020-goty-winners/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;Best of 2020 Award results are out! Congrats everyone! 🎉 (&lt;a href=&quot;https://forum.obsidian.md/t/best-of-2020-voting-thread-theme-plugin-graph-story/10105&quot;&gt;Link to vote count results&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;We’ll be contacting everyone shortly to send our little prizes out. See you at the Best of 2021 Award!&lt;/p&gt;
+&lt;h2&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Best theme: &lt;a href=&quot;https://forum.obsidian.md/t/minimal-theme/3659&quot;&gt;Minimal&lt;/a&gt; by @kepano&lt;/li&gt;
+&lt;li&gt;Runner-up: &lt;a href=&quot;https://forum.obsidian.md/t/theme-blue-topaz-v1-7-updated-20201209-for-v0-9-22/6425&quot;&gt;Blue Topaz&lt;/a&gt; by @WhyI&lt;/li&gt;
+&lt;li&gt;Lucky winner*: &lt;a href=&quot;https://forum.obsidian.md/t/obsidianite-theme-version-1-1-1-nov-17-2020/7876&quot;&gt;Obsidianite&lt;/a&gt; by @TriDiamond&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Plugins&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Best plugin: &lt;a href=&quot;https://forum.obsidian.md/t/sliding-panes-andy-matushcak-mode-plugin/7652&quot;&gt;Sliding Panes&lt;/a&gt; by @death.au&lt;/li&gt;
+&lt;li&gt;Runner-up: &lt;a href=&quot;https://github.com/liamcain/obsidian-calendar-plugin&quot;&gt;Calendar&lt;/a&gt; by @liam&lt;/li&gt;
+&lt;li&gt;Lucky winner*: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-git-plugin-for-automatic-vault-backup-with-git/7790&quot;&gt;Obsidian Git&lt;/a&gt; by @evrwhr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Graph&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Best graph: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-graph-of-the-year-2020-nomination-thread/9365/13&quot;&gt;KGB_Vault&lt;/a&gt; by @websinthe&lt;/li&gt;
+&lt;li&gt;Runner-up: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-graph-of-the-year-2020-nomination-thread/9365/17&quot;&gt;Santi’s vault&lt;/a&gt; by @Santi&lt;/li&gt;
+&lt;li&gt;Lucky winner*: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-graph-of-the-year-2020-nomination-thread/9365/9&quot;&gt;Connectome&lt;/a&gt; by @QuantumNeurotechno&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Stories&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Best story: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-story-of-the-year-2020-nomination-thread/9366/5&quot;&gt;“I never chose to write, Obsidian made me write”&lt;/a&gt; by @base&lt;/li&gt;
+&lt;li&gt;Runner-up: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-story-of-the-year-2020-nomination-thread/9366/7&quot;&gt;“From Paper Zettelkasten To Obsidian”&lt;/a&gt; by @Santi&lt;/li&gt;
+&lt;li&gt;Lucky winner*: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-story-of-the-year-2020-nomination-thread/9366/2&quot;&gt;“Obsidian-made publication at the top journal of my field”&lt;/a&gt; by thanks4player&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;To ensure fairness, lucky winners are selected by first shuffling the entries and then letting a moderator picking a random number without looking at the entries.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2020 Gems of the year nominations</title>
+		<link href="https://obsidian.md/blog/2020-goty-nominations/"/>
+		<updated>2020-12-01T00:00:00Z</updated>
+		<id>https://obsidian.md/blog/2020-goty-nominations/</id>
+		<author>
+			<name>silver</name>
+		</author>
+		<content type="html">&lt;p&gt;Hi everyone!&lt;/p&gt;
+&lt;p&gt;We’ve had a complicated relationship with 2020, and now it’s almost time to say goodbye. Reflecting on the year, many awesome themes and plugins were developed, and memorable stories and stunning graphs were shared.&lt;/p&gt;
+&lt;p&gt;To celebrate all these wonderful contributions, we have set up an award for the best themes, plugins, graphs, and stories of the year.&lt;/p&gt;
+&lt;p&gt;It works like this: people can either nominate their own creations, graphs, or stories (encouraged), or you can nominate someone else. The nomination phase starts now and ends on December 15.&lt;/p&gt;
+&lt;p&gt;Here are the nomination threads:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Theme of the Year: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-theme-of-the-year-2020-nomination-thread/9362&quot;&gt;Obsidian Theme of the Year 2020 nomination thread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Plugin of the Year: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-plugin-of-the-year-2020-nomination-thread/9364&quot;&gt;Obsidian Plugin of the Year 2020 nomination thread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Graph of the Year: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-graph-of-the-year-2020-nomination-thread/9365&quot;&gt;Obsidian Graph of the Year 2020 nomination thread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Story of the Year: &lt;a href=&quot;https://forum.obsidian.md/t/obsidian-story-of-the-year-2020-nomination-thread/9366&quot;&gt;Obsidian Story of the Year 2020 nomination thread&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, we compile the results and let the entire community vote. Each category will have a top prize, a runner-up, and a random lucky winner. The winners will be officially acknowledged, as well as getting both digital and physical goodies from the developer team (we’ll need your mailing address!).&lt;/p&gt;
+</content>
+	</entry>
+</feed>
