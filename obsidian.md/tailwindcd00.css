@@ -3806,6 +3806,23 @@ body:before {
 		background-size: 140px, 100%, cover;
 		background-blend-mode: overlay;
 	}
+.blue-fade2:before {
+		transform: translateZ(0); /* Trigger hardware acceleration */
+		position: absolute;
+		content: "";
+		z-index: -1;
+		top: 10%;
+		right: -35%;
+		height: 80%;
+		width: 150%;
+		mix-blend-mode: screen;
+		background:
+			var(--grain),
+			radial-gradient(circle farthest-corner at 0 0, #000 30%, #99c2fb 65%, #2f7ac9 80%, #c1f1ff 110%) no-repeat,
+			radial-gradient(closest-side at 60% 50%, #2f7ac9 20%, #000 100%) no-repeat;
+		background-size: 140px, 100%, cover;
+		background-blend-mode: overlay;
+	}
 .bg-checkerboard {
 		background-image: url(images/checkerboard.png);
 	}
